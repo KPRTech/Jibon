@@ -1,9 +1,14 @@
 import React from "react";
+import UpperFooter from "../components/UpperFooter";
 
 const HomePage = () => {
 
-  return 
-  <div className="mt-20">sdfsd</div>;
+  return (
+    <div>
+ <UpperFooter></UpperFooter>
+    </div>
+  );
+ 
 };
 
 export default HomePage;
