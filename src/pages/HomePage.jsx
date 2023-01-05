@@ -1,11 +1,7 @@
 import React from "react";
 
 const HomePage = () => {
-  return (
-    <div>
-      
-    </div>
-  );
+  return <div className="mt-20">sdfsd</div>;
 };
 
 export default HomePage;
