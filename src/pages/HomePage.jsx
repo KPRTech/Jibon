@@ -3,8 +3,9 @@ import ShowBanner from "../components/ShowBanner";
 
 const HomePage = () => {
   return (
-    <div className="mb-20">
+    <div>
       <ShowBanner />
+      <div className="h-screen"></div>
     </div>
   )
 };
