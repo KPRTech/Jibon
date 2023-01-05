@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [color, setColor] = useState(false);
 
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
@@ -14,6 +15,13 @@ const Navbar = () => {
     );
 
     setPrevScrollPos(currentScrollPos);
+
+    if (window.scrollY > 70) {
+      setColor(true);
+      console.log("asdasd");
+    } else {
+      setColor(false);
+    }
   };
 
   useEffect(() => {
@@ -24,18 +32,87 @@ const Navbar = () => {
 
   const navbarStyles = {
     position: "fixed",
-    height: "60px",
     width: "100%",
-    backgroundColor: "grey",
+    // backgroundColor: "grey",
     textAlign: "center",
-    transition: "top 0.6s",
+    // transition: "top 0.6s",
   };
 
   return (
     <div>
-      <div style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}>
+      <div
+        style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}
+        className={`linear duration-500 ${
+          !color ? "bg-transparent py-16" : "bg-[red] py-5"
+        }`}
+      >
         Some Company Inc.
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
