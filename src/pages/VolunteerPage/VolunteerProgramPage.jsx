@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VelinteerProgramPage = () => {
+const VolunteerProgramPage = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const VelinteerProgramPage = () => {
     );
 }
 
-export default VelinteerProgramPage;
+export default VolunteerProgramPage;
