@@ -29,36 +29,36 @@ import AReviewOf2020Page from "./pages/theLatestPage/AReviewOf2020Page";
 import AReviewOf2021Page from "./pages/theLatestPage/AReviewOf2021Page";
 import NewsAndEventsPage from "./pages/theLatestPage/NewsAndEventsPage";
 import OurCOVID19ResponsePage from "./pages/theLatestPage/OurCOVID19ResponsePage";
-import VelinteerProgramPage from "./pages/VolunteerPage/VelinteerProgramPage";
+import VolunteerProgramPage from "./pages/VolunteerPage/VolunteerProgramPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     //routes
     <Route path="/" element={<RootLayout />}>
       <Route index element={<HomePage />}></Route>
-      <Route element={<FinancialPage/>}></Route>
-      <Route element={<LeadershipPage/>}></Route>
-      <Route element={<OurStoryPage/>}></Route>
-      <Route element={<OurChaptersPage/>}></Route>
-      <Route element={<OurOfficePage/>}></Route>
-      <Route element={<AKhatoonEPakistanPage/>}></Route>
-      <Route element={<SMBFatimaJinnahPage/>}></Route>
-      <Route element={<AcademicsPage/>}></Route>
-      <Route element={<ACRToPERPage/>}></Route>
-      <Route element={<GovernancePage/>}></Route>
-      <Route element={<InfrastructurePage/>}></Route>
-      <Route element={<NewProgramsPage/>}></Route>
-      <Route element={<PolicyPagePage/>}></Route>
-      <Route element={<AdvocacyPage/>}></Route>
-      <Route element={<PastProjectsPage/>}></Route>
-      <Route element={<SchoolReformPage/>}></Route>
-      <Route element={<AisaPakistanPage/>}></Route>
-      <Route element={<AReviewOf2021Page/>}></Route>
-      <Route element={<AReviewOf2020Page/>}></Route>
-      <Route element={<AReviewOf2019Page/>}></Route>
-      <Route element={<NewsAndEventsPage/>}></Route>
-      <Route element={<OurCOVID19ResponsePage/>}></Route>
-      <Route element={<VelinteerProgramPage/>}></Route>
+      <Route element={<FinancialPage />}></Route>
+      <Route element={<LeadershipPage />}></Route>
+      <Route element={<OurStoryPage />}></Route>
+      <Route element={<OurChaptersPage />}></Route>
+      <Route element={<OurOfficePage />}></Route>
+      <Route element={<AKhatoonEPakistanPage />}></Route>
+      <Route element={<SMBFatimaJinnahPage />}></Route>
+      <Route element={<AcademicsPage />}></Route>
+      <Route element={<ACRToPERPage />}></Route>
+      <Route element={<GovernancePage />}></Route>
+      <Route element={<InfrastructurePage />}></Route>
+      <Route element={<NewProgramsPage />}></Route>
+      <Route element={<PolicyPagePage />}></Route>
+      <Route element={<AdvocacyPage />}></Route>
+      <Route element={<PastProjectsPage />}></Route>
+      <Route element={<SchoolReformPage />}></Route>
+      <Route element={<AisaPakistanPage />}></Route>
+      <Route element={<AReviewOf2021Page />}></Route>
+      <Route element={<AReviewOf2020Page />}></Route>
+      <Route element={<AReviewOf2019Page />}></Route>
+      <Route element={<NewsAndEventsPage />}></Route>
+      <Route element={<OurCOVID19ResponsePage />}></Route>
+      <Route element={<VolunteerProgramPage />}></Route>
     </Route>
   )
 );
@@ -68,6 +68,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
