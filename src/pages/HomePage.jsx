@@ -1,11 +1,13 @@
 import React from "react";
+import ShowBanner from "../components/ShowBanner";
 import PrimaryButton from "../components/PrimaryButton";
 import UpperFooter from "../components/UpperFooter";
 
 const HomePage = () => {
-
   return (
     <div>
+      <ShowBanner />
+      <div>
  <UpperFooter>
  <div className="lg:mx-24 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
         <div>
@@ -16,8 +18,8 @@ const HomePage = () => {
           </div>
  </UpperFooter>
     </div>
-  );
- 
+    </div>
+  )
 };
 
 export default HomePage;
