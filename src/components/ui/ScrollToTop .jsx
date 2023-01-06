@@ -14,9 +14,9 @@ const ScrollToTop = () => {
     }
 
     const scrollToTop = () =>{
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
+        window.scrollTo({
+            top: 0, 
+            behavior: 'smooth'
     });
   };
 
@@ -24,9 +24,8 @@ const ScrollToTop = () => {
 
     return (
         <div 
-            onClick={scrollToTop} 
-            style={{visibility: scrollTop ? 'visible' : 'hidden'}} 
-            className='fixed bottom-10 left-5 border px-5 py-2 rounded-lg bg-black cursor-pointer opacity-30 hover:opacity-100 transition-opacity'
+            onClick={scrollToTop}  
+            className={`${scrollTop ? 'visible' : 'invisible'} fixed bottom-5 left-5 border px-5 py-2 rounded-lg bg-black cursor-pointer opacity-30 hover:opacity-100 transition-opacity`}
         >
             <span className='text-3xl font-bold text-white'>^</span>
         </div>
