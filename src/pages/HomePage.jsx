@@ -12,7 +12,7 @@ const HomePage = () => {
       <SuccessStories />
       <div>
         <UpperFooter>
-          <div className="lg:mx-24 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
+          <div className="lg:mx-24 pt-12 pb-8 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
             <div>
               <h2 className='lg:text-2xl text-md font-mont text-white font-normal tracking-wider'>SCHEDULE A VISIT TO OUR MODEL SCHOOLS</h2>
               <h3 className='lg:text-lg text-sm font-play italic text-gray-50 '>Book a visit to our school to meet the students whose lives have been transformed.</h3>
