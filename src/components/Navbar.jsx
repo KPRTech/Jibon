@@ -1,55 +1,339 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import {
+  Navbar,
+  MobileNav,
+  IconButton,
+} from "@material-tailwind/react";
+import NavItem from "./NavItem";
+import Dropdown from "./Dropdown";
+import PrimaryButton from "./PrimaryButton";
 
-const Navbar = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
-  const [color, setColor] = useState(false);
+const NavBar = () => {
+  const [openNav, setOpenNav] = useState(false);
+  const [offset, setOffset] = useState(0);
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset);
+    // clean up code
+    window.removeEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-
-    setVisible(
-      (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos < 70) ||
-        currentScrollPos < 200
-    );
-
-    setPrevScrollPos(currentScrollPos);
-
-    if (window.scrollY > 70) {
-      setColor(true);
-      console.log("asdasd");
-    } else {
-      setColor(false);
-    }
-  };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener(
+      "resize",
+      () => window.innerWidth >= 960 && setOpenNav(false)
+    );
+  }, []);
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [prevScrollPos, visible, handleScroll]);
-
-  const navbarStyles = {
-    position: "fixed",
-    width: "100%",
-    // backgroundColor: "grey",
-    textAlign: "center",
-    // transition: "top 0.6s",
-  };
-
-  return (
-    <div>
-      <div
-        style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}
-        className={`linear duration-500 ${
-          !color ? "bg-transparent py-16" : "bg-[red] py-5"
-        }`}
-      >
-        Some Company Inc.
-      </div>
+  const navList = (
+    <div className="lg:max-w-container mx-auto flex flex-col lg:flex-row px-3 xl:px-0 relative">
+      <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-8 linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
+        <NavItem
+          href={"#"}
+          linkName={"ABOUT US"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Our Story"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Leadrship & Board"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Financials"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+          </Dropdown>
+        </NavItem>
+        <NavItem
+          href={"#"}
+          linkName={"Our Work"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"School Reform"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Advocacy"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Past Projects"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+          </Dropdown>
+        </NavItem>
+        <NavItem
+          href={"#"}
+          linkName={"Our Schools"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"Khatoon-e-Pakistan"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              linkName={"SMB Fatima Jinnah"}
+              linkClass={"after:hidden"}
+              href={"#"}
+            />
+          </Dropdown>
+        </NavItem>
+        <NavItem
+          href={"#"}
+          linkName={"Impact"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Infrastructure"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Governance"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"ACR to PER"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"New Programs"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Academics"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Policy"}
+              linkClass={"after:hidden"}
+            />
+          </Dropdown>
+        </NavItem>
+        <NavItem
+          href={"#"}
+          linkName={"Volunteer"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Volunteer Program"}
+              linkClass={"after:hidden"}
+            />
+          </Dropdown>
+        </NavItem><NavItem
+          href={"#"}
+          linkName={"The Latest"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"News & Events"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"A Review of 2021"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"A Review of 2020"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"A Review of 2019"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Our Covid Response"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Asia Pakistan"}
+              linkClass={"after:hidden"}
+            />
+          </Dropdown>
+        </NavItem>
+        <NavItem
+          linkName={"Membership"}
+          className={""}
+          href={"#"}
+        />
+        <NavItem
+          href={"#"}
+          linkName={"Careers"}
+          className={""}
+        />
+        <NavItem
+          href={"#"}
+          linkName={"Contact Us"}
+          className={""}
+        >
+          <Dropdown>
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Our Office"}
+              linkClass={"after:hidden"}
+            />
+            <NavItem
+              className={
+                "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
+              }
+              href={"#"}
+              linkName={"Our Chapters"}
+              linkClass={"after:hidden"}
+            />
+          </Dropdown>
+        </NavItem>
+        <div className="flex items-center gap-1">
+          <PrimaryButton>Donate</PrimaryButton>
+          <PrimaryButton>Fundraise</PrimaryButton>
+        </div>
+      </ul>
     </div>
+  );
+  return (
+    <Navbar className={offset <= 100 ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5" : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0"}>
+      <div className="container mx-auto flex items-center justify-between">
+        {offset <= 100 ? <><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block" src="assets/images/logo.svg" alt="" /><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] block lg:hidden" src="assets/images/logo-b.svg" alt="" /></> : <><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]" src="assets/images/logo-b.svg" alt="" /></>}
+        <div className="hidden lg:block">{navList}</div>
+        <IconButton
+          variant="text"
+          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          ripple={false}
+          onClick={() => setOpenNav(!openNav)}
+        >
+          {openNav ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              className="h-6 w-6"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          )}
+        </IconButton>
+      </div>
+      <MobileNav open={openNav}>
+        {navList}
+      </MobileNav>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default NavBar;
