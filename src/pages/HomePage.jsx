@@ -1,4 +1,5 @@
 import React from "react";
+import OurWork from "../components/OurWork";
 import ShowBanner from "../components/ShowBanner";
 import UpperFooter from "../components/UpperFooter";
 import SuccessStories from "./SuccessStories";
@@ -8,6 +9,7 @@ const HomePage = () => {
   return (
     <div>
       <ShowBanner />
+      <OurWork />
       <SuccessStories />
       <UpperFooter
         upperTitle={"SCHEDULE A VISIT TO OUR MODEL SCHOOLS"}
