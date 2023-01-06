@@ -3,6 +3,7 @@ import ShowBanner from "../components/ShowBanner";
 import PrimaryButton from "../components/PrimaryButton";
 import UpperFooter from "../components/UpperFooter";
 import SuccessStories from "./SuccessStories";
+import BeforeAfterSlider from "../components/BeforeAfterSlider";
 
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
     <div>
       <ShowBanner />
       <SuccessStories />
+      <BeforeAfterSlider />
       <div>
         <UpperFooter>
           <div className="lg:mx-24 pt-12 pb-8 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
