@@ -76,7 +76,7 @@ const PrimarySlider = () => {
     };
 
     return (
-        <div>
+        <div className='mb-10'>
             <AchievementHeader achiveHeader="SUCCESS STORIES" achiveDescription="Read about how our schools are transforming students' lives" />
 
             <div className='p-5 mt-20 container m-auto'>
