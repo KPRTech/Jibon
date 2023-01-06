@@ -18,10 +18,10 @@ const Footer = () => {
                         <PrimaryButton>Join</PrimaryButton>
                        </div>
                        <div className='text-neutral-400 mt-4 flex'>
-                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaFacebookF/></a>
-                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaInstagramSquare/></a>
-                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaTwitter/></a>
-                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaHospitalAlt/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href="https://www.facebook.com/zindagitrust?_rdc=1&_rdr"><FaFacebookF/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href="https://www.instagram.com/zindagitrust/"><FaInstagramSquare/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href="https://twitter.com/ZindagiTrust"><FaTwitter/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href="https://www.youtube.com/channel/UCnvsdmmh9H-66ki_Pp5KWfw"><FaHospitalAlt/></a>
                        </div>
                     </div>
 
@@ -30,16 +30,16 @@ const Footer = () => {
                         <div className="border-t-4 border-[#FF6400] w-8 my-4"></div>
                         <div className="grid grid-cols-2">
                             <div>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">About Us</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Our Work</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Get Involved</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Contact us</h2></a>
+                                <a href="https://www.zindagitrust.org/about-us/ourstory"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">About Us</h2></a>
+                                <a href="https://www.zindagitrust.org/our-work/school-reform"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Our Work</h2></a>
+                                <a href="https://www.zindagitrust.org/volunteer-program"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Get Involved</h2></a>
+                                <a href="https://www.zindagitrust.org/contact"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Contact us</h2></a>
                             </div>
                             <div>
-                                <a href=""> <h2 className="text-gray-400 text-sm leading-7 text-gray-400 text-sm hover:text-[#FF6400]">Donate</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Careers</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Events</h2></a>
-                                <a href=""> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Policy</h2></a>
+                                <a href="https://www.zindagitrust.org/donate.php"> <h2 className="text-gray-400 text-sm leading-7 text-gray-400 text-sm hover:text-[#FF6400]">Donate</h2></a>
+                                <a href="https://www.zindagitrust.org/careers"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Careers</h2></a>
+                                <a href="https://www.zindagitrust.org/news-events"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Events</h2></a>
+                                <a href="https://www.zindagitrust.org/Privacy-policy.php"> <h2 className="leading-7 text-neutral-400 text-sm hover:text-[#FF6400]">Policy</h2></a>
                             </div>
                         </div>
                     </div>
