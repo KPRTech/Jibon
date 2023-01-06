@@ -1,6 +1,8 @@
 import React from 'react';
 import img1 from '../assets/images/footer-img1.png';
 import img2 from '../assets/images/footer-img2.png';
+import PrimaryButton from './PrimaryButton';
+import { FaFacebookF, FaInstagramSquare, FaTwitter, FaHospitalAlt} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -8,10 +10,19 @@ const Footer = () => {
             <div className='bg-[#1A1A1A]'>
                 <div className="container lg:py-8 lg:px-24 py-4 gap-2 px-4 grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
                     <div>
-                        <h1 className="text-base font-bold text-gray-300">STAY CONNECTED</h1>
+                        <h1 className="text-base font-bold text-neutral-400">STAY CONNECTED</h1>
                         <div className="border-t-4 border-[#FF6400] w-8 my-4"></div>
                         <h2 className="text-neutral-400 text-sm pb-1">Subscribe to our newsletter</h2>
-                        <input className="text-sm border-none outline-none py-2 px-3" type="email" name="" id="" placeholder='Enter Email Address....' /> <button className="text-white bg-[#FF6400] py-1 px-2 rounded-[5px]">join</button>
+                       <div className='flex'>
+                       <input className="text-sm border-none outline-none py-2 px-3 mr-1" type="email" name="" id="" placeholder='Enter Email Address....' /> 
+                        <PrimaryButton>Join</PrimaryButton>
+                       </div>
+                       <div className='text-neutral-400 mt-4 flex'>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaFacebookF/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaInstagramSquare/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaTwitter/></a>
+                        <a className='rounded-full hover:text-white border-2 p-4 mr-3 duration-500 hover:border-[#FF6400] hover:bg-[#FF6400]' href=""><FaHospitalAlt/></a>
+                       </div>
                     </div>
 
                     <div>
