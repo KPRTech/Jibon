@@ -14,10 +14,12 @@ const BeforeAfterSlider = () => {
   const delimiterIconStyles = {
     width: "40px",
     height: "40px",
-    backgroundSize: "cover",
+    backgroundSize: "24px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
     borderRadius: "none",
-    backgroundColor: "#FF6400",
-    backgroundImage: "url(<some-path-here>)",
+    backgroundColor: "#fff",
+    backgroundImage: "url('assets/images/beforeAfter slider/sliderIcon.png')",
   };
 
   return (
