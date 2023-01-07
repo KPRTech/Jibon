@@ -29,7 +29,7 @@ const NavBar = () => {
 
   const navList = (
     <div className="lg:max-w-container mx-auto flex flex-col lg:flex-row px-3 xl:px-0 relative">
-      <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-8 linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
+      <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-[30px] linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
         <NavItem
           href={"#"}
           linkName={"ABOUT US"}
@@ -280,8 +280,8 @@ const NavBar = () => {
           </Dropdown>
         </NavItem>
         <div className="flex items-center gap-1">
-          <PrimaryButton>Donate</PrimaryButton>
-          <PrimaryButton>Fundraise</PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px]`}>Donate</PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px]`}>Fundraise</PrimaryButton>
         </div>
       </ul>
     </div>
