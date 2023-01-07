@@ -23,6 +23,7 @@ const NewsStories = ({ newsDate1, newsTitle1, newsDescription1, newsImg1, newsDa
                         <div>
                             <h1 className='text-[#333333] font-mont font-bold leading-5 mt-[30px] after:content:"" after:block after:mt-[20px] after:w-[25px] after:h-[4px] after:bg-[#ff6400]'>{newsTitle1}</h1>
                             <p className='text-[#333] text-xs font-mont mt-5 leading-[25px]'>{newsDescription1}</p>
+                            <button className='font-mont text-sm text-[#ff6400] font-bold'>Read More »</button>
                         </div>
                     </div>
                 </div>
@@ -40,6 +41,7 @@ const NewsStories = ({ newsDate1, newsTitle1, newsDescription1, newsImg1, newsDa
                         <div>
                             <h1 className='text-[#333333] font-mont font-bold leading-5 mt-[30px] after:content:"" after:block after:mt-[20px] after:w-[25px] after:h-[4px] after:bg-[#ff6400]'>{newsTitle2}</h1>
                             <p className='text-[#333] text-xs font-mont mt-5 leading-[25px]'>{newsDescription2}</p>
+                            <button className='font-mont text-sm text-[#ff6400] font-bold'>Read More »</button>
                         </div>
                     </div>
                 </div>
@@ -57,6 +59,7 @@ const NewsStories = ({ newsDate1, newsTitle1, newsDescription1, newsImg1, newsDa
                         <div>
                             <h1 className='text-[#333333] font-mont font-bold leading-5 mt-[30px] after:content:"" after:block after:mt-[20px] after:w-[25px] after:h-[4px] after:bg-[#ff6400]'>{newsTitle3}</h1>
                             <p className='text-[#333] text-xs font-mont mt-5 leading-[25px]'>{newsDescription3}</p>
+                            <button className='font-mont text-sm text-[#ff6400] font-bold'>Read More »</button>
                         </div>
                     </div>
                 </div>
