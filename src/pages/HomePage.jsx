@@ -2,20 +2,32 @@ import React from "react";
 import ShowBanner from "../components/ShowBanner";
 import PrimaryButton from "../components/PrimaryButton";
 import UpperFooter from "../components/UpperFooter";
+
+import PrimarySlider from "../components/PrimarySlider";
+import BankDetails from "../components/ui/BankDetails";
+import OurImpact from "../components/ui/OurImpact";
+import FeaturePrograms from "../components/ui/FeaturePrograms";
 import SuccessStories from "./SuccessStories";
 import BeforeAfterSlider from "../components/BeforeAfterSlider";
 import MakeDonation from "../components/MakeDonation/MakeDonation";
 
+
+
+
 const HomePage = () => {
   return (
     <div>
-      <ShowBanner />
-      <MakeDonation></MakeDonation>
+        <ShowBanner />
+      <MakeDonation />
+      <OurImpact />
+      <FeaturePrograms />
+      <PrimarySlider />
       <SuccessStories />
       <BeforeAfterSlider />
-      <div>
-        <UpperFooter>
-          <div className="lg:mx-24 pt-12 pb-8 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
+      <BankDetails />
+        <div>
+          <UpperFooter>
+          <div className="lg:mx-24 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
             <div>
               <h2 className="lg:text-2xl text-md font-mont text-white font-normal tracking-wider">
                 SCHEDULE A VISIT TO OUR MODEL SCHOOLS
