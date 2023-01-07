@@ -2,8 +2,6 @@ import React from "react";
 import OurWork from "../components/OurWork";
 import ShowBanner from "../components/ShowBanner";
 import UpperFooter from "../components/UpperFooter";
-
-import PrimarySlider from "../components/PrimarySlider";
 import BankDetails from "../components/ui/BankDetails";
 import OurImpact from "../components/ui/OurImpact";
 import FeaturePrograms from "../components/ui/FeaturePrograms";
@@ -40,7 +38,6 @@ const HomePage = () => {
       <SuccessStories />
       <BeforeAfterSlider />
       <BankDetails />
-      <PrimarySlider />
       <UpperFooter
         upperTitle={"SCHEDULE A VISIT TO OUR MODEL SCHOOLS"}
         upperText={"Book a visit to our school to meet the students whose lives have been transformed."}
