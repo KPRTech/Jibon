@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./SecondarySlider.css"
 
 
-const SecondarySlider = ({className,children}) => {
+const SecondarySlider = ({children}) => {
   var settings = {
     dots: true,
     arrows:false,
@@ -13,7 +13,7 @@ const SecondarySlider = ({className,children}) => {
     speed: 500,
     slidesToShow: 1,
     autoplay:true,
-    className:"w-96",
+    className:"w-[100%]",
     responsive: [
       {
         breakpoint: 4000,
@@ -43,13 +43,13 @@ const SecondarySlider = ({className,children}) => {
     <div>
       <Slider {...settings}>
       <div className="">
-        <img className="" src={""} alt="" />
+        <img className="w-full" src={children.firstImageSrc} alt="" />
       </div>
       <div>
-        <img className="" src={""} alt="" /> 
+        <img className="w-full" src={children.secondImageSrc} alt="" /> 
       </div>
       <div>
-        <img className="" src={""} alt="" />
+        <img className="w-full" src={children.thirdImageSrc} alt="" />
       </div>
     </Slider>
     </div>
