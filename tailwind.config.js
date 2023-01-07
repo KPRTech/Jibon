@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -11,13 +12,17 @@ module.exports = {
         play: ['Playfair Display', 'serif'],
         rale: ['Raleway', 'sans-serif']
       },
+      backgroundColor: {
+        primary: "#FF6400",
+        hoverPrimary: "#b74900",
+      },
       keyframes: {
         popUpY: {
           "0%": { opacity: "0", transform: "translateY(10%)" },
           "100%": { opacity: "1", transform: "translateY(0%)" },
         },
         popDownY: {
-          "0%": { opacity: "0", transform: "translateY(-15%)" },
+          "0%": { opacity: "0", transform: "translateY(-25%)" },
           "100%": { opacity: "1", transform: "translateY(0%)" },
         },
         slideX: {
@@ -40,4 +45,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

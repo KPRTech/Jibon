@@ -51,7 +51,7 @@ const router = createBrowserRouter(
       <Route element={<PolicyPagePage />}></Route>
       <Route element={<AdvocacyPage />}></Route>
       <Route element={<PastProjectsPage />}></Route>
-      <Route element={<SchoolReformPage />}></Route>
+      <Route path="/our-work/school-reform" element={<SchoolReformPage />}></Route>
       <Route element={<AisaPakistanPage />}></Route>
       <Route element={<AReviewOf2021Page />}></Route>
       <Route element={<AReviewOf2020Page />}></Route>

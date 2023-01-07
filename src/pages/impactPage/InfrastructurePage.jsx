@@ -107,7 +107,7 @@ const InfrastructurePage = () => {
           );
         })}
       </div>
-      <UpperFooter />
+      <UpperFooter upperTitle="SCHEDULE A VISIT TO OUR MODEL SCHOOLS" upperText="Book a visit to our school to meet the students whose lives have been transformed." upperBtn="Schedule now " />
     </div>
   );
 };
