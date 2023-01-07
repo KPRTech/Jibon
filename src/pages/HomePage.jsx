@@ -5,12 +5,14 @@ import UpperFooter from "../components/UpperFooter";
 import PrimarySlider from "../components/PrimarySlider";
 import BankDetails from "../components/ui/BankDetails";
 import OurImpact from "../components/ui/OurImpact";
+import FeaturePrograms from "../components/ui/FeaturePrograms";
 
 const HomePage = () => {
   return (
     <div>
         <ShowBanner />
         <OurImpact></OurImpact>
+        <FeaturePrograms></FeaturePrograms>
         <PrimarySlider />
         <BankDetails></BankDetails>
         <div>
