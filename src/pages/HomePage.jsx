@@ -4,11 +4,13 @@ import PrimaryButton from "../components/PrimaryButton";
 import UpperFooter from "../components/UpperFooter";
 import PrimarySlider from "../components/PrimarySlider";
 import BankDetails from "../components/ui/BankDetails";
+import OurImpact from "../components/ui/OurImpact";
 
 const HomePage = () => {
   return (
     <div>
         <ShowBanner />
+        <OurImpact></OurImpact>
         <PrimarySlider />
         <BankDetails></BankDetails>
         <div>

@@ -4,9 +4,9 @@ import AchievementHeader from '../AchievementHeader';
 
 const BankDetails = () => {
     return (
-        <div>
+        <div className='mx-24'>
              <AchievementHeader achiveHeader="OUR BANK DETAILS" achiveDescription="The details of our Bank Accounts are as follows:" />
-         <div className='container lg:px-24 grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 lg:py-12 py-4 px-4'>
+         <div className='container grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 lg:py-12 py-4 px-4'>
             <div>
                 <h2 className='text-2xl font-bold text-[#FF6400]'>1. HABIB BANK LTD.</h2>
                 <h3 className='leading-7 text-gray-700 text-lg tracking-normal'><span className='font-bold'>Title of Account:</span> Zindagi Trust</h3>
