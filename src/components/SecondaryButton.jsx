@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const SecondaryButton = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
+  return (
+    <div>
+      <button className="text-orange-500 font-bold p-4">Read More »</button>
+    </div>
+  );
+};
 
 export default SecondaryButton;

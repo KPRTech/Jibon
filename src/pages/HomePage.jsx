@@ -2,32 +2,54 @@ import React from "react";
 import ShowBanner from "../components/ShowBanner";
 import PrimaryButton from "../components/PrimaryButton";
 import UpperFooter from "../components/UpperFooter";
+
 import PrimarySlider from "../components/PrimarySlider";
 import BankDetails from "../components/ui/BankDetails";
 import OurImpact from "../components/ui/OurImpact";
 import FeaturePrograms from "../components/ui/FeaturePrograms";
+import SuccessStories from "./SuccessStories";
+import BeforeAfterSlider from "../components/BeforeAfterSlider";
+import MakeDonation from "../components/MakeDonation/MakeDonation";
+
+
+
 
 const HomePage = () => {
   return (
     <div>
         <ShowBanner />
-        <OurImpact></OurImpact>
-        <FeaturePrograms></FeaturePrograms>
-        <PrimarySlider />
-        <BankDetails></BankDetails>
+      <MakeDonation />
+      <OurImpact />
+      <FeaturePrograms />
+      <PrimarySlider />
+      <SuccessStories />
+      <BeforeAfterSlider />
+      <BankDetails />
         <div>
           <UpperFooter>
           <div className="lg:mx-24 lg:pt-7 lg:pb-4 py-4 px-4 lg:flex lg:text-left text-center lg:justify-between">
             <div>
-              <h2 className='text-2xl text-white font-normal tracking-wider'>SCHEDULE A VISIT TO OUR MODEL SCHOOLS</h2>
-              <h3 className='text-lg italic text-gray-50 '>Book a visit to our school to meet the students whose lives have been transformed.</h3>
+              <h2 className="lg:text-2xl text-md font-mont text-white font-normal tracking-wider">
+                SCHEDULE A VISIT TO OUR MODEL SCHOOLS
+              </h2>
+              <h3 className="lg:text-lg text-sm font-play italic text-gray-50 ">
+                Book a visit to our school to meet the students whose lives have
+                been transformed.
+              </h3>
             </div>
-            <PrimaryButton className={`bg-[#FF934D] border border-white hover:bg-opacity-50 hover:bg-neutral-100`}> <a href="https://www.zindagitrust.org/schedule-a-schooltour">SCHEDULE NOW</a></PrimaryButton>
+            <PrimaryButton
+              className={`bg-[#FF934D] border mx-auto mt-4 border-white hover:bg-opacity-50 hover:bg-neutral-100`}
+            >
+              {" "}
+              <a href="https://www.zindagitrust.org/schedule-a-schooltour">
+                SCHEDULE NOW
+              </a>
+            </PrimaryButton>
           </div>
-          </UpperFooter>
+        </UpperFooter>
       </div>
     </div>
-  )
+  );
 };
 
 export default HomePage;
