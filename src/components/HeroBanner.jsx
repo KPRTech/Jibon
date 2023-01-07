@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeroBanner = ({ title, heroText }) => {
+const HeroBanner = ({ title, heroTextOne, heroTextTwo}) => {
     return (
         <div>
             <div className='bg-fixed h-[200px] lg:h-[280px] relative'
@@ -13,7 +13,7 @@ const HeroBanner = ({ title, heroText }) => {
                         <div className='text-center pt-[40px] lg:pt-[150px] pb-8'>
                             <div className='text-4xl text-white leading-7 font-mont font-medium'>{title}</div>
                             <br />
-                            <em className='text-[#999999] font-play leading-[16px] italic'>{heroText}</em>
+                            <em className='text-[#999999] font-play leading-[16px] italic'>{heroTextOne}<br/>{heroTextTwo}</em>
                         </div>
                     </div>
                 </div>

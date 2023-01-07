@@ -4,9 +4,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'xs': '280px',
+      },
       fontFamily: {
-        mont: ["Montserrat", "sans-serif"],
-        play: ["Playfair Display", "serif"],
+        mont: ['Montserrat', 'sans-serif'],
+        play: ['Playfair Display', 'serif'],
+        rale: ['Raleway', 'sans-serif']
       },
       backgroundColor: {
         primary: "#FF6400",
