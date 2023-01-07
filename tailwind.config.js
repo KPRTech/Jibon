@@ -8,6 +8,10 @@ module.exports = {
         mont: ["Montserrat", "sans-serif"],
         play: ["Playfair Display", "serif"],
       },
+      backgroundColor: {
+        primary: "#FF6400",
+        hoverPrimary: "#b74900",
+      },
       keyframes: {
         popUpY: {
           "0%": { opacity: "0", transform: "translateY(10%)" },
