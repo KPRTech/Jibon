@@ -2,9 +2,17 @@ import React from "react";
 import OurWork from "../components/OurWork";
 import ShowBanner from "../components/ShowBanner";
 import UpperFooter from "../components/UpperFooter";
+
+import PrimarySlider from "../components/PrimarySlider";
+import BankDetails from "../components/ui/BankDetails";
+import OurImpact from "../components/ui/OurImpact";
+import FeaturePrograms from "../components/ui/FeaturePrograms";
 import SuccessStories from "./SuccessStories";
 import BeforeAfterSlider from "../components/BeforeAfterSlider";
+import MakeDonation from "../components/MakeDonation/MakeDonation";
 import NewsStories from "../components/NewsStories";
+
+
 
 
 const HomePage = () => {
@@ -12,6 +20,9 @@ const HomePage = () => {
     <div>
       <ShowBanner />
       <OurWork />
+      <MakeDonation />
+      <OurImpact />
+      <FeaturePrograms />
       <NewsStories
         newsImg1={"assets/images/newsStories1.png"}
         newsDate1={"7/9/2022"}
@@ -28,13 +39,15 @@ const HomePage = () => {
       />
       <SuccessStories />
       <BeforeAfterSlider />
+      <BankDetails />
+      <PrimarySlider />
       <UpperFooter
         upperTitle={"SCHEDULE A VISIT TO OUR MODEL SCHOOLS"}
         upperText={"Book a visit to our school to meet the students whose lives have been transformed."}
         upperBtn={"SCHEDULE NOW"}
       />
     </div>
-  )
+  );
 };
 
 export default HomePage;

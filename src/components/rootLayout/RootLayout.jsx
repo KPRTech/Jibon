@@ -4,7 +4,6 @@ import NavBar from "../../components/NavBar";
 import Footer from '../Footer';
 import ScrollToTop from "../ui/ScrollToTop ";
 
-
 const RootLayout = () => {
   return (
     <>
