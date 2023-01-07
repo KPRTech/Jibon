@@ -8,7 +8,7 @@ const NewsStories = ({ newsDate1, newsTitle1, newsDescription1, newsImg1, newsDa
                 achiveHeader={"NEWS, STORIES AND EVENTS"}
                 achiveDescription={"Follow Zindagi Trust’s advocacy and students’ achievements, latest program developments, recent partnerships and future steps."}></AchievementHeader>
 
-            <div className='grid grid-cols-3 gap-10 mx-[180px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:mx-[180px]'>
                 <div className='max-w-[360px] mx-auto'>
                     <p className='text-[#666666] text-[13px] align-middle font-mont font-medium ml-[10px] mb-3'>{newsDate1}</p>
                     <div>
