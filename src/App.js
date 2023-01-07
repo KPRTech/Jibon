@@ -53,7 +53,7 @@ const router = createBrowserRouter(
       <Route element={<PastProjectsPage />}></Route>
       <Route path="/our-work/school-reform" element={<SchoolReformPage />}></Route>
       <Route element={<AisaPakistanPage />}></Route>
-      <Route element={<AReviewOf2021Page />}></Route>
+      <Route path="/a-review-of-2021" element={<AReviewOf2021Page />}></Route>
       <Route element={<AReviewOf2020Page />}></Route>
       <Route element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>

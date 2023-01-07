@@ -208,7 +208,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"a-review-of-2021"}
               linkName={"A Review of 2021"}
               linkClass={"after:hidden"}
             />
