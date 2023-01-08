@@ -1,6 +1,11 @@
 import React from 'react';
 import SchoolReformSlider from '../../components/SchoolReformSlider';
 import AchievementHeader from '../../components/AchievementHeader';
+import SchoolReformOurWork from '../../components/SchoolReformOurWork';
+import SchoolReformModel from '../../components/SchoolReformModel';
+import HeroBanner from '../../components/HeroBanner';
+import PilotProjects from '../../components/PilotProjects';
+import BeforeAfterSchoolReform from '../../components/BeforeAfterSchoolReform';
 import Slider from "react-slick"
 
 const SchoolReformPage = () => {
@@ -67,17 +72,24 @@ const SchoolReformPage = () => {
     };
 
     return (
-        <div className='mb-10 lg:w-9/12 lg:m-auto lg:mb-10'>
-            <AchievementHeader  achiveHeader="HOW HAS ZINDAGI TRUST REFORMED GOVERNMENT SCHOOLS?" achiveDescription="Both pilot projects are examples of how government schools can be transformed into centres of excellent learning and play a transformative role in children’s lives." />
-            
-            <div className='p-5 mt-20 container m-auto'>
-                <Slider {...settings}>
-                    {school_reform.map((school, index) => {
-                        return (
-                            <SchoolReformSlider img={school.img} title={school.title} content={school.content} key={index} />
-                        )
-                    })}
-                </Slider>
+        <div>
+            <HeroBanner title="School Reform" heroTextOne="Zindagi Trust is a non-governmental, non-profit organization that strives to improve the quality of education." />
+            <SchoolReformOurWork/>
+            <SchoolReformModel />
+            <PilotProjects/>
+            <BeforeAfterSchoolReform/>
+            <div className='mb-10 lg:w-9/12 lg:m-auto lg:mb-10'>
+              <AchievementHeader  achiveHeader="HOW HAS ZINDAGI TRUST REFORMED GOVERNMENT SCHOOLS?" achiveDescription="Both pilot projects are examples of how government schools can be transformed into centres of excellent learning and play a transformative role in children’s lives." />
+              
+              <div className='p-5 mt-20 container m-auto'>
+                  <Slider {...settings}>
+                      {school_reform.map((school, index) => {
+                          return (
+                              <SchoolReformSlider img={school.img} title={school.title} content={school.content} key={index} />
+                          )
+                      })}
+                  </Slider>
+              </div>
             </div>
         </div>
     );
