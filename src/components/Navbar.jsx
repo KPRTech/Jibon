@@ -105,17 +105,17 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
+              href={"/akhatoonpakistan"}
               linkName={"Khatoon-e-Pakistan"}
               linkClass={"after:hidden"}
-              href={"#"}
             />
             <NavItem
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
+              href={"/fatimajinnah"}
               linkName={"SMB Fatima Jinnah"}
               linkClass={"after:hidden"}
-              href={"#"}
             />
           </Dropdown>
         </NavItem>

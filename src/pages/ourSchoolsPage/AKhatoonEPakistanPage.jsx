@@ -1,9 +1,11 @@
 import React from 'react';
+import ShowBanner from '../../components/ShowBanner';
+
 
 const AKhatoonEPakistanPage = () => {
     return (
-        <div>
-            
+        <div className=''>
+      <ShowBanner></ShowBanner>
         </div>
     );
 }
