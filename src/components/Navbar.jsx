@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
-import {
-  Navbar,
-  MobileNav,
-  IconButton,
-} from "@material-tailwind/react";
+import { Navbar, MobileNav, IconButton } from "@material-tailwind/react";
 import NavItem from "./NavItem";
 import Dropdown from "./Dropdown";
 import PrimaryButton from "./PrimaryButton";
@@ -15,11 +11,10 @@ const NavBar = () => {
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
     // clean up code
-    window.removeEventListener('scroll', onScroll);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
 
   useEffect(() => {
     window.addEventListener(
@@ -31,11 +26,7 @@ const NavBar = () => {
   const navList = (
     <div className="lg:max-w-container mx-auto flex flex-col lg:flex-row px-3 xl:px-0 relative pb-20 lg:pb-0">
       <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-[30px] linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
-        <NavItem
-          href={"#"}
-          linkName={"ABOUT US"}
-          className={""}
-        >
+        <NavItem href={"#"} linkName={"ABOUT US"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -63,11 +54,7 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem
-          href={"#"}
-          linkName={"Our Work"}
-          className={""}
-        >
+        <NavItem href={"#"} linkName={"Our Work"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -95,11 +82,7 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem
-          href={"#"}
-          linkName={"Our Schools"}
-          className={""}
-        >
+        <NavItem href={"#"} linkName={"Our Schools"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -119,11 +102,7 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem
-          href={"#"}
-          linkName={"Impact"}
-          className={""}
-        >
+        <NavItem href={"#"} linkName={"Impact"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -175,11 +154,7 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem
-          href={"#"}
-          linkName={"Volunteer"}
-          className={""}
-        >
+        <NavItem href={"#"} linkName={"Volunteer"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -190,11 +165,8 @@ const NavBar = () => {
               linkClass={"after:hidden"}
             />
           </Dropdown>
-        </NavItem><NavItem
-          href={"#"}
-          linkName={"The Latest"}
-          className={""}
-        >
+        </NavItem>
+        <NavItem href={"#"} linkName={"The Latest"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -246,21 +218,9 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem
-          linkName={"Membership"}
-          className={""}
-          href={"#"}
-        />
-        <NavItem
-          href={"#"}
-          linkName={"Careers"}
-          className={""}
-        />
-        <NavItem
-          href={"#"}
-          linkName={"Contact Us"}
-          className={""}
-        >
+        <NavItem linkName={"Membership"} className={""} href={"#"} />
+        <NavItem href={"#"} linkName={"Careers"} className={""} />
+        <NavItem href={"#"} linkName={"Contact Us"} className={""}>
           <Dropdown>
             <NavItem
               className={
@@ -281,16 +241,47 @@ const NavBar = () => {
           </Dropdown>
         </NavItem>
         <div className="flex items-center gap-1">
-          <PrimaryButton className={`px-[17px] py-[10px]`}>Donate</PrimaryButton>
-          <PrimaryButton className={`px-[17px] py-[10px]`}>Fundraise</PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px] font-semibold`}>
+            Donate
+          </PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px] font-semibold`}>
+            Fund Raise
+          </PrimaryButton>
         </div>
       </ul>
     </div>
   );
   return (
-    <Navbar className={offset <= 100 ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5" : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0"}>
+    <Navbar
+      className={
+        offset <= 100
+          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5"
+          : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0"
+      }
+    >
       <div className="container mx-auto flex items-center justify-between">
-        {offset <= 100 ? <Link to='/'><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block" src="assets/images/logo.svg" alt="" /><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] block lg:hidden" src="assets/images/logo-b.svg" alt="" /></Link> : <Link to="/"><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]" src="assets/images/logo-b.svg" alt="" /></Link>}
+        {offset <= 100 ? (
+          <Link to="/">
+            <img
+              className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block"
+              src="assets/images/logo.svg"
+              alt=""
+            />
+            <img
+              className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] block lg:hidden"
+              src="assets/images/logo-b.svg"
+              alt=""
+            />
+          </Link>
+        ) : (
+          <Link to="/">
+            <img
+              className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]"
+              src="assets/images/logo-b.svg"
+              alt=""
+            />
+          </Link>
+        )}
         <div className="hidden lg:block">{navList}</div>
         <IconButton
           variant="text"
@@ -330,9 +321,7 @@ const NavBar = () => {
           )}
         </IconButton>
       </div>
-      <MobileNav open={openNav}>
-        {navList}
-      </MobileNav>
+      <MobileNav open={openNav}>{navList}</MobileNav>
     </Navbar>
   );
 };
