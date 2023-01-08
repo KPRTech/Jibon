@@ -14,6 +14,11 @@ module.exports = {
         mont: ["Montserrat", "sans-serif"],
         play: ["Playfair Display", "serif"],
         rale: ["Raleway", "sans-serif"],
+        time: ["Times New Roman", " Times", "serif"],
+      },
+      textColor: {
+        primary: "#FF6400",
+        hoverPrimary: "#b74900",
       },
       backgroundColor: {
         primary: "#FF6400",
