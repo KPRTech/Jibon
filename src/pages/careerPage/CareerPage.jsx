@@ -62,9 +62,11 @@ const CareerPage = () => {
                   The incumbent will report directly to the Chief Academic
                   Officer at Zindagi Trust while working closely with the school
                   staff and professional development teams. <br />{" "}
-                  Responsibilities:
+                  <span className="font-semibold flex justify-start gap-x-2 items-center">
+                    {" "}
+                    Responsibilities:
+                  </span>{" "}
                   <br />
-                  <br />{" "}
                   <span className="font-semibold flex justify-start gap-x-2 items-center">
                     {" "}
                     <ImPointRight />
