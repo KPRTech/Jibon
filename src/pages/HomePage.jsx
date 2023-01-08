@@ -9,6 +9,7 @@ import SuccessStories from "./SuccessStories";
 import BeforeAfterSlider from "../components/BeforeAfterSlider";
 import MakeDonation from "../components/MakeDonation/MakeDonation";
 import NewsStories from "../components/NewsStories";
+import AchievementHeader from "../components/AchievementHeader";
 
 
 
@@ -36,7 +37,11 @@ const HomePage = () => {
         newsDescription3={"Zindagi Trust in collaboration with Meta (Facebook) hosted a roundtable discussion at GECE Hussainabad to identify ways to make digital platforms safer for children and share policy recommendations with government agencies to help create better reporting"}
       />
       <SuccessStories />
-      <BeforeAfterSlider />
+      <AchievementHeader
+        achiveHeader="BEFORE AND AFTER"
+        achiveDescription="Hold and slide right to see the school transform from before to after our intervention"
+      />
+      <BeforeAfterSlider imgUrl1="https://www.zindagitrust.org/img/sections/school1.jpg" imgUrl2="https://www.zindagitrust.org/img/sections/school2new.jpg" />
       <BankDetails />
       <UpperFooter
         upperTitle={"SCHEDULE A VISIT TO OUR MODEL SCHOOLS"}

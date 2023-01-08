@@ -5,6 +5,7 @@ import SchoolReformOurWork from '../../components/SchoolReformOurWork';
 import SchoolReformModel from '../../components/SchoolReformModel';
 import HeroBanner from '../../components/HeroBanner';
 import PilotProjects from '../../components/PilotProjects';
+import BeforeAfterSchoolReform from '../../components/BeforeAfterSchoolReform';
 import Slider from "react-slick"
 
 const SchoolReformPage = () => {
@@ -76,6 +77,7 @@ const SchoolReformPage = () => {
             <SchoolReformOurWork/>
             <SchoolReformModel />
             <PilotProjects/>
+            <BeforeAfterSchoolReform/>
             <div className='mb-10 lg:w-9/12 lg:m-auto lg:mb-10'>
               <AchievementHeader  achiveHeader="HOW HAS ZINDAGI TRUST REFORMED GOVERNMENT SCHOOLS?" achiveDescription="Both pilot projects are examples of how government schools can be transformed into centres of excellent learning and play a transformative role in children’s lives." />
               
