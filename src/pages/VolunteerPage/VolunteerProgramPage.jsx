@@ -17,8 +17,8 @@ const VolunteerProgramPage = () => {
       <BreadCrumb
         breadCrumbText={"Get Involved » Volunteer Program"}
       ></BreadCrumb>
-      <div className="container mx-auto lg:px-24 px-4 pb-8 flex gap-12 justify-between">
-        <div className="w-[70%] animate-[slideYTwo_1s_ease_1]">
+      <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-12 gap-y-20 justify-between">
+        <div className="lg:w-[70%] animate-[slideYTwo_1s_ease_1]">
           <h2 className="font-mont text-[#FF6400] text-2xl font-bold mb-7">
             VOLUNTEER FOR ZINDAGI TRUST
           </h2>
@@ -35,7 +35,7 @@ const VolunteerProgramPage = () => {
 
           <PrimaryButton children={"Sign Up"} />
         </div>
-        <VolunteerSidebar className={"w-[30%]"} />
+        <VolunteerSidebar className={"lg:w-[30%]"} />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import DonationCard from "../donationCard/DonationCard";
 
 const VolunteerSidebar = ({ className }) => {
   return (
-    <div className={`mb-20 flex flex-col gap-y-9 ${className}`}>
+    <div className={`mb-20 flex flex-col items-center gap-y-9 ${className}`}>
       <DonationCard
         imgSrc={"assets/images/volunteer/donation_card1.jpg"}
         title={"Breakfast & Health"}
