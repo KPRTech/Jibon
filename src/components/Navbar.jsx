@@ -33,7 +33,7 @@ const NavBar = () => {
               }
               linkName={"Our Story"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/about-us/ourstory"}
             />
             <NavItem
               className={

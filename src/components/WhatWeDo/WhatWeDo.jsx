@@ -17,7 +17,7 @@ const WhatWeDo = () => {
 
       <div className="bg-gray-200  mt-14 lg:flex justify-center">
         <div className="lg:pt-10 lg:pb-14 lg:w-[30%]  p-4">
-          <img src="assets/images/schoolreform-1.png" alt="" />
+          <img src="/assets/images/schoolreform-1.png" alt="" />
 
           <h1 className="text-4xl sm:text-3xl font-bold mt-5">SCHOOL REFORM</h1>
           <p className="my-5 leading-loose">
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
         <div className="lg:py-10 lg:w-[60%]">
           <div className="lg:pt-8">
             <img
-              src="assets/images/ourstory1.png"
+              src="/assets/images/ourstory1.png"
               className="w-[100%]"
               alt=""
             />

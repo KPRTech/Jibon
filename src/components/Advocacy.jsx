@@ -7,7 +7,7 @@ const Advocacy = () => {
         <div className="lg:py-10 lg:w-[60%]">
           <div className="lg:pt-8">
             <img
-              src="assets/images/ourstory2.png"
+              src="/assets/images/ourstory2.png"
               className="w-[100%]"
               alt=""
             />
@@ -15,7 +15,7 @@ const Advocacy = () => {
         </div>
 
         <div className="lg:pt-10 lg:pb-14 lg:w-[30%]  p-4">
-          <img src="assets/images/advocacy_1.png" alt="" />
+          <img src="/assets/images/advocacy_1.png" alt="" />
 
           <h1 className="text-4xl sm:text-3xl font-bold mt-5">ADVOCACY</h1>
           <p className="my-5 leading-loose">
