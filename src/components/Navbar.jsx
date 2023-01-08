@@ -290,7 +290,7 @@ const NavBar = () => {
   return (
     <Navbar className={offset <= 100 ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5" : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0"}>
       <div className="container mx-auto flex items-center justify-between">
-        {offset <= 100 ? <Link to='/'><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block" src="assets/images/logo.svg" alt="" /><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] block lg:hidden" src="assets/images/logo-b.svg" alt="" /></Link> : <Link to="/"><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]" src="assets/images/logo-b.svg" alt="" /></Link>}
+        {offset <= 100 ? <Link to='/'><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block" src="/assets/images/logo.svg" alt="" /><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] block lg:hidden" src="/assets/images/logo-b.svg" alt="" /></Link> : <Link to="/"><img className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]" src="/assets/images/logo-b.svg" alt="" /></Link>}
         <div className="hidden lg:block">{navList}</div>
         <IconButton
           variant="text"
