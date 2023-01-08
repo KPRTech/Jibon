@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryButton from "../PrimaryButton";
 import "./MakeDonation.css";
 
 const MakeDonation = () => {
@@ -24,23 +25,23 @@ const MakeDonation = () => {
           Donate to transform lives by reforming government schools.
         </p>
 
-        <button className="bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
+        <button className="linear duration-300 bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
           $10
         </button>
 
-        <button className="bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
+        <button className="linear duration-300 bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
           $50
         </button>
 
-        <button className="bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
+        <button className="linear duration-300 bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
           $100
         </button>
 
-        <button className="bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
+        <button className="linear duration-300 bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
           $500
         </button>
 
-        <button className="bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
+        <button className="linear duration-300 bg-none border-solid border-2 border-white px-8 py-2 hover:text-orange-500 hover:bg-white text-lg m-2">
           Other
         </button>
 
@@ -53,7 +54,7 @@ const MakeDonation = () => {
           />
 
           <span className="text-lg ml-3 mt-2"> USD</span>
-          <button className="text-white bg-orange-500 px-5 py-3 rounded text-sm ml-4 hover:bg-orange-700 mt-2">
+          <button className="linear duration-300 text-white bg-orange-500 px-5 py-3 rounded text-sm ml-5 hover:bg-orange-700 mt-2">
             DONATE
           </button>
         </div>

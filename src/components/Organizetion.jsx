@@ -36,7 +36,7 @@ const Organizetion = () => {
     ],
   };
   return (
-    <div>
+    <div className="lg:my-10">
       <h1 className="text-2xl font-bold text-center mt-12 text-[#FF6400]">
         ORGANIZATION TIMELINE
       </h1>
@@ -49,7 +49,7 @@ const Organizetion = () => {
       <div className="lg:mx-auto mt-2 ">
         <div className="">
           <img
-            src="assets/images/orgtimeline.jpg"
+            src="/assets/images/orgtimeline.jpg"
             className="lg:mx-auto w-[86%] overflow-hidden"
             alt=""
           />

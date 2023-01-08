@@ -3,6 +3,7 @@ import { Navbar, MobileNav, IconButton } from "@material-tailwind/react";
 import NavItem from "./NavItem";
 import Dropdown from "./Dropdown";
 import PrimaryButton from "./PrimaryButton";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -23,8 +24,8 @@ const NavBar = () => {
   }, []);
 
   const navList = (
-    <div className="lg:max-w-container mx-auto flex flex-col lg:flex-row px-3 xl:px-0 relative">
-      <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-8 linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
+    <div className="lg:max-w-container mx-auto flex flex-col lg:flex-row px-3 xl:px-0 relative pb-20 lg:pb-0">
+      <ul className="lg:h-[4.8vw] cursor-pointer list-none flex flex-col lg:flex-row items-start lg:items-center gap-3 md:gap-4 lg:gap-6 xl:gap-[30px] linear duration-300 my-10 ml-2 lg:ml-0 lg:pb-0 md:my-9 lg:my-0">
         <NavItem href={"#"} linkName={"ABOUT US"} className={""}>
           <Dropdown>
             <NavItem
@@ -33,7 +34,7 @@ const NavBar = () => {
               }
               linkName={"Our Story"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/about-us/ourstory"}
             />
             <NavItem
               className={
@@ -107,7 +108,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/infrastructure"}
               linkName={"Infrastructure"}
               linkClass={"after:hidden"}
             />
@@ -115,7 +116,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"governance"}
               linkName={"Governance"}
               linkClass={"after:hidden"}
             />
@@ -159,7 +160,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"volunteer-program"}
               linkName={"Volunteer Program"}
               linkClass={"after:hidden"}
             />
@@ -171,7 +172,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"news-events"}
               linkName={"News & Events"}
               linkClass={"after:hidden"}
             />
@@ -240,8 +241,12 @@ const NavBar = () => {
           </Dropdown>
         </NavItem>
         <div className="flex items-center gap-1">
-          <PrimaryButton>Donate</PrimaryButton>
-          <PrimaryButton>Fundraise</PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px] font-semibold`}>
+            Donate
+          </PrimaryButton>
+          <PrimaryButton className={`px-[17px] py-[10px] font-semibold`}>
+            Fund Raise
+          </PrimaryButton>
         </div>
       </ul>
     </div>
@@ -250,13 +255,13 @@ const NavBar = () => {
     <Navbar
       className={
         offset <= 100
-          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5"
-          : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0"
+          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5 shadow-lg "
+          : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0 shadow-lg "
       }
     >
       <div className="container mx-auto flex items-center justify-between">
         {offset <= 100 ? (
-          <>
+          <Link to="/">
             <img
               className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px] hidden lg:block"
               src="assets/images/logo.svg"
@@ -267,15 +272,15 @@ const NavBar = () => {
               src="assets/images/logo-b.svg"
               alt=""
             />
-          </>
+          </Link>
         ) : (
-          <>
+          <Link to="/">
             <img
               className="w-[130px] mt-5 lg:mt-0 lg:w-[150px] lg:h-[75px]"
               src="assets/images/logo-b.svg"
               alt=""
             />
-          </>
+          </Link>
         )}
         <div className="hidden lg:block">{navList}</div>
         <IconButton
