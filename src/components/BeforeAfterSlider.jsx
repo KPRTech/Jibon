@@ -1,14 +1,13 @@
 import React from "react";
 import ReactBeforeSliderComponent from "react-before-after-slider-component";
 import "react-before-after-slider-component/dist/build.css";
-import AchievementHeader from "./AchievementHeader";
 
-const BeforeAfterSlider = () => {
+const BeforeAfterSlider = ({ imgUrl1, imgUrl2 }) => {
   const FIRST_IMAGE = {
-    imageUrl: "https://www.zindagitrust.org/img/sections/school1.jpg",
+    imageUrl: imgUrl1,
   };
   const SECOND_IMAGE = {
-    imageUrl: "https://www.zindagitrust.org/img/sections/school2new.jpg",
+    imageUrl: imgUrl2,
   };
 
   const delimiterIconStyles = {
@@ -24,10 +23,6 @@ const BeforeAfterSlider = () => {
 
   return (
     <div className="relative">
-      <AchievementHeader
-        achiveHeader="BEFORE AND AFTER"
-        achiveDescription="Hold and slide right to see the school transform from before to after our intervention"
-      />
       <div className="lg:w-[55%] md:w-[60%] m-auto lg:p-4 md:p-3 p-2">
         <ReactBeforeSliderComponent
           firstImage={FIRST_IMAGE}

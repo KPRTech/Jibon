@@ -9,6 +9,7 @@ import RootLayout from "./components/rootLayout/RootLayout";
 import FinancialPage from "./pages/aboutUsPage/FinancialPage";
 import LeadershipPage from "./pages/aboutUsPage/LeadershipPage";
 import OurStoryPage from "./pages/aboutUsPage/OurStoryPage";
+import CareerPage from "./pages/careerPage/CareerPage";
 import OurChaptersPage from "./pages/contactUsPage/OurChaptersPage";
 import OurOfficePage from "./pages/contactUsPage/OurOfficePage";
 import HomePage from "./pages/HomePage";
@@ -38,7 +39,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />}></Route>
       <Route element={<FinancialPage />}></Route>
       <Route element={<LeadershipPage />}></Route>
-      <Route element={<OurStoryPage />}></Route>
+      <Route path="/about-us/ourstory" element={<OurStoryPage />}></Route>
       <Route element={<OurChaptersPage />}></Route>
       <Route element={<OurOfficePage />}></Route>
       <Route element={<AKhatoonEPakistanPage />}></Route>
@@ -49,14 +50,14 @@ const router = createBrowserRouter(
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
       <Route element={<NewProgramsPage />}></Route>
       <Route element={<PolicyPagePage />}></Route>
-      <Route element={<AdvocacyPage />}></Route>
+      <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
       <Route element={<PastProjectsPage />}></Route>
       <Route
         path="/our-work/school-reform"
         element={<SchoolReformPage />}
       ></Route>
       <Route element={<AisaPakistanPage />}></Route>
-      <Route element={<AReviewOf2021Page />}></Route>
+      <Route path="/a-review-of-2021" element={<AReviewOf2021Page />}></Route>
       <Route element={<AReviewOf2020Page />}></Route>
       <Route element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
@@ -64,6 +65,10 @@ const router = createBrowserRouter(
       <Route
         path="/volunteer-program"
         element={<VolunteerProgramPage />}
+      ></Route>
+      <Route
+        path="/career"
+        element={<CareerPage />}
       ></Route>
     </Route>
   )
