@@ -1,5 +1,5 @@
-import React from 'react';
-import PrimaryButton from './PrimaryButton';
+import React from "react";
+import PrimaryButton from "./PrimaryButton";
 
 const UpperFooter = ({ className, upperTitle, upperText, upperBtn }) => {
   return (

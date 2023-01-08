@@ -54,7 +54,7 @@ const MakeDonation = () => {
           />
 
           <span className="text-lg ml-3 mt-2"> USD</span>
-          <button className="linear duration-300 text-white bg-orange-500 px-5 py-3 rounded text-sm ml-4 hover:bg-orange-700 mt-2">
+          <button className="linear duration-300 text-white bg-orange-500 px-5 py-3 rounded text-sm ml-5 hover:bg-orange-700 mt-2">
             DONATE
           </button>
         </div>
