@@ -69,7 +69,7 @@ const NavBar = () => {
               }
               linkName={"Advocacy"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/our-work/advocacy"}
             />
             <NavItem
               className={
