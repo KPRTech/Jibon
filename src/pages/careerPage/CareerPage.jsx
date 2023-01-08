@@ -76,36 +76,45 @@ const CareerPage = () => {
                       academic programs and initiatives
                     </li>
                     <li>
-                      Assisting with the development and implementation of
-                      academic programs and initiatives
+                      Develop and monitor the execution of school’s annual
+                      academic calendar.
+                    </li>
+                    <li>
+                      Research various learning resources including library
+                      books, curate and develop content that promotes hands on
+                      learning.
+                    </li>
+                    <li>
+                      Identify potential teaching/learning models used in the
+                      same context and pilot in school to improve quality of
+                      education.
+                    </li>
+                    <li>
+                      Design and implement context relevant interventions for
+                      integrating technology in teaching/learning.
+                    </li>
+                    <li>
+                      Design remedial intervention plans in close liaison with
+                      school teams that would improve student performance.
                     </li>
                   </ul>
-                  Develop and monitor the execution of school’s annual academic
-                  calendar. Research various learning resources including
-                  library books, curate and develop content that promotes hands
-                  on learning. Identify potential teaching/learning models used
-                  in the same context and pilot in school to improve quality of
-                  education. Design and implement context relevant interventions
-                  for integrating technology in teaching/learning. Design
-                  remedial intervention plans in close liaison with school teams
-                  that would improve student performance. Research & Analysis
-                  Analyze assessments/diagnostic tests of students with the PD
-                  team and identify emerging patterns. Identify areas for
-                  research which may include understanding the effectiveness of
-                  implemented interventions Support in the analysis of teacher
-                  improvement data with the PD team and identify prioritized
-                  areas of development Present findings and recommendations for
-                  improvement to School Management and HO. Conduct needs
-                  analysis sessions with students to understand areas of
-                  opportunity Stay abreast with government policy shifts and
-                  trends that relate to ZT-managed schools. Collaboration with
-                  external stakeholders Collaborate with external academic
-                  stakeholders to implement academic interventions Collaborate
-                  with the PD team to identify and involve external
-                  partners/trainers as needed for teacher professional
-                  development Liaison with government stakeholders to ensure
-                  alignment of implemented interventions Required Skills
-                  Proficiency in technology and MS Suite Knowledge of the
+                  Research & Analysis Analyze assessments/diagnostic tests of
+                  students with the PD team and identify emerging patterns.
+                  Identify areas for research which may include understanding
+                  the effectiveness of implemented interventions Support in the
+                  analysis of teacher improvement data with the PD team and
+                  identify prioritized areas of development Present findings and
+                  recommendations for improvement to School Management and HO.
+                  Conduct needs analysis sessions with students to understand
+                  areas of opportunity Stay abreast with government policy
+                  shifts and trends that relate to ZT-managed schools.
+                  Collaboration with external stakeholders Collaborate with
+                  external academic stakeholders to implement academic
+                  interventions Collaborate with the PD team to identify and
+                  involve external partners/trainers as needed for teacher
+                  professional development Liaison with government stakeholders
+                  to ensure alignment of implemented interventions Required
+                  Skills Proficiency in technology and MS Suite Knowledge of the
                   academic field: crucial to have a thorough understanding of
                   the field of education in the context of Pakistan. As well as
                   a familiarity with current trends and best practices in
