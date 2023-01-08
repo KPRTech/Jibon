@@ -3,7 +3,7 @@ import SchoolReformSlider from '../../components/SchoolReformSlider';
 import AchievementHeader from '../../components/AchievementHeader';
 import SchoolReformOurWork from '../../components/SchoolReformOurWork';
 import SchoolReformModel from '../../components/SchoolReformModel';
-import SchoolReformBanner from '../../components/SchoolReformBanner';
+import HeroBanner from '../../components/HeroBanner';
 import Slider from "react-slick"
 
 const SchoolReformPage = () => {
@@ -71,7 +71,7 @@ const SchoolReformPage = () => {
 
     return (
         <div>
-            <SchoolReformBanner  img="/assets/images/aboutbg3.jpg" header="School Reform" content="Zindagi Trust is a non-governmental, non-profit organization that strives to improve the quality of education." />
+            <HeroBanner title="School Reform" heroTextOne="Zindagi Trust is a non-governmental, non-profit organization that strives to improve the quality of education." />
             <SchoolReformOurWork/>
             <SchoolReformModel/>
             <div className='mb-10 lg:w-9/12 lg:m-auto lg:mb-10'>
