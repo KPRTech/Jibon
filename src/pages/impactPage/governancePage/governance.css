@@ -1,0 +1,7 @@
+.main-container{
+    background: url("../../../../public/assets/images/governance/bg.jpg");
+    width: 80%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: repeat-x;
+}

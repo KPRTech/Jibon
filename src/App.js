@@ -14,7 +14,7 @@ import OurOfficePage from "./pages/contactUsPage/OurOfficePage";
 import HomePage from "./pages/HomePage";
 import AcademicsPage from "./pages/impactPage/AcademicsPage";
 import ACRToPERPage from "./pages/impactPage/ACRToPERPage";
-import GovernancePage from "./pages/impactPage/GovernancePage";
+import GovernancePage from "./pages/impactPage/governancePage/GovernancePage";
 import InfrastructurePage from "./pages/impactPage/InfrastructurePage";
 import NewProgramsPage from "./pages/impactPage/NewProgramsPage";
 import PolicyPagePage from "./pages/impactPage/PolicyPagePage";
@@ -45,8 +45,8 @@ const router = createBrowserRouter(
       <Route element={<SMBFatimaJinnahPage />}></Route>
       <Route element={<AcademicsPage />}></Route>
       <Route element={<ACRToPERPage />}></Route>
-      <Route element={<GovernancePage />}></Route>
-      <Route element={<InfrastructurePage />}></Route>
+      <Route path="/governance" element={<GovernancePage />}></Route>
+      <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
       <Route element={<NewProgramsPage />}></Route>
       <Route element={<PolicyPagePage />}></Route>
       <Route element={<AdvocacyPage />}></Route>
@@ -56,7 +56,7 @@ const router = createBrowserRouter(
       <Route element={<AReviewOf2021Page />}></Route>
       <Route element={<AReviewOf2020Page />}></Route>
       <Route element={<AReviewOf2019Page />}></Route>
-      <Route element={<NewsAndEventsPage />}></Route>
+      <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
       <Route element={<OurCOVID19ResponsePage />}></Route>
       <Route element={<VolunteerProgramPage />}></Route>
     </Route>
