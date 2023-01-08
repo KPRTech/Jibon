@@ -80,7 +80,7 @@ const GovernancePage = () => {
             </div>
             <img
               className="w-full"
-              src="assets/images/governance/3.jpg"
+              src="/assets/images/governance/3.jpg"
               alt=""
             />
             <p className="mt-12 font-rale text-slate-700 text-base">
