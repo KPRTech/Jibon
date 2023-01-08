@@ -116,7 +116,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"governance"}
+              href={"/governance"}
               linkName={"Governance"}
               linkClass={"after:hidden"}
             />
@@ -124,7 +124,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/acrt-to-per-page"}
               linkName={"ACR to PER"}
               linkClass={"after:hidden"}
             />
