@@ -50,7 +50,7 @@ const router = createBrowserRouter(
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
       <Route element={<NewProgramsPage />}></Route>
       <Route element={<PolicyPagePage />}></Route>
-      <Route element={<AdvocacyPage />}></Route>
+      <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
       <Route element={<PastProjectsPage />}></Route>
       <Route
         path="/our-work/school-reform"
