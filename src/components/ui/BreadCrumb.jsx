@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const BreadCrumb = ({ breadCrumbText }) => {
   return (
     <div className="text-sm font-mont flex items-center mx-3 my-5 lg:mx-40 lg:my-10">
-      <Link to="/" className="text-[#ff6400] hover:underline">
+      <Link
+        to="/"
+        className="text-[#ff6400] hover:underline linear duration-300"
+      >
         Home
       </Link>
       <span className="text-[#333] mx-1">»</span>

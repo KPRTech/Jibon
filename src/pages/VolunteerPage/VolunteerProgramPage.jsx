@@ -1,7 +1,9 @@
 import React from "react";
 
 import HeroBanner from "../../components/HeroBanner";
+import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
+import VolunteerSidebar from "../../components/volunteerSidebar/VolunteerSidebar";
 const VolunteerProgramPage = () => {
   return (
     <div>
@@ -15,6 +17,26 @@ const VolunteerProgramPage = () => {
       <BreadCrumb
         breadCrumbText={"Get Involved » Volunteer Program"}
       ></BreadCrumb>
+      <div className="container mx-auto lg:px-24 px-4 pb-8 flex gap-12 justify-between">
+        <div className="w-[70%] animate-[slideYTwo_1s_ease_1]">
+          <h2 className="font-mont text-[#FF6400] text-2xl font-bold mb-7">
+            VOLUNTEER FOR ZINDAGI TRUST
+          </h2>
+          <p className="font-rale text-slate-700 mt-2 mb-8">
+            150+ career talks, 1500 workshops, 2500+ students impacted
+          </p>
+          <p className="font-rale text-slate-700 mt-2 mb-8">
+            Do you want to make a positive impact on the future of Pakistan? You
+            can help transform the lives of Pakistani children.
+          </p>
+          <p className="font-rale text-slate-700 mt-2 mb-8">
+            Join hands with Zindagi Trust. Become a Zindagi Trust volunteer
+          </p>
+
+          <PrimaryButton children={"Sign Up"} />
+        </div>
+        <VolunteerSidebar className={"w-[30%]"} />
+      </div>
     </div>
   );
 };

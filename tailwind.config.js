@@ -5,12 +5,15 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': '280px',
+        xs: "280px",
+      },
+      maxWidth: {
+        container: "1170px",
       },
       fontFamily: {
-        mont: ['Montserrat', 'sans-serif'],
-        play: ['Playfair Display', 'serif'],
-        rale: ['Raleway', 'sans-serif']
+        mont: ["Montserrat", "sans-serif"],
+        play: ["Playfair Display", "serif"],
+        rale: ["Raleway", "sans-serif"],
       },
       backgroundColor: {
         primary: "#FF6400",
@@ -35,6 +38,10 @@ module.exports = {
         },
         slideY: {
           "0%": { opacity: "0", transform: "translateY(100%)" },
+          "100%": { opacity: "1", transform: "translateY(0%)" },
+        },
+        slideYTwo: {
+          "0%": { opacity: "0", transform: "translateY(70%)" },
           "100%": { opacity: "1", transform: "translateY(0%)" },
         },
         noAnim: {
