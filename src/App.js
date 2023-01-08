@@ -45,12 +45,12 @@ const router = createBrowserRouter(
       <Route element={<AKhatoonEPakistanPage />}></Route>
       <Route element={<SMBFatimaJinnahPage />}></Route>
       <Route element={<AcademicsPage />}></Route>
-      <Route element={<ACRToPERPage />}></Route>
+      <Route path="/acrt-to-per-page" element={<ACRToPERPage />}></Route>
       <Route path="/governance" element={<GovernancePage />}></Route>
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
       <Route element={<NewProgramsPage />}></Route>
       <Route element={<PolicyPagePage />}></Route>
-      <Route element={<AdvocacyPage />}></Route>
+      <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
       <Route element={<PastProjectsPage />}></Route>
       <Route
         path="/our-work/school-reform"
