@@ -56,12 +56,12 @@ const router = createBrowserRouter(
         path="/our-work/school-reform"
         element={<SchoolReformPage />}
       ></Route>
-      <Route element={<AisaPakistanPage />}></Route>
+      <Route path="/AisaPakistan" element={<AisaPakistanPage />}></Route>
       <Route path="/a-review-of-2021" element={<AReviewOf2021Page />}></Route>
       <Route path="/a-review-of-2020" element={<AReviewOf2020Page />}></Route>
-      <Route element={<AReviewOf2019Page />}></Route>
+      <Route path="/a-review-of-2019" element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
-      <Route element={<OurCOVID19ResponsePage />}></Route>
+      <Route path="/our-covid-19-response" element={<OurCOVID19ResponsePage />}></Route>
       <Route
         path="/volunteer-program"
         element={<VolunteerProgramPage />}

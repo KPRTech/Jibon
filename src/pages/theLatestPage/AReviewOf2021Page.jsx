@@ -20,7 +20,7 @@ const AReviewOf2021Page = () => {
                     </div>
                 </div>
             </div>
-            <div className='max-w-[600px] mx-auto mt-10 mb-20'>
+            <div className='max-w-[380px] lg:max-w-[600px] mx-auto mt-10 mb-20'>
                 <div>
                     <img src="assets/images/review2021/review2021_1.png" alt="" />
                     <div className='font-sans text-[16px] text-left text-[#202020] leading-[150%] my-3'>
