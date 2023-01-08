@@ -3,9 +3,9 @@ import React from 'react';
 
 const AcademicsResult = () => {
     return (
-        <div className='lg:mx-24 mx-6'>
+        <div className=''>
             <hr />
-            <div className='pb-12'>
+            <div className='pb-12 lg:mx-24 mx-6'>
                 <div className='mx-auto text-center py-12'>
                     <h2 className='text-2xl font-bold text-[#FF6400]'>
                         IMPACT ON ACADEMICS - SSC BOARD EXAM RESULTS</h2>

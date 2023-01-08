@@ -1,8 +1,8 @@
 import React from 'react';
 import AchievementHeader from '../../components/AchievementHeader';
-import BeforeAfterSlider from '../../components/BeforeAfterSlider';
+import KhtoonBeforeAfterSlider from '../../components/KhtoonBeforeAfterSlider';
 import MakeDonation from '../../components/MakeDonation/MakeDonation';
-import ShowBanner from '../../components/ShowBanner';
+import OurSchoolBanner from '../../components/OurSchoolBanner';
 import AcademicsResult from '../../components/ui/AcademicsResult';
 import ContactDetails from '../../components/ui/ContactDetails';
 
@@ -10,11 +10,11 @@ import ContactDetails from '../../components/ui/ContactDetails';
 const AKhatoonEPakistanPage = () => {
     return (
         <div className=''>
-      <ShowBanner></ShowBanner>
+     <OurSchoolBanner></OurSchoolBanner>
       <AchievementHeader className="text-[#FF6400]" achiveHeader="BEFORE AND AFTER GALLERY" achiveDescription="Hold and slide right to see the school transform from before to after our intervention" />
+      <KhtoonBeforeAfterSlider></KhtoonBeforeAfterSlider>
       <AcademicsResult></AcademicsResult>
       <ContactDetails></ContactDetails>
-      
   <MakeDonation></MakeDonation>
         </div>
     );
