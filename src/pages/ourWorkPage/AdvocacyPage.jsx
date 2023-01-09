@@ -4,6 +4,7 @@ import HistoryVision from '../../components/HistoryVision';
 import CurrentGoals from '../../components/CurrentGoals';
 import MediaGallery from '../../components/MediaGallery';
 import InTheNews from '../../components/InTheNews';
+import PolicyAchievements from '../../components/PolicyAchievements';
 
 const AdvocacyPage = () => {
     return (
@@ -12,6 +13,7 @@ const AdvocacyPage = () => {
             <div className='border-b-2 mb-10 overflow-hidden'>
                 <HistoryVision />
             </div>
+            <PolicyAchievements/>
             <CurrentGoals/>
             <MediaGallery/>
             <div className='overflow-hidden'>
