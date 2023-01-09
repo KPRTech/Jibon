@@ -77,7 +77,7 @@ const NavBar = () => {
               }
               linkName={"Past Projects"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/our-work/past-projects"}
             />
           </Dropdown>
         </NavItem>
