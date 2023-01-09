@@ -4,17 +4,19 @@ import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
 import VolunteerSidebar from "../../components/volunteerSidebar/VolunteerSidebar";
 
-const ContactOfficePage = () => {
+
+const OurChaptersPage = () => {
   return (
     <div>
       {" "}
       <HeroBanner
-        title={"Contact Us"}
+        title={"Our Chapters"}
         heroTextOne={
           "Zindagi Trust is a non-governmental, non-profit organization that strives to improve the quality of education."
         }
       ></HeroBanner>
-      <BreadCrumb breadCrumbText={"Contact Us"}></BreadCrumb>
+      <BreadCrumb breadCrumbText={"Our Chapters"}></BreadCrumb>
+
       {/* main contents */}
       <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-20 gap-y-20 justify-between ">
         <div className="lg:w-[70%] animate-[slideYTwo_1s_ease_1]">
@@ -68,4 +70,4 @@ const ContactOfficePage = () => {
   );
 };
 
-export default ContactOfficePage;
+export default OurChaptersPage;
