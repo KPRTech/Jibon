@@ -52,7 +52,7 @@ const router = createBrowserRouter(
       <Route path="/acrt-to-per-page" element={<ACRToPERPage />}></Route>
       <Route path="/governance" element={<GovernancePage />}></Route>
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
-      <Route element={<NewProgramsPage />}></Route>
+      <Route path="/impact/new-program" element={<NewProgramsPage />}></Route>
       <Route element={<PolicyPagePage />}></Route>
       <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
       <Route path="/our-work/past-projects" element={<PastProjectsPage />}></Route>

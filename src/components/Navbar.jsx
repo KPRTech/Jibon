@@ -131,7 +131,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/impact/new-program"}
               linkName={"New Programs"}
               linkClass={"after:hidden"}
             />
