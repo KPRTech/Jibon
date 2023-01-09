@@ -41,7 +41,7 @@ const NavBar = () => {
               }
               linkName={"Leadrship & Board"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/about-us/leadership"}
             />
             <NavItem
               className={
@@ -77,7 +77,7 @@ const NavBar = () => {
               }
               linkName={"Past Projects"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/our-work/past-projects"}
             />
           </Dropdown>
         </NavItem>
@@ -87,17 +87,17 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
+              href={"/akhatoonpakistan"}
               linkName={"Khatoon-e-Pakistan"}
               linkClass={"after:hidden"}
-              href={"#"}
             />
             <NavItem
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
+              href={"/fatimajinnah"}
               linkName={"SMB Fatima Jinnah"}
               linkClass={"after:hidden"}
-              href={"#"}
             />
           </Dropdown>
         </NavItem>
@@ -131,7 +131,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/impact/new-program"}
               linkName={"New Programs"}
               linkClass={"after:hidden"}
             />
@@ -139,7 +139,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/impact/academics"}
               linkName={"Academics"}
               linkClass={"after:hidden"}
             />
@@ -147,7 +147,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/impact/policy"}
               linkName={"Policy"}
               linkClass={"after:hidden"}
             />
@@ -225,7 +225,7 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/contact/our-office"}
               linkName={"Our Office"}
               linkClass={"after:hidden"}
             />
@@ -233,15 +233,23 @@ const NavBar = () => {
               className={
                 "font-mont font-normal px-4 py-1 group-hover:py-3.5 hover:bg-[#26282d] hover:text-[#ff6400]"
               }
-              href={"#"}
+              href={"/contact/our-chapters"}
               linkName={"Our Chapters"}
               linkClass={"after:hidden"}
             />
           </Dropdown>
         </NavItem>
         <div className="flex items-center gap-1 text-[11px] font-normal">
-          <Link to='/donate'><button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">Donate</button></Link>
-          <Link to='/fundraise'><button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">Fundraise</button></Link>
+          <Link to="/donate">
+            <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
+              Donate
+            </button>
+          </Link>
+          <Link to="/fundraise">
+            <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
+              Fundraise
+            </button>
+          </Link>
         </div>
       </ul>
     </div>
@@ -254,7 +262,7 @@ const NavBar = () => {
           : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0 shadow-lg lg:shadow-none "
       }
     >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="lg:container mx-auto flex items-center justify-between">
         {offset <= 100 ? (
           <Link to="/">
             <img
