@@ -240,8 +240,16 @@ const NavBar = () => {
           </Dropdown>
         </NavItem>
         <div className="flex items-center gap-1 text-[11px] font-normal">
-          <Link to='/donate'><button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">Donate</button></Link>
-          <Link to='/fundraise'><button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">Fundraise</button></Link>
+          <Link to="/donate">
+            <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
+              Donate
+            </button>
+          </Link>
+          <Link to="/fundraise">
+            <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
+              Fundraise
+            </button>
+          </Link>
         </div>
       </ul>
     </div>
@@ -254,7 +262,7 @@ const NavBar = () => {
           : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0 shadow-lg lg:shadow-none "
       }
     >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="lg:container mx-auto flex items-center justify-between">
         {offset <= 100 ? (
           <Link to="/">
             <img
