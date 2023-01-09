@@ -10,6 +10,7 @@ import FinancialPage from "./pages/aboutUsPage/FinancialPage";
 import LeadershipPage from "./pages/aboutUsPage/LeadershipPage";
 import OurStoryPage from "./pages/aboutUsPage/OurStoryPage";
 import CareerPage from "./pages/careerPage/CareerPage";
+import ContactOfficePage from "./pages/contactOfficePage/ContactOfficePage";
 import OurChaptersPage from "./pages/contactUsPage/OurChaptersPage";
 import OurOfficePage from "./pages/contactUsPage/OurOfficePage";
 import HomePage from "./pages/HomePage";
@@ -69,6 +70,10 @@ const router = createBrowserRouter(
       <Route
         path="/career"
         element={<CareerPage />}
+      ></Route>
+      <Route
+        path="/contact/our-office"
+        element={<ContactOfficePage />}
       ></Route>
     </Route>
   )
