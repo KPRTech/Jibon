@@ -3,6 +3,7 @@ import HeroBanner from '../../components/HeroBanner';
 import PrimarySlider from '../../components/PrimarySlider';
 import AchievementHeader from '../../components/AchievementHeader';
 import ProjectsOverview from '../../components/ProjectsOverview';
+import LessonsLearned from '../../components/LessonsLearned';
 import Slider from "react-slick"
 
 const PastProjectsPage = () => {
@@ -77,6 +78,7 @@ const PastProjectsPage = () => {
                     </Slider>
                 </div> 
             </div>
+            <LessonsLearned/>
         </div>
     );
 }
