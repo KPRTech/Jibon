@@ -14,7 +14,9 @@ const ContactDetails = () => {
 <h3 className='leading-8 text-gray-700 text-[17px] tracking-normal'><span className='font-bold'>Phone:</span> 021-34911119</h3>
 <h3 className='leading-7 py-4 text-gray-700 text-[17px] tracking-normal'>For queries, suggestions or contributions feel free to contact us at info@zindagitrust.org</h3>
 <h3 className='leading-7 font-bold text-gray-700 text-[17px] tracking-normal'>GOOGLE MAP/DIRECTIONS:</h3>
-<img src="assets/images/khatoone pakistan/pbanner1.jpg" alt="" />
+<div className='mt-4 sm:mr-4'>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7238.51821313431!2d67.072871!3d24.889142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31c6fa448211baee!2sKhatoon-e-Pakistan%20Government%20Girls%20School%20(Adopted%20by%20Zindagi%20Trust)!5e0!3m2!1sen!2sus!4v1673256521472!5m2!1sen!2sus" width="600" height="280"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
             </div>
             <div className='lg:ml-40'>
             <h2 className='text-2xl mt-4 leading-8 font-bold'>

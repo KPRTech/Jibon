@@ -121,7 +121,7 @@ const KhatoonBeforeAfterSlider = () => {
         backgroundImage: "url('assets/images/beforeAfter slider/sliderIcon.png')",
       };
     return (
-       <div className='lg:mx-24 mx-4 py-12'>
+       <div className='mx-auto  w-[60%]  py-12'>
         <div className='grid grid-rows-1 gap-10 lg:grid-cols-2 grid-cols-1'>
         <div className="">
         <ReactBeforeSliderComponent
