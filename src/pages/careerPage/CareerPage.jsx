@@ -1,6 +1,5 @@
 import React, { useState, Fraction } from "react";
 import HeroBanner from "../../components/HeroBanner";
-import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
 import VolunteerSidebar from "../../components/volunteerSidebar/VolunteerSidebar";
 import { BsPlusLg } from "react-icons/bs";
