@@ -6,9 +6,7 @@ import MediaGallery from '../../components/MediaGallery';
 import InTheNews from '../../components/InTheNews';
 import PolicyAchievements from '../../components/PolicyAchievements';
 
-const AdvocacyPage = () => {
-
-    const policy_achievement = [
+export const policy_achievement = [
         {
             id: 1,
             img: 'https://www.zindagitrust.org/img/advocacy/lsbe.jpg',
@@ -37,6 +35,8 @@ const AdvocacyPage = () => {
             content1: 'After taking over the school, we put an end to the school grounds being used by private parties for events like weddings which were disruptive to the school environment, and successfully pushed the government to implement the same in schools across the city.',
         },
     ]
+
+const AdvocacyPage = () => {
 
     return (
         <div>
