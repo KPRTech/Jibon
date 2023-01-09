@@ -11,11 +11,11 @@ const PolicyAchievements = ({ policy_achievement, title, content }) => {
 
   return (
     <div>
-        <div className='px-4 lg:px-[45px] pt-[30px] text-center lg:w-[50%] m-auto'>
+        <div className='px-4 lg:px-[45px] pt-[30px] text-center lg:w-[80%] m-auto'>
             <h2 className='text-[#FF6400] font-bold text-2xl'>{title}</h2>
-            <p className='mb-10'>{content}</p>
+            <p className='mb-10 font-rale text-slate-700 text-base mt-2'>{content}</p>
 
-            <div className='flex justify-evenly mb-10'>
+            <div className='flex justify-evenly mb-10 gap-10'>
                 <img className='cursor-pointer' onMouseEnter={() => setHover1(true)} onMouseLeave={() => setHover1(false)} onClick={() => setToggle(1)} src={hover1 || toggle === 1 ? "/assets/images/policy1-hover.jpg" : "/assets/images/policy1.jpg"} alt="" />
                 <img className='cursor-pointer' onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)} onClick={() => setToggle(2)} src={hover2 || toggle === 2 ? "/assets/images/policy2-hover.jpg" : "/assets/images/policy2.jpg"} alt="" />
                 <img className='cursor-pointer' onMouseEnter={() => setHover3(true)} onMouseLeave={() => setHover3(false)} onClick={() => setToggle(3)} src={hover3 || toggle === 3 ? "/assets/images/policy3-hover.jpg" : "/assets/images/policy3.jpg"} alt="" />
