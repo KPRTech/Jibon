@@ -5,7 +5,7 @@ const HeroBanner = ({ title, heroTextOne, heroTextTwo }) => {
         <div>
             <div className='mt-20 lg:mt-0 h-[280px] lg:h-[360px] relative'
                 style={{
-                    background: 'url("assets/images/aboutbg3.jpg") top center no-repeat',
+                    background: 'url("/assets/images/aboutbg3.jpg") top center no-repeat',
                     backgroundAttachment: 'fixed',
                 }}
             >
