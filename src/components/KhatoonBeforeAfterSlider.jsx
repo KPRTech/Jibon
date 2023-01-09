@@ -117,7 +117,7 @@ const KhatoonBeforeAfterSlider = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         borderRadius: "none",
-        backgroundColor: "#fff",
+        backgroundColor: "#FF6400",
         backgroundImage: "url('assets/images/beforeAfter slider/sliderIcon.png')",
       };
     return (
