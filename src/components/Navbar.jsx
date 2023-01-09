@@ -41,7 +41,7 @@ const NavBar = () => {
               }
               linkName={"Leadrship & Board"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/about-us/leadership"}
             />
             <NavItem
               className={
