@@ -1,6 +1,4 @@
 import React from 'react';
-import img1 from '../assets/images/footer-img1.png';
-import img2 from '../assets/images/footer-img2.png';
 import PrimaryButton from './PrimaryButton';
 import { FaFacebookF, FaInstagramSquare, FaTwitter, FaHospitalAlt} from "react-icons/fa";
 
@@ -56,8 +54,8 @@ const Footer = () => {
                         <h1 className="text-base font-bold text-neutral-400">CERTIFIED BY</h1>
                         <div className="border-t-4 border-[#FF6400] w-8 my-4"></div>
                         <div className="flex justify-between">
-                         <img className='w-28 h-28' src={img1} alt="footer-img1" />
-                         <img className='w-28 h-28' src={img2} alt="footer-img2" />
+                         <img className='w-28 h-28' src='assets/images/impact/footer-img1.png' alt="footer-img1" />
+                         <img className='w-28 h-28' src='assets/images/impact/footer-img2.png' alt="footer-img2" />
                         </div>
                     </div>
                 </div>
