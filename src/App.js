@@ -48,7 +48,7 @@ const router = createBrowserRouter(
         element={<AKhatoonEPakistanPage />}
       ></Route>
       <Route path="/fatimajinnah" element={<SMBFatimaJinnahPage />}></Route>
-      <Route element={<AcademicsPage />}></Route>
+      <Route path="/impact/academics" element={<AcademicsPage />}></Route>
       <Route path="/acrt-to-per-page" element={<ACRToPERPage />}></Route>
       <Route path="/governance" element={<GovernancePage />}></Route>
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
