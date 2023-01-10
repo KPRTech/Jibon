@@ -2,7 +2,7 @@ import React from "react";
 import ReactBeforeSliderComponent from "react-before-after-slider-component";
 import "react-before-after-slider-component/dist/build.css";
 
-const BeforeAfterSlider = ({ imgUrl1, imgUrl2 }) => {
+const BeforeAfterSlider = ({ imgUrl1, imgUrl2, classBeforeAfter }) => {
   const FIRST_IMAGE = {
     imageUrl: imgUrl1,
   };
@@ -23,7 +23,9 @@ const BeforeAfterSlider = ({ imgUrl1, imgUrl2 }) => {
 
   return (
     <div className="relative">
-      <div className="lg:w-[55%] md:w-[60%] m-auto lg:p-4 md:p-3 p-2">
+      <div
+        className={`lg:w-[55%] md:w-[60%] m-auto lg:p-4 md:p-3 p-2 ${classBeforeAfter}`}
+      >
         <ReactBeforeSliderComponent
           firstImage={FIRST_IMAGE}
           secondImage={SECOND_IMAGE}
