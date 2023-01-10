@@ -24,6 +24,7 @@ module.exports = {
       backgroundColor: {
         primary: "#FF6400",
         hoverPrimary: "#b74900",
+        secondary: "#333333",
       },
       keyframes: {
         popUpY: {
