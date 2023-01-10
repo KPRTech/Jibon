@@ -10,9 +10,9 @@ import FinancialPage from "./pages/aboutUsPage/FinancialPage";
 import LeadershipPage from "./pages/aboutUsPage/LeadershipPage";
 import OurStoryPage from "./pages/aboutUsPage/OurStoryPage";
 import CareerPage from "./pages/careerPage/CareerPage";
-import ContactOfficePage from "./pages/contactOfficePage/ContactOfficePage";
+import ContactOfficePage from "./pages/contactUsPage/ContactOfficePage";
 import OurChaptersPage from "./pages/contactUsPage/OurChaptersPage";
-import OurOfficePage from "./pages/contactUsPage/OurOfficePage";
+import DonatePage from "./pages/donatePage/DonatePage";
 import HomePage from "./pages/HomePage";
 import AcademicsPage from "./pages/impactPage/AcademicsPage";
 import ACRToPERPage from "./pages/impactPage/ACRToPERPage";
@@ -20,6 +20,7 @@ import GovernancePage from "./pages/impactPage/governancePage/GovernancePage";
 import InfrastructurePage from "./pages/impactPage/InfrastructurePage";
 import NewProgramsPage from "./pages/impactPage/NewProgramsPage";
 import PolicyPagePage from "./pages/impactPage/PolicyPagePage";
+import MembershipPage from "./pages/membershipPage/MembershipPage";
 import AKhatoonEPakistanPage from "./pages/ourSchoolsPage/AKhatoonEPakistanPage";
 import SMBFatimaJinnahPage from "./pages/ourSchoolsPage/SMBFatimaJinnahPage";
 import AdvocacyPage from "./pages/ourWorkPage/AdvocacyPage";
@@ -41,8 +42,6 @@ const router = createBrowserRouter(
       <Route path="/about-us/financials" element={<FinancialPage />}></Route>
       <Route path="/about-us/leadership" element={<LeadershipPage />}></Route>
       <Route path="/about-us/ourstory" element={<OurStoryPage />}></Route>
-      <Route element={<OurChaptersPage />}></Route>
-      <Route element={<OurOfficePage />}></Route>
       <Route
         path="/akhatoonpakistan"
         element={<AKhatoonEPakistanPage />}
@@ -55,7 +54,10 @@ const router = createBrowserRouter(
       <Route path="/impact/new-program" element={<NewProgramsPage />}></Route>
       <Route path="/impact/policy" element={<PolicyPagePage />}></Route>
       <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
-      <Route path="/our-work/past-projects" element={<PastProjectsPage />}></Route>
+      <Route
+        path="/our-work/past-projects"
+        element={<PastProjectsPage />}
+      ></Route>
       <Route
         path="/our-work/school-reform"
         element={<SchoolReformPage />}
@@ -73,9 +75,11 @@ const router = createBrowserRouter(
         path="/volunteer-program"
         element={<VolunteerProgramPage />}
       ></Route>
+      <Route path="/membership" element={<MembershipPage />}></Route>
       <Route path="/career" element={<CareerPage />}></Route>
       <Route path="/contact/our-office" element={<ContactOfficePage />}></Route>
       <Route path="/contact/our-chapters" element={<OurChaptersPage />}></Route>
+      <Route path="/donate" element={<DonatePage />}></Route>
     </Route>
   )
 );

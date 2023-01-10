@@ -1,5 +1,4 @@
 import React from "react";
-import PrimaryButton from "../PrimaryButton";
 import "./MakeDonation.css";
 
 const MakeDonation = () => {

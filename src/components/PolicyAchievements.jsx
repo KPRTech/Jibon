@@ -3,11 +3,23 @@ import PolicyAchievementsTab from './PolicyAchievementsTab'
 
 const PolicyAchievements = ({ policy_achievement, title, content }) => {
 
-    const[hover1, setHover1] = useState(false)
-    const[hover2, setHover2] = useState(false)
-    const[hover3, setHover3] = useState(false)
-    const[hover4, setHover4] = useState(false)
+    const[hover, setHover] = useState(-1)
     const[toggle, setToggle] = useState(1)
+
+    const policy_img = [
+        { id: 1, img: 'policy1'},
+        { id: 2, img: 'policy2'},
+        { id: 3, img: 'policy3'},
+        { id: 4, img: 'policy4'},
+    ]
+
+    const handleHoverEnter = (id) => {
+        setHover(id)
+    }
+
+    const handleHoverLeave = () => {
+        setHover(-1)
+    }
 
   return (
     <div>
@@ -16,10 +28,11 @@ const PolicyAchievements = ({ policy_achievement, title, content }) => {
             <p className='mb-10 font-rale text-slate-700 text-base mt-2'>{content}</p>
 
             <div className='flex justify-evenly mb-10 gap-10'>
-                <img className='cursor-pointer' onMouseEnter={() => setHover1(true)} onMouseLeave={() => setHover1(false)} onClick={() => setToggle(1)} src={hover1 || toggle === 1 ? "/assets/images/policy1-hover.jpg" : "/assets/images/policy1.jpg"} alt="" />
-                <img className='cursor-pointer' onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)} onClick={() => setToggle(2)} src={hover2 || toggle === 2 ? "/assets/images/policy2-hover.jpg" : "/assets/images/policy2.jpg"} alt="" />
-                <img className='cursor-pointer' onMouseEnter={() => setHover3(true)} onMouseLeave={() => setHover3(false)} onClick={() => setToggle(3)} src={hover3 || toggle === 3 ? "/assets/images/policy3-hover.jpg" : "/assets/images/policy3.jpg"} alt="" />
-                <img className='cursor-pointer' onMouseEnter={() => setHover4(true)} onMouseLeave={() => setHover4(false)} onClick={() => setToggle(4)} src={hover4 || toggle === 4 ? "/assets/images/policy4-hover.jpg" : "/assets/images/policy4.jpg"} alt="" />
+                {policy_img.map(img => {
+                    return (
+                        <img className='cursor-pointer' onMouseEnter={() => handleHoverEnter(img.id)} onMouseLeave={() => handleHoverLeave()} onClick={() => setToggle(img.id)} src={hover === img.id || toggle === img.id ? `/assets/images/${img.img}-hover.jpg` : `/assets/images/${img.img}.jpg`} alt="" />
+                    )
+                })}
             </div>
         </div>
 

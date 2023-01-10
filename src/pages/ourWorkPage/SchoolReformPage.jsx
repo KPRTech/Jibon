@@ -79,7 +79,7 @@ const SchoolReformPage = () => {
             <PilotProjects/>
             <BeforeAfterSchoolReform/>
             <div className='mb-10 lg:w-9/12 lg:m-auto lg:mb-10'>
-              <AchievementHeader  achiveHeader="HOW HAS ZINDAGI TRUST REFORMED GOVERNMENT SCHOOLS?" achiveDescription="Both pilot projects are examples of how government schools can be transformed into centres of excellent learning and play a transformative role in children’s lives." />
+              <AchievementHeader achiveHeader="HOW HAS ZINDAGI TRUST REFORMED GOVERNMENT SCHOOLS?" achiveDescription="Both pilot projects are examples of how government schools can be transformed into centres of excellent learning and play a transformative role in children’s lives." />
               
               <div className='p-5 mt-20 container m-auto'>
                   <Slider {...settings}>

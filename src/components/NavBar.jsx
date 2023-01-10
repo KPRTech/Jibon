@@ -217,7 +217,11 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem linkName={"Membership"} className={""} href={"#"} />
+        <NavItem
+          linkName={"Membership"}
+          className={""}
+          href={"/membership"}
+        />
         <NavItem href={"career"} linkName={"Careers"} className={""} />
         <NavItem href={"#"} linkName={"Contact Us"} className={""}>
           <Dropdown>
@@ -245,7 +249,7 @@ const NavBar = () => {
               Donate
             </button>
           </Link>
-          <Link to="/fundraise">
+          <Link to="#">
             <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
               Fundraise
             </button>
@@ -258,7 +262,7 @@ const NavBar = () => {
     <Navbar
       className={
         offset <= 100
-          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5 shadow-lg lg:shadow-none "
+          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-secondary lg:text-white pb-5 lg:py-5 shadow-lg lg:shadow-none "
           : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0 shadow-lg lg:shadow-none "
       }
     >

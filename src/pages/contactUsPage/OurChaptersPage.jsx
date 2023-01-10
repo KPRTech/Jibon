@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../../components/contactForm/ContactForm";
 import HeroBanner from "../../components/HeroBanner";
 import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
@@ -18,22 +19,22 @@ const OurChaptersPage = () => {
       {/* main contents */}
       <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-20 gap-y-20 justify-between ">
         <div className="lg:w-[70%] animate-[slideYTwo_1s_ease_1]">
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             {" "}
             For queries, suggestions or contributions feel free to contact us at
             info@zindagitrust.org
           </p>
-          <h2 className="font-mont text-2xl text-primary font-bold pb-4 mb-4 border-b-2">
+          <h2 className="font-mont text-2xl text-primary font-bold pb-3 mb-6 mt-5 border-b-2">
             ZINDAGI TRUST USA
           </h2>
 
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             {" "}
             Zindagi Trust Inc. is a non-profit 501 (c)3 registered organization
             within the United States of America. Your donations qualify as a tax
             deduction. Tax ID: 20-1287010.
           </p>
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             <span className="mb-1 mt-2 inline-block font-semibold mr-2">
               Office Address:
             </span>
@@ -77,7 +78,7 @@ const OurChaptersPage = () => {
             <br />
           </p>
         </div>
-        <VolunteerSidebar className={"lg:w-[30%]"} />
+        <ContactForm className={"lg:w-[30%]"} />
       </div>
     </div>
   );
