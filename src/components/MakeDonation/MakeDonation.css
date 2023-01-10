@@ -1,7 +1,8 @@
 .banner {
   background-image: url(../../../public/assets/images/homedonationbgrevise.jpg);
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .font-style {
