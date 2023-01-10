@@ -48,7 +48,31 @@ const ContactForm = ({ className }) => {
           placeholder={"Enter your message"}
         />
 
-        <reCAPTCHA />
+        <div className="border my-2 border-gray-400 w-80 h-20 bg-[#F9F9F9] rounded">
+          <div className="flex items-center justify-center p-2  justify-between">
+            <div className="flex">
+              <input className="w-6 mr-2" type="checkbox" name="" id="" />
+              <h3>I'm not a robot</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <img
+                className="w-8 text-center"
+                src="/assets/images/khatoone pakistan/recaptcha.png"
+                alt=""
+              />
+              <h3 className="text-[10px]">reCAPTCHA</h3>
+              <div className="flex text-center text-[10px]">
+                <a href="">
+                  <p>Privacy</p>
+                </a>
+                <span>-</span>
+                <a href="">
+                  <p>Terms</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <PrimaryButton children={"Send"} />
       </form>
     </div>

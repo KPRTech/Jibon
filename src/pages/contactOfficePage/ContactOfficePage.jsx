@@ -56,7 +56,7 @@ const ContactOfficePage = () => {
                 marginheight="0"
                 marginwidth="0"
                 id="gmap_canvas"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d231641.4894936536!2d67.075944!3d24.884393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aba575efc771898!2sZindagi+Trust!5e0!3m2!1sen!2sus!4v1556114003583!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.259101173472!2d67.07068191500339!3d24.88914218404042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ec2e04edccd%3A0x31c6fa448211baee!2sKhatoon-e-Pakistan%20Fatima%20Jinnah%20Government%20Girls%20School!5e0!3m2!1sen!2s!4v1594903347711!5m2!1sen!2s"
               ></iframe>
 
               {/* https://maps-generator.com/ */}
