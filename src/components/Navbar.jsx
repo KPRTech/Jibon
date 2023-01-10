@@ -245,7 +245,7 @@ const NavBar = () => {
               Donate
             </button>
           </Link>
-          <Link to="/fundraise">
+          <Link to="#">
             <button className="uppercase text-white bg-[#FF6400] text-xs font-mont py-[10px] px-[17px] rounded hover:bg-orange-700 duration-300 flex items-center">
               Fundraise
             </button>
