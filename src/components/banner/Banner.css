@@ -15,6 +15,28 @@
     animation: slideY ease 1s !important;
 }
 
+.swiper-slide-visible h2 {
+    animation: fadeIn ease 1.5s !important;
+}
+
+.swiper-slide-visible h3 {
+    animation: fadeIn ease 1.5s !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes slideY {
     0% {
         opacity: 0;

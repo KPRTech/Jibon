@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#1A1A1A]">
-        <div className="container mx-auto lg:py-8 lg:px-24 py-4 gap-4 px-4 grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+        <div className="lg:container mx-auto lg:py-8 lg:px-24 py-4 gap-4 px-5 grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
           <div>
             <h1 className="text-base font-bold text-neutral-400">
               STAY CONNECTED
@@ -138,11 +138,18 @@ const Footer = () => {
             <h1 className="text-base font-bold text-neutral-400">
               CERTIFIED BY
             </h1>
-            <div className="border-t-4 border-[#FF6400] w-8 my-4"></div>
-            <div className="flex justify-between">
-      <img className='w-28 h-28' src='assets/images/impact/footer-img1.png' alt="footer-img1" />
-                         <img className='w-28 h-28' src='assets/images/impact/footer-img2.png' alt="footer-img2" />
-
+            <div className="border-t-4 border-[#FF6400] w-8 my-4 mb-6"></div>
+            <div className="flex gap-x-7 lg:justify-between">
+              <img
+                className="w-24"
+                src="/assets/images/impact/footer-img1.png"
+                alt="footer-img1"
+              />
+              <img
+                className="w-24"
+                src="/assets/images/impact/footer-img2.png"
+                alt="footer-img2"
+              />
             </div>
           </div>
         </div>

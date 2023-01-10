@@ -10,6 +10,7 @@ import FinancialPage from "./pages/aboutUsPage/FinancialPage";
 import LeadershipPage from "./pages/aboutUsPage/LeadershipPage";
 import OurStoryPage from "./pages/aboutUsPage/OurStoryPage";
 import CareerPage from "./pages/careerPage/CareerPage";
+import ContactOfficePage from "./pages/contactOfficePage/ContactOfficePage";
 import OurChaptersPage from "./pages/contactUsPage/OurChaptersPage";
 import OurOfficePage from "./pages/contactUsPage/OurOfficePage";
 import HomePage from "./pages/HomePage";
@@ -42,16 +43,19 @@ const router = createBrowserRouter(
       <Route path="/about-us/ourstory" element={<OurStoryPage />}></Route>
       <Route element={<OurChaptersPage />}></Route>
       <Route element={<OurOfficePage />}></Route>
-      <Route path="/akhatoonpakistan" element={<AKhatoonEPakistanPage />}></Route>
+      <Route
+        path="/akhatoonpakistan"
+        element={<AKhatoonEPakistanPage />}
+      ></Route>
       <Route path="/fatimajinnah" element={<SMBFatimaJinnahPage />}></Route>
-      <Route element={<AcademicsPage />}></Route>
+      <Route path="/impact/academics" element={<AcademicsPage />}></Route>
       <Route path="/acrt-to-per-page" element={<ACRToPERPage />}></Route>
       <Route path="/governance" element={<GovernancePage />}></Route>
       <Route path="/infrastructure" element={<InfrastructurePage />}></Route>
-      <Route element={<NewProgramsPage />}></Route>
-      <Route element={<PolicyPagePage />}></Route>
+      <Route path="/impact/new-program" element={<NewProgramsPage />}></Route>
+      <Route path="/impact/policy" element={<PolicyPagePage />}></Route>
       <Route path="/our-work/advocacy" element={<AdvocacyPage />}></Route>
-      <Route element={<PastProjectsPage />}></Route>
+      <Route path="/our-work/past-projects" element={<PastProjectsPage />}></Route>
       <Route
         path="/our-work/school-reform"
         element={<SchoolReformPage />}
@@ -61,15 +65,17 @@ const router = createBrowserRouter(
       <Route path="/a-review-of-2020" element={<AReviewOf2020Page />}></Route>
       <Route path="/a-review-of-2019" element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
-      <Route path="/our-covid-19-response" element={<OurCOVID19ResponsePage />}></Route>
+      <Route
+        path="/our-covid-19-response"
+        element={<OurCOVID19ResponsePage />}
+      ></Route>
       <Route
         path="/volunteer-program"
         element={<VolunteerProgramPage />}
       ></Route>
-      <Route
-        path="/career"
-        element={<CareerPage />}
-      ></Route>
+      <Route path="/career" element={<CareerPage />}></Route>
+      <Route path="/contact/our-office" element={<ContactOfficePage />}></Route>
+      <Route path="/contact/our-chapters" element={<OurChaptersPage />}></Route>
     </Route>
   )
 );
