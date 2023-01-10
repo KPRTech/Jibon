@@ -3,6 +3,7 @@ import AchievementHeader from "../../components/AchievementHeader";
 import HeroBanner from "../../components/HeroBanner";
 import BreadCrumb from "../../components/ui/BreadCrumb";
 import { FaLock } from "react-icons/fa";
+import MembershipCard from "../../components/membershipCard/MembershipCard";
 
 const MembershipPage = () => {
   return (
@@ -87,7 +88,46 @@ const MembershipPage = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-28 gap-y-20 justify-between"></div>
+      <div className="mt-10 lg:container mx-auto lg:px-12 px-6 pb-8 text-center">
+        <p className="pb-4 font-rale font-semibold text-base text-secondary text-center mt-2 mb-10 border-b-[2px] border-[#FF6400]">
+          {" "}
+          Your monthly donation will enable us to provide a well-rounded
+          education to students at our schools through:
+        </p>
+
+        <div className="w-full mt-5 flex flex-wrap gap-x-3 gap-y-6 justify-center">
+          <MembershipCard
+            title={"Daily Breakfast"}
+            desp={"(Providing Necessary Nutrients)"}
+            imgSrc={"assets/images/donate/feature1.jpeg"}
+          />
+          <MembershipCard
+            title={"Holistic Education"}
+            desp={"(Arts, Mind-sports, Physical Education)"}
+            imgSrc={"assets/images/donate/card1.png"}
+          />
+          <MembershipCard
+            title={"Academic Enrichment Programs"}
+            desp={"(Inculcating Critical Thinking)"}
+            imgSrc={"assets/images/donate/card2.png"}
+          />
+          <MembershipCard
+            title={"Access to Professional Teachers"}
+            desp={"(Ensuring Best Learning)"}
+            imgSrc={"assets/images/donate/card3.png"}
+          />
+          <MembershipCard
+            title={"Life Skills Based Education (LSBE)"}
+            desp={"(Helping students navigate their daily lives)"}
+            imgSrc={"assets/images/donate/card4.png"}
+          />
+          <MembershipCard
+            title={"Health and Counselling"}
+            desp={"(Managing emotional and physical well-being)"}
+            imgSrc={"assets/images/donate/card5.png"}
+          />
+        </div>
+      </div>
     </div>
   );
 };
