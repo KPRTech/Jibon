@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../../components/contactForm/ContactForm";
 import HeroBanner from "../../components/HeroBanner";
 import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
@@ -62,7 +63,7 @@ const ContactOfficePage = () => {
             </div>
           </div>
         </div>
-        <VolunteerSidebar className={"lg:w-[30%]"} />
+        <ContactForm className={"lg:w-[30%]"} />
       </div>
     </div>
   );

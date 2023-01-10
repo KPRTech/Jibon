@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../../components/contactForm/ContactForm";
 import HeroBanner from "../../components/HeroBanner";
 import PrimaryButton from "../../components/PrimaryButton";
 import BreadCrumb from "../../components/ui/BreadCrumb";
@@ -23,7 +24,7 @@ const OurChaptersPage = () => {
             For queries, suggestions or contributions feel free to contact us at
             info@zindagitrust.org
           </p>
-          <h2 className="font-mont text-2xl text-primary font-bold pb-4 mb-4 border-b-2">
+          <h2 className="font-mont text-2xl text-primary font-bold pb-3 mb-6 mt-5 border-b-2">
             ZINDAGI TRUST USA
           </h2>
 
@@ -77,7 +78,7 @@ const OurChaptersPage = () => {
             <br />
           </p>
         </div>
-        <VolunteerSidebar className={"lg:w-[30%]"} />
+        <ContactForm className={"lg:w-[30%]"} />
       </div>
     </div>
   );
