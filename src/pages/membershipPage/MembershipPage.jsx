@@ -17,7 +17,7 @@ const MembershipPage = () => {
       ></HeroBanner>
       <BreadCrumb breadCrumbText={"Membership"}></BreadCrumb>
       {/* main contents */}
-      <div className="flex flex-col lg:flex-row gap-x-28 gap-y-20 justify-between">
+      <div className="flex flex-col lg:flex-row gap-x-28 gap-y-20 justify-between animate-[slideYTwo_1s_ease_1]">
         <div
           className="pt-5 pb-20 w-full bg-cover no-repeat !text-white"
           style={{
