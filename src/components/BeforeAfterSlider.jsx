@@ -23,7 +23,7 @@ const BeforeAfterSlider = ({ imgUrl1, imgUrl2 }) => {
 
   return (
     <div className="relative overflow-hidden my-3">
-      <div className="lg:w-[70%] md:w-[55%] m-auto lg:p-4 md:p-3 p-2">
+      <div className="lg:w-[70%] m-auto lg:p-4 md:p-3 p-2">
         <ReactBeforeSliderComponent
           firstImage={FIRST_IMAGE}
           secondImage={SECOND_IMAGE}
