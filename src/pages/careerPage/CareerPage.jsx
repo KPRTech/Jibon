@@ -10,7 +10,7 @@ const CareerPage = () => {
     {
       title: "Academic Officer",
       details: () => (
-        <div className="p-4 border-[1px] text-slate-700 leading-7 animate-[popDownTwo_.4s_ease_1]">
+        <div className="p-4 border-[1px] text-secondary leading-7 animate-[popDownTwo_.4s_ease_1]">
           <p>
             <span className="text-xl mb-1 text-primary mt-5 font-semibold flex justify-start gap-x-2 items-center">
               {" "}
@@ -210,7 +210,7 @@ const CareerPage = () => {
     {
       title: "LSBE Lead",
       details: () => (
-        <div className="p-4 border-[1px] text-slate-700 leading-7 animate-[popDownTwo_.4s_ease_1]">
+        <div className="p-4 border-[1px] text-secondary leading-7 animate-[popDownTwo_.4s_ease_1]">
           <p>
             <span className="text-xl mb-1 text-primary mt-5 font-semibold flex justify-start gap-x-2 items-center">
               {" "}
@@ -410,7 +410,7 @@ const CareerPage = () => {
     {
       title: "Academic Coach ( Shangla )",
       details: () => (
-        <div className="p-4 border-[1px] text-slate-700 leading-7 animate-[popDownTwo_.4s_ease_1]">
+        <div className="p-4 border-[1px] text-secondary leading-7 animate-[popDownTwo_.4s_ease_1]">
           <p>
             <span className="text-xl mb-1 text-primary mt-5 font-semibold flex justify-start gap-x-2 items-center">
               {" "}
@@ -610,7 +610,7 @@ const CareerPage = () => {
     {
       title: "Project Resource - Marketing and Comms Officer",
       details: () => (
-        <div className="p-4 border-[1px] text-slate-700 leading-7 animate-[popDownTwo_.4s_ease_1]">
+        <div className="p-4 border-[1px] text-secondary leading-7 animate-[popDownTwo_.4s_ease_1]">
           <p>
             <span className="text-xl mb-1 text-primary mt-5 font-semibold flex justify-start gap-x-2 items-center">
               {" "}
@@ -833,7 +833,7 @@ const CareerPage = () => {
           <h2 className="font-mont text-xl text-primary font-bold pb-4 mb-4 border-b-2">
             Job Opportunities at Zindagi Trust
           </h2>
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             Click on job title to view its details.
           </p>
 

@@ -19,7 +19,7 @@ const OurChaptersPage = () => {
       {/* main contents */}
       <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-20 gap-y-20 justify-between ">
         <div className="lg:w-[70%] animate-[slideYTwo_1s_ease_1]">
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             {" "}
             For queries, suggestions or contributions feel free to contact us at
             info@zindagitrust.org
@@ -28,13 +28,13 @@ const OurChaptersPage = () => {
             ZINDAGI TRUST USA
           </h2>
 
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             {" "}
             Zindagi Trust Inc. is a non-profit 501 (c)3 registered organization
             within the United States of America. Your donations qualify as a tax
             deduction. Tax ID: 20-1287010.
           </p>
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             <span className="mb-1 mt-2 inline-block font-semibold mr-2">
               Office Address:
             </span>

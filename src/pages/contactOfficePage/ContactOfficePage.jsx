@@ -22,7 +22,7 @@ const ContactOfficePage = () => {
           <h2 className="font-mont text-2xl text-primary font-bold pb-4 mb-4 border-b-2">
             ZINDAGI TRUST HEAD OFFICE
           </h2>
-          <p className="font-rale text-slate-700 mt-2 mb-5">
+          <p className="font-rale text-secondary mt-2 mb-5">
             <span className="mb-1 mt-2 inline-block font-semibold mr-2">
               Office Address:
             </span>
