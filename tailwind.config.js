@@ -19,10 +19,12 @@ module.exports = {
       textColor: {
         primary: "#FF6400",
         hoverPrimary: "#b74900",
+        secondary: "#333333",
       },
       backgroundColor: {
         primary: "#FF6400",
         hoverPrimary: "#b74900",
+        secondary: "#333333",
       },
       keyframes: {
         popUpY: {
