@@ -10,18 +10,19 @@ const OurTeam = () => {
       <div className="lg:flex lg:px-30 lg:my-10 lg:justify-between ">
         <div>
           <div
-            className="hover:bg-[#FF6400] bg-gray-200 lg:py-6 lg:px-7  rounded border-solid 
-        border-2 border-gray-200 text-[#FF6400] w-40 mx-auto mt-5 flex justify-center 
-        py-4 px-5"
+            className={`lg:py-6 
+            lg:px-7  rounded border-solid border-2 border-gray-200 w-40 mx-auto mt-5 
+            flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-gray-200 after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#ff6400]`}
           >
             <span>
               <img
-                src="/assets/images/LeaderShip/team_over.png"
+                src="/assets/images/LeaderShip/team_over.svg"
                 className="text-red-500"
                 alt=""
               />
             </span>
           </div>
+
           <h3 className="text-center mt-5  text-[18px] font-bold leading-7">
             Our Team
           </h3>
@@ -33,9 +34,9 @@ const OurTeam = () => {
 
         <div>
           <div
-            className="bg-[#FF6400] hover:bg-gray-200 hover:text-orange-600 lg:py-6 
+            className={`bg-[#FF6400] hover:bg-gray-200 hover:text-orange-600 lg:py-6 
             lg:px-7  rounded border-solid border-2 border-gray-200 w-40 mx-auto mt-5 
-            flex justify-center py-4 px-5"
+            flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-gray-200 after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#ff6400]`}
           >
             <span>
               <img
