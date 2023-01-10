@@ -217,7 +217,11 @@ const NavBar = () => {
             />
           </Dropdown>
         </NavItem>
-        <NavItem linkName={"Membership"} className={""} href={"#"} />
+        <NavItem
+          linkName={"Membership"}
+          className={""}
+          href={"/membership"}
+        />
         <NavItem href={"career"} linkName={"Careers"} className={""} />
         <NavItem href={"#"} linkName={"Contact Us"} className={""}>
           <Dropdown>

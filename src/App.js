@@ -20,6 +20,7 @@ import GovernancePage from "./pages/impactPage/governancePage/GovernancePage";
 import InfrastructurePage from "./pages/impactPage/InfrastructurePage";
 import NewProgramsPage from "./pages/impactPage/NewProgramsPage";
 import PolicyPagePage from "./pages/impactPage/PolicyPagePage";
+import MembershipPage from "./pages/membershipPage/MembershipPage";
 import AKhatoonEPakistanPage from "./pages/ourSchoolsPage/AKhatoonEPakistanPage";
 import SMBFatimaJinnahPage from "./pages/ourSchoolsPage/SMBFatimaJinnahPage";
 import AdvocacyPage from "./pages/ourWorkPage/AdvocacyPage";
@@ -74,6 +75,7 @@ const router = createBrowserRouter(
         path="/volunteer-program"
         element={<VolunteerProgramPage />}
       ></Route>
+      <Route path="/membership" element={<MembershipPage />}></Route>
       <Route path="/career" element={<CareerPage />}></Route>
       <Route path="/contact/our-office" element={<ContactOfficePage />}></Route>
       <Route path="/contact/our-chapters" element={<OurChaptersPage />}></Route>
