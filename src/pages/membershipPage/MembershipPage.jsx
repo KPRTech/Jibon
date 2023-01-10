@@ -4,6 +4,7 @@ import HeroBanner from "../../components/HeroBanner";
 import BreadCrumb from "../../components/ui/BreadCrumb";
 import { FaLock } from "react-icons/fa";
 import MembershipCard from "../../components/membershipCard/MembershipCard";
+import DonationBenefitsCard from "../../components/donationBenefitsCard/DonationBenefitsCard";
 
 const MembershipPage = () => {
   return (
@@ -95,38 +96,78 @@ const MembershipPage = () => {
           education to students at our schools through:
         </p>
 
-        <div className="w-full mt-5 flex flex-wrap gap-x-3 gap-y-6 justify-center">
+        <div className="w-full mt-5 flex flex-col lg:flex-row flex-wrap gap-x-3 gap-y-16 lg:gap-y-6 justify-center">
           <MembershipCard
             title={"Daily Breakfast"}
             desp={"(Providing Necessary Nutrients)"}
-            imgSrc={"assets/images/donate/feature1.jpeg"}
+            imgSrc={"/assets/images/donate/feature1.jpeg"}
           />
           <MembershipCard
             title={"Holistic Education"}
             desp={"(Arts, Mind-sports, Physical Education)"}
-            imgSrc={"assets/images/donate/card1.png"}
+            imgSrc={"/assets/images/donate/card1.png"}
           />
           <MembershipCard
             title={"Academic Enrichment Programs"}
             desp={"(Inculcating Critical Thinking)"}
-            imgSrc={"assets/images/donate/card2.png"}
+            imgSrc={"/assets/images/donate/card2.png"}
           />
           <MembershipCard
             title={"Access to Professional Teachers"}
             desp={"(Ensuring Best Learning)"}
-            imgSrc={"assets/images/donate/card3.png"}
+            imgSrc={"/assets/images/donate/card3.png"}
           />
           <MembershipCard
             title={"Life Skills Based Education (LSBE)"}
             desp={"(Helping students navigate their daily lives)"}
-            imgSrc={"assets/images/donate/card4.png"}
+            imgSrc={"/assets/images/donate/card4.png"}
           />
           <MembershipCard
             title={"Health and Counselling"}
             desp={"(Managing emotional and physical well-being)"}
-            imgSrc={"assets/images/donate/card5.png"}
+            imgSrc={"/assets/images/donate/card5.png"}
           />
         </div>
+      </div>
+      <div className="mt-10 lg:container mx-auto lg:px-12 px-6 pb-8 text-center">
+        <p className="pb-4 font-rale font-semibold text-3xl text-primary text-center mt-2 mb-16 border-b-[2px] border-[#FF6400]">
+          {" "}
+          Benefits Of Monthly Donation
+        </p>
+
+        <div className="w-full mt-10 flex flex-col lg:flex-row flex-wrap gap-x-9 gap-y-6 justify-center">
+          <DonationBenefitsCard
+            title={"Budget-friendly"}
+            desp={`By giving monthly, you can select an amount that fits your budget and still have a long-term impact over the course of your membership.`}
+            iconPath={"/assets/images/donate/icon1.png"}
+          />
+          <DonationBenefitsCard
+            title={"Budget-friendly"}
+            desp={`By giving monthly, you can select an amount that fits your budget and still have a long-term impact over the course of your membership.`}
+            iconPath={"/assets/images/donate/icon2.png"}
+          />
+          <DonationBenefitsCard
+            title={"Budget-friendly"}
+            desp={`By giving monthly, you can select an amount that fits your budget and still have a long-term impact over the course of your membership.`}
+            iconPath={"/assets/images/donate/icon3.png"}
+          />
+        </div>
+      </div>
+      <div className="text-center p-10 mt-10">
+        <h2 className="font-mont text-[#FF6400] text-3xl mb-5 font-semibold">
+          Vision
+        </h2>
+        <p className="font-rale text-slate-700 text-base mt-2">
+          We want to see all government schools transform into safe, clean and
+          friendly learning spaces where the space is optimised for learning.
+        </p>
+      </div>
+      <div>
+        <img
+          className="w-full h-96 object-cover"
+          src="assets/images/infrastructure/header.jpg"
+          alt=""
+        />
       </div>
     </div>
   );
