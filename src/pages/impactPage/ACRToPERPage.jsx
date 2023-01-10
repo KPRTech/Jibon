@@ -80,7 +80,7 @@ const ACRToPERPage = () => {
         heroTextTwo=""
       />
       <div className="mt-10 mb-10 w-[75%] mx-auto">
-        <div className="flex flex-row flex-wrap gap-16 xs:max-2xl:justify-center">
+        <div className="flex flex-row gap-16 xs:max-2xl:justify-center">
           <div className="w-[558px] h-[290px] border relative">
             <img
               className="w-[545px] h-[277px] absolute top-0 bottom-0 left-0 right-0 mx-auto my-auto object-cover"

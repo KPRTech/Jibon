@@ -9,7 +9,6 @@ import SuccessStories from "./SuccessStories";
 import BeforeAfterSlider from "../components/BeforeAfterSlider";
 import MakeDonation from "../components/MakeDonation/MakeDonation";
 import NewsStories from "../components/NewsStories";
-import AchievementHeader from "../components/AchievementHeader";
 import PrimaryButton from "../components/PrimaryButton";
 
 const HomePage = () => {
@@ -57,10 +56,6 @@ const HomePage = () => {
         <hr />
       </div>
       <SuccessStories />
-      <AchievementHeader
-        achiveHeader="BEFORE AND AFTER"
-        achiveDescription="Hold and slide right to see the school transform from before to after our intervention"
-      />
       <BeforeAfterSlider
         imgUrl1="https://www.zindagitrust.org/img/sections/school1.jpg"
         imgUrl2="https://www.zindagitrust.org/img/sections/school2new.jpg"
