@@ -22,6 +22,7 @@ const BeforeAfterSlider = ({ imgUrl1, imgUrl2, classBeforeAfter }) => {
   };
 
   return (
+    
     <div className="relative">
       <div
         className={`lg:w-[55%] md:w-[60%] m-auto lg:p-4 md:p-3 p-2 ${classBeforeAfter}`}
