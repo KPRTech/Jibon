@@ -14,10 +14,17 @@ module.exports = {
         mont: ["Montserrat", "sans-serif"],
         play: ["Playfair Display", "serif"],
         rale: ["Raleway", "sans-serif"],
+        time: ["Times New Roman", " Times", "serif"],
+      },
+      textColor: {
+        primary: "#FF6400",
+        hoverPrimary: "#b74900",
+        secondary: "#333333",
       },
       backgroundColor: {
         primary: "#FF6400",
         hoverPrimary: "#b74900",
+        secondary: "#333333",
       },
       keyframes: {
         popUpY: {
@@ -26,6 +33,10 @@ module.exports = {
         },
         popDownY: {
           "0%": { opacity: "0", transform: "translateY(-25%)" },
+          "100%": { opacity: "1", transform: "translateY(0%)" },
+        },
+        popDownTwo: {
+          "0%": { opacity: "0", transform: "translateY(-10%)" },
           "100%": { opacity: "1", transform: "translateY(0%)" },
         },
         slideX: {

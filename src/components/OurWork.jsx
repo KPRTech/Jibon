@@ -55,7 +55,7 @@ const OurWork = () => {
                     <br />
                     <br />
                     <div className="pt-[10px]">
-                      <PrimaryButton className={`px-[25px] py-[10px]`}>
+                      <PrimaryButton className={`px-[25px] py-[10px]`} path="/our-work/school-reform">
                         Read More
                       </PrimaryButton>
                     </div>
