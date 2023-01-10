@@ -17,7 +17,7 @@ const ContactOfficePage = () => {
       ></HeroBanner>
       <BreadCrumb breadCrumbText={"Contact Us"}></BreadCrumb>
       {/* main contents */}
-      <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-20 gap-y-20 justify-between ">
+      <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-28 gap-y-20 justify-between ">
         <div className="lg:w-[70%] animate-[slideYTwo_1s_ease_1]">
           <h2 className="font-mont text-2xl text-primary font-bold pb-4 mb-4 border-b-2">
             ZINDAGI TRUST HEAD OFFICE

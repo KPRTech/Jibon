@@ -258,7 +258,7 @@ const NavBar = () => {
     <Navbar
       className={
         offset <= 100
-          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-black lg:text-white pb-5 lg:py-5 shadow-lg lg:shadow-none "
+          ? "top-0 z-50 fixed lg:bg-opacity-0 border-0 px-8 text-secondary lg:text-white pb-5 lg:py-5 shadow-lg lg:shadow-none "
           : "bg-white text-[#333] fixed top-0 bg-opacity-100 duration-500 z-50 px-8 pb-5 lg:py-0 shadow-lg lg:shadow-none "
       }
     >
