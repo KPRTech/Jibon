@@ -9,8 +9,8 @@ import SuccessStories from "./SuccessStories";
 import BeforeAfterSlider from "../components/BeforeAfterSlider";
 import MakeDonation from "../components/MakeDonation/MakeDonation";
 import NewsStories from "../components/NewsStories";
-import AchievementHeader from "../components/AchievementHeader";
 import PrimaryButton from "../components/PrimaryButton";
+import AchievementHeader from "../components/AchievementHeader";
 
 const HomePage = () => {
   return (
@@ -57,14 +57,20 @@ const HomePage = () => {
         <hr />
       </div>
       <SuccessStories />
-      <AchievementHeader
-        achiveHeader="BEFORE AND AFTER"
-        achiveDescription="Hold and slide right to see the school transform from before to after our intervention"
-      />
-      <BeforeAfterSlider
-        imgUrl1="https://www.zindagitrust.org/img/sections/school1.jpg"
-        imgUrl2="https://www.zindagitrust.org/img/sections/school2new.jpg"
-      />
+      <div className="relative overflow-hidden my-3">
+        <div className='absolute top-0 bottom-0 left-0 right-0 lg:h-[75%] h-[55%] w-full z-[-1] lg:skew-y-[-5deg] skew-y-[-2deg] origin-top-left brightness-50' style={{ background: 'url("/assets/images/banner1.jpg") no-repeat', backgroundSize: 'cover' }}></div>
+        <div className="mb-8">
+          <AchievementHeader
+            className={"text-white"}
+            achiveHeader="BEFORE AND AFTER"
+            achiveDescription="Hold and slide right to see the school transform from before to after our intervention"
+          />
+        </div>
+        <BeforeAfterSlider
+          imgUrl1="https://www.zindagitrust.org/img/sections/school1.jpg"
+          imgUrl2="https://www.zindagitrust.org/img/sections/school2new.jpg"
+        />
+      </div>
       <BankDetails />
       <UpperFooter
         upperTitle={"SCHEDULE A VISIT TO OUR MODEL SCHOOLS"}

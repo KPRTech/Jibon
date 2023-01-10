@@ -9,18 +9,6 @@ const OurTeam = () => {
       <div className="lg:flex lg:mx-40 lg:my-10 lg:justify-between ">
         <div>
           <div
-<<<<<<< HEAD
-            className={`lg:py-6 
-            lg:px-7  rounded border-solid border-2 border-gray-200 w-40 mx-auto mt-5 
-            flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-gray-200 after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#ff6400]`}
-          >
-            <span>
-              <img
-                src="/assets/images/LeaderShip/team_over.svg"
-                className="text-red-500"
-                alt=""
-              />
-=======
             className={`bg-[#FF6400] hover:bg-[#eff2f7] lg:py-6 lg:px-7  rounded border-solid border-2 border-[#eff2f7] hover:text-[#FF6400] text-white w-40 mx-auto mt-5 flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-[#ff6400] after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#eff2f7] cursor-pointer duration-300 after:duration-300`}>
             <span>
               <svg
@@ -35,10 +23,8 @@ const OurTeam = () => {
                 <path fill="currentColor" stroke="none" opacity="1" d=" M 69.21 47.10 C 73.24 46.26 77.15 51.19 74.89 54.83 C 73.17 58.60 67.10 58.68 65.34 54.94 C 63.36 51.89 65.78 47.59 69.21 47.10 M 69.60 49.75 C 65.99 50.39 67.38 56.17 70.91 54.85 C 74.09 54.13 72.63 49.05 69.60 49.75 Z" />
                 <path fill="currentColor" stroke="none" opacity="1" d=" M 35.48 63.72 C 39.42 61.35 44.86 65.57 43.21 69.97 C 42.26 73.94 36.50 75.13 34.03 71.93 C 31.63 69.53 32.54 65.22 35.48 63.72 M 37.55 65.70 C 34.00 66.44 35.42 72.27 38.91 70.82 C 42.16 70.14 40.46 64.99 37.55 65.70 Z" />
               </svg>
->>>>>>> 2de8631b853f72ca493575647b46859e85bf8486
             </span>
           </div>
-
           <h3 className="text-center mt-5  text-[18px] font-bold leading-7">
             Our Team
           </h3>
@@ -49,14 +35,7 @@ const OurTeam = () => {
         </div>
         <div>
           <div
-<<<<<<< HEAD
-            className={`bg-[#FF6400] hover:bg-gray-200 hover:text-orange-600 lg:py-6 
-            lg:px-7  rounded border-solid border-2 border-gray-200 w-40 mx-auto mt-5 
-            flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-gray-200 after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#ff6400]`}
-          >
-=======
             className={`hover:bg-[#FF6400] bg-[#eff2f7] lg:py-6 lg:px-7  rounded border-solid border-2 border-[#eff2f7] text-[#FF6400] hover:text-white w-40 mx-auto mt-5 flex justify-center py-4 px-5 relative text-center after:content:"" after:border-[15px] after:border-solid after:border-transparent after:border-t-[15px] after:border-t-solid after:border-t-[#eff2f7] after:block after:absolute after:top-full after:left-[50%] after:-ml-[15px] after:hover:border-primary after:hover:border-t-[#ff6400] cursor-pointer duration-300 after:duration-300`}>
->>>>>>> 2de8631b853f72ca493575647b46859e85bf8486
             <span>
               <svg
                 fill="none"
