@@ -2,7 +2,7 @@ import React from "react";
 
 const Financial = () => {
   return (
-    <div className="lg:px-40 my-20">
+    <div className="lg:max-w-5xl mx-auto my-20">
       <div>
         <div className="lg:flex">
           {/* one  */}
