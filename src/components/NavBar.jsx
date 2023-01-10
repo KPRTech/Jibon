@@ -49,7 +49,7 @@ const NavBar = () => {
               }
               linkName={"Financials"}
               linkClass={"after:hidden"}
-              href={"#"}
+              href={"/about-us/financials"}
             />
           </Dropdown>
         </NavItem>
