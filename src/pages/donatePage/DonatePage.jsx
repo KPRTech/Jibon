@@ -190,7 +190,7 @@ const DonatePage = () => {
         {/* help us part */}
 
         {/* sponsor part */}
-        <div className="lg:w-60% w-4/5 animate-[slideYTwo_1s_ease_1]">
+        <div className="lg:w-60% text-center flex flex-col items-center lg:w-4/5 animate-[slideYTwo_1s_ease_1]">
           <picture className="">
             <img
               src="assets/images/donate/donate1.jpg"
@@ -238,26 +238,26 @@ const DonatePage = () => {
       <OtherDonate />
 
       <div className="lg:container mx-auto lg:px-24 px-6 pb-8 flex flex-col lg:flex-row gap-x-10 gap-y-20 justify-between ">
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           {" "}
           <AchievementHeader achiveHeader="HUMARAY SCHOOLS, HUMARA MUSTAQBIL" />
           <iframe
-            className="mt-12"
-            width="100%"
-            height="558"
+            className="lg:h-[40vw] w-full mt-12 m-auto"
+            // width="100%"
+            // height="558"
             src="https://www.youtube.com/embed/gQGjR6GBk-s"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen=""
           ></iframe>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           {" "}
           <AchievementHeader achiveHeader="SHARIAH COMPLIANCE CERTIFICATE" />
           <picture className="">
             <img
               src="/assets/images/donate/cert.jpg"
-              className="mt-12 h-[40vw]"
+              className="mt-12 m-auto w-2/3 lg:w-full lg:h-[40vw]"
               loading="lazy"
             />
           </picture>

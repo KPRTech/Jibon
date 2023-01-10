@@ -8,8 +8,8 @@ const OtherDonate = () => {
       {" "}
       <div className="mx-auto w-[70%] mt-10">
         <AchievementHeader achiveHeader="OTHER WAYS TO DONATE" />
-        <div className="flex flex-row flex-wrap justify-center gap-10 mt-10 mb-10">
-          <div className="w-[20%] text-center">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center gap-10 mt-10 mb-10">
+          <div className="lg:w-[20%] text-center">
             <img
               className="mx-auto"
               src="/assets/images/newProgram/icon1.png"
@@ -25,7 +25,7 @@ const OtherDonate = () => {
             </div>
           </div>
 
-          <div className="w-[20%] text-center">
+          <div className="lg:w-[20%] text-center">
             <img
               className="mx-auto"
               src="/assets/images/newProgram/icon2.png"
@@ -41,7 +41,7 @@ const OtherDonate = () => {
             </div>
           </div>
 
-          <div className="w-[20%] text-center">
+          <div className="lg:w-[20%] text-center">
             <img
               className="mx-auto"
               src="/assets/images/newProgram/icon3.jpg"
@@ -57,7 +57,7 @@ const OtherDonate = () => {
             </div>
           </div>
 
-          <div className="w-[20%] text-center">
+          <div className="lg:w-[20%] text-center">
             <img
               className="mx-auto"
               src="/assets/images/newProgram/icon4.png"
