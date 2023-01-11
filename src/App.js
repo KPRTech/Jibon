@@ -33,6 +33,7 @@ import AReviewOf2021Page from "./pages/theLatestPage/AReviewOf2021Page";
 import NewsAndEventsPage from "./pages/theLatestPage/NewsAndEventsPage";
 import OurCOVID19ResponsePage from "./pages/theLatestPage/OurCOVID19ResponsePage";
 import VolunteerProgramPage from "./pages/VolunteerPage/VolunteerProgramPage";
+import SuccessStory from "./pages/SuccessStory";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -80,6 +81,7 @@ const router = createBrowserRouter(
       <Route path="/contact/our-office" element={<ContactOfficePage />}></Route>
       <Route path="/contact/our-chapters" element={<OurChaptersPage />}></Route>
       <Route path="/donate" element={<DonatePage />}></Route>
+      <Route path="/success-stories/:slug" element={<SuccessStory />}></Route>
     </Route>
   )
 );
