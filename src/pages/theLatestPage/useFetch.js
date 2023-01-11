@@ -7,169 +7,439 @@ const newses = {
             date: "7/9/2022",
             title: "ZINDAGI TRUST LAUNCHES 'CODING PROGRAM' IN COLLABORATION WITH KFC & TECHNOKNOWLEDGE",
             description: "In collaboration with KFC Mitao Bhook, Zindagi Trust is piloting a three-year Coding Program in their two adopted government schools- SMB Fatima Ji...",
-            desc1: "In collaboration with KFC Mitao Bhook, Zindagi Trust is piloting a three-year Coding Program in their two adopted government schools- SMB Fatima Jinnah and Khatoon-e-Pakistan to equip students from grades 3 to 8 with digital programming tools and modern technologies. Over 1800 female students will be involved in the program in its tenure.",
-            img: "/assets/images/NewsEvents/newsStories1.png"
+            description1: "In collaboration with KFC Mitao Bhook, Zindagi Trust is piloting a three-year Coding Program in their two adopted government schools- SMB Fatima Jinnah and Khatoon-e-Pakistan to equip students from grades 3 to 8 with digital programming tools and modern technologies. Over 1800 female students will be involved in the program in its tenure.",
+            description2: "This Wednesday, September 7th 2022, Zindagi Trust hosted a panel discussion in their school and invited stakeholders from the tech industry in order to have a discussion around the importance of STEM Education and Coding in today's digital world. Some of the notable speakers for the event included: Tanvir Maqsood- cofounder of TechnoKnowledge an organisation creating accessibility towards computational learning throughout Pakistan, Hamida Khatri- founder of the application called Teardrop that encourages women to share their stories of abuse which will help identify the disparity between the usage and collection of gendered data, Farah Ali; Co-founder of Pakistan Women In Computing (PWIC), and Raza Pirbhai-CEO KFC Pakistan alongside Shehzad Roy founder and president of Zindagi Trust.",
+            description3: "At the occasion, Raza Pirbhai, CEO of KFC Pakistan highlighted the initiatives taken by KFC Mitao Bhook to bridge the literacy gap across Pakistan, which includes sponsoring and leading educational programs for thousands of students across all levels. He also noted the importance of developing programming and IT skills in Pakistan's youth, to increase the country's IT exports. Similarly, TechnoKnowledge's co-founder Tanvir, shed light on the importance of learning how to code in the digital world of today and the different career trajectories one could pursue.",
+            description4: "Aligning with Zindagi Trust vision of remodelling the educational landscape of Pakistan, founder Shehzad Roy shared that launching this program in government schools will be a step toward revolutionising STEM Education in Pakistan, he emphasized that transforming government schools is the only way toward causing a sustainable impact- The main priority should be providing an enabling environment for students through revamping government schools. This is what Zindagi trust believes in and works tirelessly to accomplish. Once that environment is established it paves way for all sorts of programs to flourish within the educational ecosystem be it music, coding, mind sports and so on. ",
+            description5: "To ensure standard execution of the program, Zindagi Trust has taken TechnoKnowledge on board to develop the program curriculum, scheme of studies alongside conducting training workshops for the teachers. In addition to providing books, lectures and curriculum templates, TechnoKnowledge will be training the teachers of Zindagi Trust and monitoring the performance of this program every 4 months. Previously, TechnoKnowledge has created a Coding curriculum framework for the Ministry of Education and provided curriculum design support for a coding project in KPK Pakistan that trained about 90,000 students and 30,000 teachers.",
+            description6: "Joining virtually, Hamida Khatri shared her personal journey of working on tech-related projects that incorporate multiple disciplines such as art, storytelling and much more within the computational field.",
+            img: "/assets/images/NewsEvents/newsStories1.png",
+            img1: "https://www.zindagitrust.org/img/news/kfc1.jpeg",
+            img2: "https://www.zindagitrust.org/img/news/kfc2.jpeg",
+            img3: "https://www.zindagitrust.org/img/news/kfc3.jpeg",
+            img4: "https://www.zindagitrust.org/img/news/kfc4.jpeg"
         },
         {
             id: "2",
             date: "23/8/2022",
             title: "TIKTOK, ZINDAGI TRUST INITIATE DIGITAL SAFETY WORKSHOPS IN GOVT SCHOOLS",
             description: "Famous video sharing app TikTok, in collaboration with Zindagi Trust, has initiated a series of workshops across their network of government school...",
-            img: "/assets/images/NewsEvents/newsStories2.png"
+            description1: "About 3,000 students, teachers and parents will learn about safe usage of internet, with focus on social media.",
+            description2: "Separate workshop for teachers and parents will educate them on how they can ensure safety of youngsters on internet.",
+            description3: "Workshops will cover navigating online safety issues such as cyber-bullying, catfishing and false information.",
+            description4: "Famous video sharing app TikTok, in collaboration with Zindagi Trust, has initiated a series of workshops across their network of government schools in a bid to create awareness around digital safety among students, teachers and parents.",
+            description5: "A statement issued by the partners said that about 3,000 students, teachers and parents will learn about safe usage of the internet, with a focus on social media.",
+            description6: "A separate workshop for teachers and parents will also be conducted, seeking to educate them on how they can ensure the safety of youngsters on the internet, it added.",
+            description7: "According to the statement, young internet users from grades 7 to 9 will learn about practices of internet usage, and how can they become responsible digital citizens and cultivate a safe online community across the nation.",
+            description8: "The workshops will cover a range of topics including navigating online safety issues such as cyber-bullying, catfishing and false information. There will be detailed modules on the harmful behaviours prevalent on social media, ways to share appropriate information, identifying fake news and misinformation and reporting mechanisms to report illicit and harmful content on social media.",
+            description9: "The statement said that the workshops also aim to educate teachers and parents on how to use safety features on platforms like TikTok to ensure their children remain safe on social media. They will be guided about TikTok's family pairing features, which allow parents to link their TikTok accounts to their teens' and set controls including screentime management, restricted mode and direct messages.",
+            quotetext1: "Farah Tukan, head of government relations and public policy in Middle East, Turkey, Africa and Pakistan (METAP) at TikTok, said:",
+            quotetext2: "Zindagi Trust's Senior Marketing and Resource Development Manager Faiq Ahmed said:",
+            quote1: "“These workshops are another step in the right direction for ensuring our TikTok community in Pakistan remains digitally safe. We are fully committed to ensuring the safety of Pakistan‘s digital community, as we continue implementing policies and processes to proactively identify and prevent every attempt to share inappropriate content on our platform.”",
+            quote2: "“It's about time to create awareness among the young generation about digital safety so they can deal with safety and privacy challenges on the internet.”",
+            img: "/assets/images/NewsEvents/newsStories2.png",
+            img1: "https://www.geo.tv/assets/uploads/updates/2022-08-23/435584_8346775_updates.jpg"
         },
         {
             id: "3",
             date: "21/7/2022",
             title: "CHILD PROTECTION AND DIGITAL SAFETY DIALOGUE ORGANIZED BY ZINDAGI TRUST IN COLLABORATION WITH META",
             description: "Zindagi Trust in collaboration with Meta (Facebook) hosted a roundtable discussion at GECE Hussainabad to identify ways to make digital platforms s...",
-            img: "/assets/images/NewsEvents/newsStories3.png"
+            description1: "(L-R) Shehzad Roy, M. Tahir Rai and Iqbal Detho at the programme organised by Zindagi Trust in collaboration with Meta.",
+            description2: "Zindagi Trust in collaboration with Meta (Facebook) hosted a roundtable discussion at GECE Hussainabad to identify ways to make digital platforms safer for children and share policy recommendations with government agencies to help create better reporting mechanisms.",
+            description3: "On behalf of Meta, the Head of Safety Policy, Shireen Vakil informed the audience about safety measures available for young users on family apps of Meta to safeguard themselves from predators online. She highlighted the new technology being used at Meta, including artificial intelligence and machine learning to detect inappropriate content and remove it accordingly.",
+            description4: "The Director General of Federal Investigation Agency (FIA), Muhammad Tahir Rai, was also present at the occasion along with representatives from the Cyber Crime Wing. The Director briefed the audience about the measures being taken by Cyber Crime Wing to identify cybercriminals and curb different forms of cybercrimes across Pakistan.",
+            description5: "Although over 2 million cases of child exploitation imagery were uploaded on Facebook platform in 2021 alone, the Director cited that only a total of 343 cases have been reported to FIA in the last 5 years. To help address this gap, he encouraged people to report cases and lodge complaint against sexual predators online and thereby help FIA take immediate action against them.",
+            description6: "Another panel speaker, Mr. Iqbal Detho, Member of the National Commission on the Rights of Child, stressed the need to review Prevention of Electronic Crimes Act 2016 (PECA) as well as the Pakistan Penal Code and make amendments for child safety in digital spaces. He also emphasized the implementation of policy making at the provincial level to help bring justice and provide legal aid to victims.",
+            description7: "Under this collaboration, Zindagi Trust also produced an informative video to educate people about the harms of sharing inappropriate content and encourage them to report malicious content through proper channels instead of sharing it further.",
+            description8: "This discussion was the first of a series of roundtable discussions which are scheduled to take place at Zindagi Trust to engage various stakeholders and identify policy recommendations to make online spaces safer for children in Pakistan.",
+            quotetext1: "Sharing his thoughts on the campaign, Founder and President of Zindagi Trust, Shehzad Roy said:",
+            quotetext2: "Sarim Aziz, Director Public Policy, South Asia-Meta said:",
+            quote1: "“Whenever I used to encounter disturbing content, my first instinct was to share it so it could help find the perpetrator. However, I have realised that the content can be distressing for many viewers and is a breach of privacy of the victims. We want to push for justice for victims and advocate for safer digital spaces instead of sensationalising traumatic events. Zindagi Trust takes pride in being a vocal advocate of policy level change for children's safety and education. We rely on the support of government institutions and social media companies like Meta to help us achieve our goals”",
+            quote2: "“We have a zero-tolerance policy for content related to child exploitation and abuse. We use latest ground breaking technology to prevent, detect and remove content related to child abuse and violence. Since this is a highly sensitive matter, we take a comprehensive approach to keep our family of apps free of such malicious content and continue to collaborate with local authorities, rights bodies and relevant stakeholders to fully ensure that the victims are not repeatedly traumatized by sharing evidence of their ordeal. Instead the content should be reported through proper channels so that the government agencies can move against those responsible”",
+            img: "/assets/images/NewsEvents/newsStories3.png",
+            img1: "https://zindagitrust.org/news/small39-Header-News159420345.png"
         },
         {
             id: "4",
             date: "14/2/2022",
             title: "TIKTOK AND ZINDAGI TRUST JOIN HANDS FOR A SAFER PAKISTAN",
             description: "Zindagi Trust has partnered with the fastest growing global video making platform TikTok with the aim of creating an awareness campaign for a digit...",
-            img: "/assets/images/NewsEvents/newsStories4.png"
+            description1: "Zindagi Trust has partnered with the fastest growing global video-making platform TikTok with the aim of creating an awareness campaign for a digitally safe Pakistan. Both parties have signed the Memorandum of Understanding (MoU) and announced the partnership on Safer Internet Day on February 8 in Islamabad.",
+            description2: "The shared goal of this campaign is to conduct a series of workshops for Zindagi Trust’s adopted schools, Khatoon-e-Pakistan, and SMB Fatima Jinnah School in Karachi. The topics of the workshop will tackle multiple themes regarding cyber safety such as safety features on TikTok, harmful behaviors prevalent on social media, how to share appropriate information, how to identify fake news, and how to report harmful content on social media.",
+            description3: "The Zindagi Trust-TikTok partnership will establish essential guidelines on how to be responsible digital citizens since the main motive behind the digital safety awareness campaign is to cultivate a secure online community.",
+            description4: "As an organization that continuously advocates for child safety and protection rights, Zindagi Trust will participate head-on in the awareness campaign by taking the initiative of creating and sharing informative videos encompassing the multiple facets of digital safety through its official TikTok account and other social media platforms to engage with a wider audience and pave way for an impactful discourse. ",
+            description5: "Zindagi Trust will also work towards empowering children through training sessions on content creation for online social media platforms, especially TikTok which could be regarded as an essential skill in a digital era.",
+            quotetext1: "Speaking about the partnership, TikTok's Head of Government Relations and Public Policy — Middle East, Turkey, Africa and Pakistan (METAP), Farah Tukan, said:",
+            quotetext2: "Zindagi Trust’s Chief Executive Officer- Dr. Hameedah Sayani shares similar sentiments and expresses that this partnership is definitely a step in the right direction for its intended cause can reach the masses through the popularity of the TikTok app in Pakistan. She shared that Zindagi Trust’s constant effort has been to inculcate growth not just within schools but throughout Pakistan -",
+            quote1: "“It is a pleasure for us to collaborate with Zindagi Trust – a prestigious non-governmental organization that promises wellbeing and empowerment of the masses while protecting the ever-growing community of internet users in Pakistan.”",
+            quote2: "“we remain committed to improving the quality of life for our communities while accelerating sustainable development and socio-economic growth of the nation.”",
+            img: "/assets/images/NewsEvents/newsStories4.png",
+            img1: "https://www.zindagitrust.org/news/tiktok-zindagitrust.jpg"
         },
         {
             id: "5",
             date: "11/2/2022",
             title: "ZINDAGI TRUST PARTNERS UP WITH TIKTOK TO CREATE DIGITAL SAFETY AWARENESS",
             description: "As our next move in safeguarding children over digital platforms, Zindagi Trust has partnered up with TikTok to help our young users learn safer wa...",
-            img: "/assets/images/NewsEvents/newsStories5.png"
+            description1: "As our next move in safeguarding children over digital platforms, Zindagi Trust has partnered up with TikTok to help our young users learn safer ways to navigate the web and become mindful of the reporting mechanisms available to them to report cyberbullying and inappropriate content.",
+            description2: "Under this partnership, our organization will not only conduct a series of workshops with students and teachers to promote safe Internet usage, it will also invite parents to learn about the safety features available on TikTok and help them foster a deeper and strong connection with their children on the platform.",
+            description3: "Zindagi Trust will also help its students to create appropriate content in accordance with TikTok’s Community Guidelines and release a series of TikTok videos to enable a wider audience to learn about digital safety and tools available to them for their protection online.",
+            img: "/assets/images/NewsEvents/newsStories5.png",
+            img1: "https://www.zindagitrust.org/news/TikTok-x-Zindagi-Trust.png"
         },
         {
             id: "6",
             date: "30/11/2021",
             title: "UPDATE ON CORPORAL PUNISHMENT- ICT BILL PASSED BY THE PARLIAMENT OF PAKISTAN",
             description: "On 17th November 2021, the parliament of Pakistan passed the Islamabad Capital Territory Prohibition of Corporal Punishment Bill which prohibits al...",
-            img: "/assets/images/NewsEvents/newsStories6.png"
+            description1: "On 17th November 2021, the parliament of Pakistan passed the Islamabad Capital Territory Prohibition of Corporal Punishment Bill which prohibits all forms of corporal punishment at work places and educational institutions (both public and private). This bill will now be called the Islamabad Capital Territory Prohibition of Corporal Punishment Act.",
+            description2: "Several studies have reported that exposure to physical harm and aggression at a young age negatively impacts the mental and physical health of a child and can lead to long-term psychological damage[2]. In 2015, UNICEF collected data on corporal punishment from Ethiopia, India, Peru, and Vietnam and found a link between poor math scores and corporal punishment in children of different ages[3], which further indicates how physical violence can affect academic performance and lead to learning losses.",
+            description3: "It is heartwarming to see that our efforts over the years in the form of campaigns and through advocacy are coming to fruition and children all around Pakistan will now be treated with dignity and respect, a basic human right. This accomplishment has only been possible with support from our donors and lawmakers.",
+            description4: "On this momentous occasion, we would also like to express our gratitude to Mehnaz Akber Aziz, for spearheading the movement and helping pave the way for the safety of our children in Pakistan through policy legislation.",
+            quotetext1: "This Act follows the ICT Corporal Punishment Bill which was passed recently in the National Assembly in February 2021. Mehnaz Akbar Aziz, a member of the National Assembly and Chairperson of SDGs Committee on Child Rights, led this private bill in the Assembly with the support from our founder, Shehzad Roy. Endorsing the bill, speaker of the National Assembly, Asad Qaiser has said:",
+            quote1: "Corporal punishment is an unacceptable act in the mental development of children. It is our common responsibility to provide a safe environment in the process of education. National Assembly has passed a bill to ban corporal punishment of children, which will play a key role in preventing such a move",
+            img: "/assets/images/NewsEvents/newsStories6.png",
+            img1: "https://www.zindagitrust.org/news/CorporalPunishmetUpdates.jpg"
         },
         {
             id: "7",
             date: "12/8/2021",
             title: "US CONSULATE GENERAL VISIT",
             description: "Monday 12th Oct 2021, U.S. Consul General, Mark Iroh, along with his team visited Khatoon-e-Pakistan Government Girls School, a school adopted by t...",
-            img: "/assets/images/NewsEvents/newsStories7.png"
+            description1: "Press Release: Monday 12th Oct 2021, U.S. Consul General, Mark Stroh, along with his team visited Khatoon-e-Pakistan Government Girls School, a school adopted by the NGO, Zindagi Trust, where they were provided an extensive tour of the premises by the founder of the organization, Shehzad Roy along with the Chief Executive Officer, Hameedah Sayani.",
+            description2: "The Consul General applauded the efforts of Zindagi Trust in restoring deteriorated classroom walls after adoption of the school, and transforming abandoned rooms into art halls and well-equipped computer labs, to help build a safe, learning atmosphere for the children.",
+            description3: "Making his way through the art room, the Consul General exchanged warm greetings with students and commended the artworks created by the students. At the occasion, Shehzad Roy highlighted the positive impacts of introducing Arts and Music in the school curriculum and encouraged other government schools to replicate their example.",
+            description4: "During the school tour, the Consul General was briefed about the various programs introduced by Zindagi Trust including Life Skills Based Education (LSBE), Music, Mind Sports (chess and scrabble) and Breakfast & Health Program in helping promote well-rounded learning of students, both inside and outside the classroom.",
+            description5: "The general was also informed about the strides made by Zindagi Trust in the domain of Policy Legislation to prohibit corporal punishment and revise teacher evaluation forms at the provincial and federal level respectively to help make education more accessible and student centric for students throughout the country.",
+            description6: "Near the end of the tour, the chief executive officer of Durbeen, Salma Alam, shed light on the work of Durbeen, a sister organization of Zindagi Trust, to help create high skilled teachers and elevate the quality of education being imparted, from an educator’s perspective.",
+            description7: "At the end of his visit, Consul General congratulated the work bring carried out by Zindagi Trust and Durbeen and expressed his hope that these two organizations would continue to play a vital role in reforming public education of Pakistan.",
+            img: "/assets/images/NewsEvents/newsStories7.png",
+            img1: "./assets/images/NewsEvents/newsStories7.png"
         },
         {
             id: "8",
             date: "16/8/2021",
             title: "A CAMPAIGN TO PROTECT CHILDREN ONLINE",
             description: "In collaboration with Facebook, Zindagi Trust is launching a campaign on child protection in digital spaces. This campaign begins with a short vide...",
-            img: "/assets/images/NewsEvents/newsStories8.png"
+            description1: "In collaboration with Facebook, Zindagi Trust is launching a campaign on child protection in digital spaces. This campaign begins with a short video urging people to report child sexual abuse material (CSAM) instead of sharing it further. According to Facebook, Pakistan is among the top three countries where abuse material is shared.",
+            description2: "In Pakistan this content is frequently shared out of outrage or to capture the attention of authorities in order to help survivors and apprehend perpetrators. However, as a mechanism of reporting this method has privacy concerns, can trigger trauma and have adverse impacts on mental health.",
+            description3: "Social media platforms are required to prevent the sharing of CSAM on their applications. Facebook works to remove this content as soon as it is highlighted, after which the incident is reported to the National Center for Missing and Exploited Children (NCMEC) based in the United States of America (USA).",
+            description4: "The removal of child abuse content from these platforms is just one leg of the journey, it is equally vital to consider the mechanisms by which survivors are protected and provided justice. In Pakistan, the Cyber Crime wing of the Federal Investigation Agency (FIA) has been tasked with responding to the proliferation of child abuse content, which is illegal according to the Pakistan Electronic Crimes Act (PECA) 2016 and some sections of the Pakistan Penal Code. An amendment to PECA is in the works to expand the definitions of online child abuse and formulate preventive measures, spearheaded by a committee working under the Federal Ombudsman.",
+            description5: "The aim of this campaign is to underscore the effect that sharing CSAM has on survivors and why it should be reported instead of shared. It will open a discussion on the weakness of current reporting mechanisms, which leaves social media as the only viable option to bring cases to the notice of authorities.",
+            description6: "This campaign will consist of a series of videos, both instructional and informational, as well as policy dialogues with multiple stakeholders to identify policy recommendations that can be given to the government and Facebook.",
+            img: "/assets/images/NewsEvents/newsStories8.png",
+            img1: "./assets/images/NewsEvents/newsStories8.png"
         },
         {
             id: "9",
             date: "6/8/2021",
             title: "CHILD PROTECTION ACTION DIALOGUE HOSTED BY ZINDAGI TRUST AND SINDH POLICE",
             description: "On 15th June 2021, Zindagi Trust had a meeting with IG Sindh Police Mushtaq Ahmed Mahar at one of our adopted schools, Khatoon-e-Pakistan (KPS). Th...",
-            img: "/assets/images/NewsEvents/newsStories9.jpeg"
+            description1: "On 15th June 2021, Zindagi Trust had a meeting with IG Sindh Police Mushtaq Ahmed Mahar at one of our adopted schools, Khatoon-e-Pakistan (KPS). He was joined by the Founder of Zindagi Trust, Shehzad Roy, former Head of Special Programs and Advocacy, Sana Kazmi, CEO Hameedah Sayani, Faiq Ahmed and Manish Kazmi. There, the IG Police was provided an extensive tour of the premises and shown the work that Zindagi Trust has carried out at KPS. After the tour, he had a meeting in which he stressed the importance of the work done by Zindagi Trust in implementing life skills based education (LSBE). He mentioned it was important to create awareness amongst students for child protection against abuse and to encourage reporting to the police. In this detailed conversation he spoke of the importance of working together to address the issues faced by vulnerable stratas of the country (students being one of the most vulnerable) and aimed to improve the situation as best possible.",
+            description2: "As a follow up to this meeting, the Sindh Police collaborated with Zindagi Trust to hold an open discussion with relevant stakeholders about how children can be safe guarded. This Child Protection Action Dialogue took place on Wednesday the 28th of July, 2021 at Khatoon-e-Pakistan Government Girls School in Karachi. The host, Zindagi Trust, presented the organization’s experience in prohibition of corporal punishment as well as promotion of life skills based education (LSBE).",
+            description3: "All the attendees had an extensive and interactive discussion about their experiences with child protection in each of their respective capacities. This included members of the National Commission on the Rights of Child, the Sindh Child Protection Authority and the Social Welfare Department. The meeting focused on creating coordination between child protection authorities and strengthening their relationship with law enforcement agencies. The Sindh Police provided data of recorded complaints for the year 2019-2020 and promoted use of Child Helpline 1121 and Zainab Alert application to register and report cases.",
+            description4: "During the discussion, lack of official identification documents (Child Registration Certificate/B-Form) held by children was highlighted as one of the obstacles in proper documentation of cases, and it was therefore encouraged that all children should get themselves registered with NADRA. Furthermore, the need for psychological experts to work with law enforcement agencies was emphasized to help address mental trauma and invisible abuse amongst our children.",
+            description5: "Street children were also cited as victims of abuse and the need for shelter homes as well as elimination of beggary were identified as means to keep them at bay from abuse and affliction. In addition, marginalization of transgender community and religious minorities in the country were also discussed at the meeting.",
+            img: "/assets/images/NewsEvents/newsStories9.jpeg",
+            img1: "https://www.zindagitrust.org/news/cpad.jpg",
+            img2: "https://www.zindagitrust.org/news/cpad1.jpg",
+            img3: "https://www.zindagitrust.org/news/cpad2.jpg",
+            img4: "https://www.zindagitrust.org/news/cpad3.jpg",
+            img5: "https://www.zindagitrust.org/news/cpad4.jpg"
         },
         {
             id: "10",
             date: "12/7/2021",
             title: "SINDH GOVERNMENT MOVES TO MODERNISE TEACHER EVALUATION",
             description: "Karachi, June 2nd: The Sindh Government approved a new teacher performance evaluation format for government teachers across the province. Teachers ...",
-            img: "/assets/images/NewsEvents/newsStories10.png"
+            description1: "Karachi, June 2nd: The Sindh Government approved a new teacher performance evaluation format for government teachers across the province. Teachers will now be judged on factors related to the teaching profession, like student-centered teaching and active classroom management instead of the generic metrics of the Annual Confidential Report (ACR) applicable to all civil servants of a certain grade.",
+            description2: "The initial consultations with the government identified a significant disconnect between the actual responsibilities of teachers and how their performance was being evaluated. Previously, teachers were supposedly judged on metrics such as typing speed, financial integrity and observance of security measures, which have little to no connection to a modern teacher’s role or scope. This meant that teachers were not assessed on their pedagogical skills and classroom interaction, leaving no incentive for them to improve in those areas. Not only did this performance evaluation system suffer from a lack of accountability for under-performing teachers, it also fell short on appreciation of exceptional teachers.",
+            description3: "This initiative was the brainchild of Abdul Haque, former CEO of Zindagi Trust and an ardent advocate of institutional reform.",
+            description4: "Stakeholders from the Sindh Education and Literacy Department (SELD), Zindagi Trust officials and government representatives held several consultations over the years to develop a Performance Evaluation Report (PER) form customized to the teaching profession was developed. The new evaluation form has sections on Classroom Management, Planning and Instruction and Classroom Assessments, allowing for teachers to be assessed on their lesson plans, on using student-centered activities, maintaining regular feedback through assessments, and on encouraging a positive classroom environment, to name a few categories.",
+            description5: "The provincial education minister and education secretary also commented on what this development would mean for education in the province and acknowledged Zindagi Trust’s role in taking this initiative.",
+            description6: "Education Minister Saeed Ghani said teachers play the most important and integral part in a child’s development.",
+            description7: "He remarked that transforming the ACR into the PER was a great effort of the Sindh Education Department and the Zindagi Trust.",
+            description8: "The efficacy of such an initiative will require a considered and comprehensive effort by the government to ensure that teachers and head teachers are not only aware of but understand what is now expected of them in and outside the classroom. It would be unrealistic to expect in-service teachers to instantly perform well according to the new metrics if they are not first trained to understand and deliver on them.",
+            quote1: "Three years ago, our team was brainstorming how we could create real incentives for government teachers to adopt practices like lesson planning and positive interaction to improve their teaching,” says Anam Palla, Head of Programs at Zindagi Trust, a non-profit organization that led the consultations for this effort. “We decided to advocate for improvement of a document used to evaluate teachers which, as a school head back then, I had found to be limited, outdated, and, consequently, largely irrelevant.",
+            quote2: "The ACR over the past decades had become a mere formality rather than be an instrument of assessment/evaluation. This was a poor reflection on the resolve to nurture merit in the system, leading to better governance. To keep pace with the emerging challenges of modern education, the instrument of ACR never evolved and thus lagged far behind. The gulf widened as the time passed, affecting adversely the quality of teachers, hence the standard of education. It was to address this gap that Zindagi Trust has been seized with overhauling the ACR Form for nearly four years.",
+            quote3: "While our team at Zindagi Trust conceptualized the idea and the initial draft in 2018, and sought feedback from external partners therafter, much of the core work happened over the past year as technical experts and officials from the Education Department critically reviewed the form, field tested it with Head Teachers and supported its evolution through several iterations to the final form. The ownership taken by Education Department Officials has been heartwarming - adds Palla.",
+            quote4: "The PER for teaching staff has been developed after a lot of homework, research and consultation with education staff, and concentrates on professionalism, said School Education Secretary Narejo. He added that the Zindagi Trust had provided assistance and necessary motivation in its development.",
+            quote5: "Linking the PER of teachers to the unique nature of their job, which includes lesson planning, classroom management and other elements, will go a long way in incentivising more effective classroom practices.",
+            quote6: "We will do our best to implement it and make it a dynamic document through annual feedback loops.",
+            quote7: "Another first for the Sindh government that I would like to appreciate and thank them for,” said Shehzad Roy, Founder of Zindagi Trust. “We are now looking forward to the implementation and training and then we can truly celebrate this win for Sindh’s schools. We tried to initiate this process with other provinces as well and hope they will follow soon.",
+            img: "/assets/images/NewsEvents/newsStories10.png",
+            img1: "https://www.zindagitrust.org/news/ACR-Heading.png",
+            img2: "https://www.zindagitrust.org/news/acr/5.jpg",
+            img3: "https://www.zindagitrust.org/news/acr/4.jpg",
+            img4: "https://www.zindagitrust.org/news/acr/3.jpg",
+            img5: "https://www.zindagitrust.org/news/acr/2.jpg",
+            img6: "https://www.zindagitrust.org/news/acr/7.jpg",
+            img7: "https://www.zindagitrust.org/news/acr/6.jpg",
+            img8: "https://www.zindagitrust.org/news/acr/8.jpg"
         },
         {
             id: "11",
             date: "5/3/2021",
             title: "ADMISSIONS OPEN AT SMB FATIMA JINNAH GGS",
             description: "Here are the admissions details for the upcoming academic year for SMB Fatima Jinnah Government Girls School. There are a restricted number of seat...",
-            img: "/assets/images/NewsEvents/newsStories11.jpeg"
+            description1: "Here are the admissions details for the upcoming academic year for SMB Fatima Jinnah Government Girls School. There are a restricted number of seats available and admissions forms will be handed out on a first come first serve basis.",
+            description2: "Total Seats: 561",
+            description3: "Admissions forms can be collected from SMB Fatima Jinnah Government Girls School Nishtar Road, Garden West Area, Karachi between 8am to 11:30am",
+            img: "/assets/images/NewsEvents/newsStories11.jpeg",
+            img1: "https://zindagitrust.org/news/SMB-AD-OP.jpeg"
         },
         {
             id: "12",
             date: "5/3/2021",
             title: "ADMISSIONS OPEN AT KHATOON-E-PAKISTAN GGS",
             description: "Here are the admissions details for the upcoming academic year for Khatoon-e-Pakistan Government Girls School. There are a restricted number of sea...",
-            img: "/assets/images/NewsEvents/newsStories12.jpeg"
+            description1: "Admissions Open at Khatoon-e-Pakistan GGS Here are the admissions details for the upcoming academic year for Khatoon - e - Pakistan Government Girls School.There are a restricted number of seats available and admissions forms will be handed out on a first come first serve basis.",
+            description2: "Admission Form Information: Admissions forms can be collected from Khatoon- e - Pakistan Government Girls School, Sir Ibrahim Haroon Jafar Road, Bahadurabad, Karachi, between 8am to 11: 30am",
+            img: "/assets/images/NewsEvents/newsStories12.jpeg",
+            img1: "https://zindagitrust.org/news/KPS-AD-OP.jpeg"
         },
         {
             id: "13",
             date: "25/2/2021",
             title: "ENDING CORPORAL PUNISHMENT � NEXT STEPS",
             description: "With the historic passage of the Islamabad Capital Territory Prohibition of Corporal Punishment Bill this week, it is important to take stock of th...",
-            img: "/assets/images/NewsEvents/newsStories13.jpeg"
+            description1: "With the historic passage of the Islamabad Capital Territory Prohibition of Corporal Punishment Bill this week, it is important to take stock of the work that remains to be done to effectively eradicate the inhumane practice of corporal punishment across Pakistan. Here’s what remains to be done:",
+            description2: "Legislation Having adequate legal backing to ban and criminalise corporal punishment is an important first step that still needs to be completed across Pakistan. The Islamabad Capital Territory Prohibition of Corporal Punishment Bill passed by the National Assembly this week has to be passed into law by the Senate. The provincial assemblies of Punjab and Balochistan need to pass laws explicitly banning corporal punishment. (Currently, corporal punishment is banned in Punjab through administrative and court orders but no legal backing exists for the same). <br/> The KP Child Protection Act needs to be amended to also disallow the practice of corporal punishment ‘as provided under Section 89’ so that children can no longer be hit even if deemed to be “in good faith” or “for their benefit.”",
+            description3: "Implementation and Monitoring Passing legislation is only the first step - ensuring implementation requires the following steps from an administrative perspective: In Sindh, the rules of implementation for the Prohibition of Corporal Punishment Act 2016 need to be notified so that there is clarity about the referral mechanism, reporting, penalties and monitoring of the law. The rules of business for the recent ICT bill must be formulated and communicated within six months once it is passed by Senate The implementation of existing and upcoming legislation needs to be enforced, scrutinized and kept up to date Teachers and Education Department officials need to officially be made aware of the law and trained on effective alternatives such as time- outs, detention, verbal warnings, demerit boxes, apology letters, behaviour contracts, withdrawal of privileges, community service, etc.as part of both their induction and regular in -service training.",
+            description4: "Awareness and Sensitization Much of the challenge in addressing this issue revolves around changing mindsets.Over 70% of teachers believe that corporal punishment is a useful practice, which explains why it remains widespread. People need to know about the law and understand the purpose behind it before they can follow it. Regular, systematic awareness campaigns must be planned targeting children, parents, educators and caregivers in both rural and urban, as well as public and private settings to inform them about: (i) the existing laws banning corporal punishment(ii) the severe long- term impact of corporal punishment, and(iii) effective alternatives to the harmful practice Workshops need to be conducted at every level to sensitise law enforcement officials and judges so that they can understand the adverse effects of corporal punishment and empathise with children when they deal with reported cases",
+            description5: "How you can help Post about this issue on your social media to create awareness Talk to children, parents and educators in your circle to make sure they know Write to your elected representatives – MNAs, MPAs, Senators - to keep up the pressure",
+            img: "/assets/images/NewsEvents/newsStories13.jpeg",
+            img1: "https://www.zindagitrust.org/news/NA-BCP-NS.jpeg"
         },
         {
             id: "14",
             date: "23/2/2021",
             title: "NA PASSES LAW TO BAN CORPORAL PUNISHMENT IN THE CAPITAL",
             description: "In a historic move, the National Assembly passed the ICT Prohibition of Corporal Punishment Bill, which effectively bans all forms of corporal puni...",
-            img: "/assets/images/NewsEvents/newsStories14.jpeg"
+            description1: "In a historic move, the National Assembly passed the ICT Prohibition of Corporal Punishment Bill, which effectively bans all forms of corporal punishment “however light” at the “work place, in all types of educational institutions including formal, non-formal, and religious both public and private, in child care institutions including foster care, rehabilitation centers and any other alternative care settings The new law will penalize teachers for assault and hurt inflicted upon children, regardless of intention, canceling out the provisions of Section 89 of the PPC which had allowed teachers and guardians to administer physical punishment “in good faith” and “for the benefit” of the child.",
+            description2: "This was a private member bill moved by Mehnaz Akbar Aziz of the PML-N.The bill had been passed by the Standing Committee for Education as far back as 2019 but it could not make progress as discussion on it was withheld for 15 months after which it was referred to – and remained stuck with – another committee.Minister of Human Rights Shireen Mazari presented an amendment under which complaints put forward by children would be brought before a court or a magistrate instead of leaving the complaint procedures vague which often leads to the formation of committees that do not accomplish much.",
+            description3: "“The efforts of civil society, treasury and opposition benches, Justice Athar Minallah, Shehzad Roy - everyone coming together enabled this Bill to be brought before the Senate. But protecting our children requires more than passing this Bill. The rules of business have to be clarified and the mindset that legitimizes corporal punishment needs to be changed through informative awareness campaigns.”",
+            description4: "Earlier, organisations and activists working for child protection impressed upon the parliament to pass this legislation urgently. Musician Shehzad Roy, founder of Zindagi Trust which has been campaigning to get the practice banned since his education TV show in 2013, ramped up their advocacy on the issue in recent weeks and urged key lawmakers to hear the bill on priority. This followed their petition in the Islamabad High Court a year ago which had led to a court order suspending Section 89 and effectively banning corporal punishment.",
+            description5: "Similarly, child rights activists and lawyers Syed Miqdad Mehdi and Ahmar Majeed, whose petition to Lahore High Court (LHC) led to a ban on corporal punishment in all schools after a horrific incident against special children, identified Section 89 as the impediment to any step taken against the cruelty of corporal punishment and demanded its repeal. According to Mehdi, “corporal punishment is against children’s fundamental rights of dignity, survival, development and protection and should be curbed as soon as possible through legislative measures.”",
+            description6: "“When a child gets physical punishment, society is telling them – and an entire generation – that violence is a valid means of resolving a problem. This law will not just protect our children but also lay the foundation for a safer, kinder and more peaceful Pakistan,” said Zindagi Trust founder and musician Shehzad Roy. Next steps: This is a historic day but much remains to be done.A survey in 2014 ago showed over 70% of Pakistani teachers think corporal punishment is useful for disciplining students.What is needed urgently? Changing mindsets will require mass awareness campaigns that sensitize educators and caretakers to the harms of corporal punishment and educates them on healthy alternatives like positive disciplining.",
+            description7: "Ensuring this law creates a practical impact necessitates that the federal government make accompanying rules of business - covering referral mechanisms, reporting, penalties as well as systematic national awareness programs - within six months as advised in the law. For context, Sindh passed their Prohibition of Corporal Punishment in 2017, but there are still no rules of implementation developed and communicated, nor any awareness campaign launched in schools. Efforts are also needed to streamline the ban across the country, including in provinces like Sindh and GB that already have the required laws to ban this practice.",
+            description8: "Sana Kazmi, Head of Advocacy at Zindagi Trust, highlighted that corporal punishment is also one of the primary reasons children drop out of school in Pakistan, which has one of the highest out-of-school populations in the world:",
+            description9: "“The cases that get reported to the media are a minority; of those, the ones that make it to a police report are even fewer; and of those, the ones that get noticed are those in which the abuse is extreme. There are still schoolboys and schoolgirls who have not lost their sight or hearing or lives but are beaten up at school because they like to crack jokes in the classroom. There are still toddlers who have forever sworn off a subject – or worse, school – because of abuse and ridicule meted out for not answering a question correctly.  Thousands of our children are growing up with this trauma, unable to lead healthy, functioning lives, let alone have any hope of becoming productive members of society.”",
+            img: "/assets/images/NewsEvents/newsStories14.jpeg",
+            img1: "https://www.zindagitrust.org/news/bcp.jpg"
         },
         {
             id: "15",
             date: "22/2/2021",
             title: "WHEN LIFE GIVES YOU EMOTIONS, MAKE ART",
             description: "In October 2020, amidst the hullabaloo of schools reopening for the first time, we introduced a new Social and Emotional Learning (SEL) module for ...",
-            img: "/assets/images/NewsEvents/newsStories15.jpg"
+            description1: "In October 2020, amidst the hullabaloo of schools reopening for the first time, we introduced a new Social and Emotional Learning (SEL) module for our primary grade students. Despite the fact that we went into a second lockdown after barely a month of in-person school, the SEL module got off to a roaring start in online classes. Through innovative and engaging lessons delivered through WhatsApp, our teachers had students immersed in navigating complex emotions and developing social awareness through art based activities.",
+            description2: "SEL activities and classes encourage five major capabilities in children: Self- awareness Self - management Responsible decision making Social awareness Relationship skills",
+            description3: "What SEL is not: A school negating the role of the parent Psychosocial therapy Regulating student conduct and disciplining students",
+            description4: "Conversations around emotions and behaviors are vital in aiding students come to terms with their own experiences. SEL creates a safe and positive learning environment which fosters children into becoming healthy expressive adults. It promotes ideas of personal growth and allows them to gain confidence, empathy and stress management skills.",
+            description5: "It has been found that supporting young people’s SEL has long-lasting effects, including lowering rates of depression and anxiety which is crucial to the mental health of children in this uncertain ‘New Normal’.",
+            description6: "The consequences of a healthy approach to social and emotional behaviors were reported in a study, published in the journal of Child Development, where it was found that students exposed to SEL learning achieved an 11 percentage gain in their academic performance.",
+            description7: "Here is what our Social Studies lead, Aasia Atiq shared about the SEL module she designed:",
+            description8: "“We started SEL when schools reopened after the first lockdown. It was to keep students in constant contact and with each other and their teachers through WhatsApp and Zoom, and to get them engaged in fulfilling activities and learning life skills during Covid-19. We conduct activities /classes once a week.”",
+            description9: "Through the heartwarming artwork that students created for exercises during their SEL classes, you can also see the expression of their frustrations with online learning. These drawings help students identify and articulate the negative emotions that they are feeling. By maintaining an ‘Expression Journal’ they are encouraged to identify different types of emotions as well as their causes, and thus cope with them in a healthy manner. One of the activities also involved creating and using a “Worries Box” which encouraged them to identify, accept, normalize and thus manage some of their difficult and worrying thoughts and feelings.",
+            description10: "Our experience of teaching SEL has shown an improvement in the lives of not only the students but also teachers by encouraging them to acknowledge, know and accept their selves and their emotions. The module was initially started to help students regulate their emotions, communicate with compassion and empathy, build relationships and learn how to make decisions. During distance learning, the turn towards student wellbeing and an opportunity to provide social interaction with the school and their friends proved to be key to its success, so much so that SEL classes had the best participation out of all our distance learning on Whatsapp. To learn more about our SEL initiative, you can read about it from the perspective of a student and a  teacher.",
+            img: "/assets/images/NewsEvents/newsStories15.jpg",
+            img1: "https://www.zindagitrust.org/news/pic22.jpg",
+            img2: "https://www.zindagitrust.org/news/pic23.jpg",
+            img3: "https://www.zindagitrust.org/news/pic24.jpg",
+            img4: "https://www.zindagitrust.org/news/pic25.jpg",
         },
         {
             id: "16",
             date: "12/12/2020",
             title: "ZINDAGI TRUST AWARDED SHARIAH COMPLIANCE CERTIFICATION FOR ZAKAT",
             description: "Donors who wish to give their Zakat to Zindagi Trust can do so with the peace of mind that their religious obligation is being fulfilled in accorda...",
-            img: "/assets/images/NewsEvents/newsStories16.jpg"
+            description1: "Donors who wish to give their Zakat to Zindagi Trust can do so with the peace of mind that their religious obligation is being fulfilled in accordance with the Shariah. With the help of Alhamd Shariah Advisory Services, Zindagi Trust has obtained a Shariah Compliant Certification for its management of Zakat donations after a rigorous process of training and evaluation. This ensures that every donation we receive as Zakat is handled and distributed in a way that is compliant with established guidelines according to the Shariah.",
+            description2: "We achieve this through a transparent and structured approach. What happens when we are given Zakat? Zindagi Trust follows a Wakala system, in which an organization is nominated as a wakil(agent) to collect Zakat on behalf of deserving students, and then disburse the funds collected as Zakat, for the benefit of those for whom Zakat was collected. The funds go straight into a dedicated Islamic banking account designated for Zakat proceeds. The monthly expenses of this Zakat account are sent to our Shariah advisor, Mufti Ubaid ur Rahman Zubairi from Alhamd Shariah Advisory Services, for verification and compliance.",
+            description3: "How do we determine Zakat eligibility? To determine eligibility, our school staff and Project Managers underwent a thorough training process, led by Mufti Ubaid, where they were taught to gather and compile relevant student information. Once completed, the information forms are signed by the parents/ guardians of the students, or by the students themselves if they are over the age of 13 These information forms are then shared with our Shariah advisor who determines which cases qualify for Zakat.",
+            description4: "How are Zakat proceeds spent? Our accounting department has received training to understand which expenditures qualify for Zakat according to Shariah standards. In addition to this our Shariah Advisor is consulted before any expense is made from the Zakat account. To donate your Zakat to Zindagi Trust, simply check the box to “designate your donation as Zakat” on our Donate page.If you have any questions about how your zakat will be used, please feel free to write to us.",
+            img: "/assets/images/NewsEvents/newsStories16.jpg",
+            img1: "https://www.zindagitrust.org/news/small25-Shariah_Article_Phot682414580.jpg",
+            img2: "https://www.zindagitrust.org/news/ZT-Certificate-2021-22-page-001-2.jpg",
         },
         {
             id: "17",
             date: "22/9/2020",
             title: "REIMAGINING AN ARTS EDUCATION ONLINE",
             description: "Building on from the Learning Packs we sent to our students early on in the lockdown",
-            img: "/assets/images/NewsEvents/newsStories17.jpg"
+            description1: `Building on from the Learning Packs we sent to our students early on in the lockdown, our art teachers started filming video lessons that were bolstered by Q&A with the students in the Whatsapp classroom. This proved to be a great, practical platform - students could view lessons whenever they got access to a smartphone (usually a relative's and not their own), had time to engage with their teacher's ideas and prompts as well as to explore their own interpretation of the topic. Our teachers designed a host of activities: a haldi (turmeric) tie-dye exercise, arranging fruits and vegetables into portraits as mannerist art, making DIY paints at home with kitchen ingredients, and of course finding a creative outlet to formulate and express their thoughts on being stuck at home, being scared of getting COVID, missing school and suffering from the unprecedented urban flooding due to the recent Karachi rains. 80 of our students also enjoyed a talk with Amsterdam-based artist and museologist Shireen Ikramullah, learning the elements of art through a wonderful curation of some of the most stunning art from all over the world.
+
+
+
+Being away from school, from their friends and, for many, from the only safe space they can freely enjoy, was a uniquely stressful time for our students, as it has been for children across the world during school closures. On top of this, the fear of catching coronavirus and bearing the economic impact of the shutdowns it necessitated, all added to the mental distress of our schoolchildren. To address this, we decided to begin lay counseling for our students, in order to support their mental wellbeing during this strange and difficult time. Realising that art teachers have always had a special connection with students and that for many students the art room is their safe space where they can truly express themselves, we decided to train our art teachers as lay counselors. After a 10-hour training spread out over 2 days in 2 groups, our teachers began doing phone check ins with students grade by grade. They ask them about their routine, chat about their time at home, give them some self care tips as well as some art activities if they showed an interest in art. Once a week, each group of lay counselors meets me and the School Counselor to discuss and review their calls, get support where they are struggling and refer any serious cases to the school management.
+
+We hope you enjoy reading the following accounts of two of our art teachers about teaching art and counseling during school closure, in their own words:
+
+"As a new art teacher, distance teaching has been nothing short of an amazing experience. I was connected to the students through online art classes during this difficult time. They showed a lot of interest in the art activities my colleagues and I suggested and were always asking us for the next art activity. This was a way for them to feel that they were not far from us, that they were connected to their teachers, to school. It gave them hope that schools would be back again and they would restart the things they like again. Some students who did not show much interest in art earlier showed a lot of interest now because they were a bit more relaxed, their minds were more free to explore art and so they were able to enjoy it.
+
+About lay counseling - when you heal others, you heal yourself. I felt I learned something after every check-in call. Children deal with adversity so well, they have "mazay mazay kay" - very interesting and innovative - ideas when we asked how they made use of this time and adapted to the restrictions. I also learned that everyone's life is very different and if there is a difficult situation like this pandemic, everyone has their own unique way of bringing themselves out of it or living through it. Sometimes I would get so upset thinking how a student would survive or manage a particularly difficult situation but the child would find a way, an activity, a hobby, and get through - in fact teaching their teachers how to get through challenges.
+
+After talking to all the students I can confidently say that there is an artist somewhere in every child who shows the creativity of their mind in a new way every day, not necessarily on canvas or through an artwork, but I think managing life well is also creativity, which I learned from my students. The biggest thing I felt was that these children have a lot of hope, they have this solid faith that they will get through this and good times are coming. So, lay counseling was a great lexperience and I learned so much.
+
+There were some situations where children were going through a really critical time, where the problems they were facing seemed too difficult to overcome through counseling or talking to them. We shared these with our group of lay counselors, with the School Counselor who was guiding us and forwarded them to the School Principal/Project Manager and they tried their best to support the children and their families. Our overall goal was - because this situation was so weird - to keep them involved in activities, to keep them connected to us and to boost their spirits.
+
+One student, Fareeba, told me she wasn't that interested in art before. She was keeping herself busy in housework during the lockdown until one day she was cleaning a cupboard and found some paints and art supplies which led her to create some art and slowly develop an interest in art. Now whenever she gets some free time, specially given that schools are closed, she makes some art. She's linked to me on Whatsapp and I give her some tips, where I'm usually just gently guiding her to consider a new perspective. Her artwork has really progressed during this time. I really like the art she has been making now. This was one of my favourite stories of change that I saw within a student during the lockdown. One of the most recent pictures of her art that Fareeba shared with me on Whatsapp is of a dark skyline, saying she loves shadows and this image just came to her mind - a sign that art her become a tool for expression for her."
+
+- Fizza, Art teacher at Khatoon-e-Pakistan Government Girls School
+
+"Distance learning was quite a learning experience for me. Lots went well but there were also a lot of challenges. I think distance learning has its limitations - it is not easy, specially for younger children who are not able to pick things quickly. When they're in front of us it's a different dynamic, they understand things from our facial and vocal expressions, from our demonstrated examples on the spot. In the classroom - or art studio - it was easy to communicate with them, to introduce a concept both orally and visually by drawing on the board and adding more details as needed. Now we had to deliver perfectly edited videos which would capture our entire lesson and also proactively answer any questions we anticipate they might have. In the (physical) classroom of course we could easily answer any questions that would come up but now that they were not in front of us we would have to craft our video in a way that would ensure there would not be any need for further questions or explanations as children did not have easy phone access for live back and forth). While this helped me get better at making and editing videos, it also made me realise the limitations of distance or online learning. In art your expressions matter so much and this must have been so challenging for our students to understand but we all did our best.
+
+Overall, it went quite well, our students really enjoyed their lessons and stayed engaged and it also gave them a chance to divert their mind from the gloom of the disease and the lockdown. They invested their time in art and shared a lot of their artwork with us. I was so happy to learn that my young students realised that their teachers wanted to work hard with them, that they valued the explanations we had sent and the video lessons we made for them. Since May, they participated in several art competitions - a covid19 awareness art competition, another on the topic of what they miss about their school by Aahung, another by Colgate. It was a time-consuming process to guide the students remotely, select their work, scan and label it but it was so rewarding to see their wonderful work during the lockdown. Their awards felt like our achievements."
+
+- Minhaj, Art Teacher at SMB Fatima Jinnah Government Girls School
+
+* Please note that wherever in this report we have used the full names of a participant or facilitator, we have their consent to do so.`,
+            img: "/assets/images/NewsEvents/newsStories17.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image21-1.jpg",
+            img2: "https://www.zindagitrust.org/img/news/cage_Large.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image22.jpeg",
+            img4: "https://www.zindagitrust.org/img/news/image22-1.jpeg",
+            img5: "https://www.zindagitrust.org/img/news/image22-2.jpeg",
+            img6: "https://www.zindagitrust.org/img/news/image22-3.jpeg",
+            img7: "https://www.zindagitrust.org/img/news/image22-4.jpg",
+            img8: "https://www.zindagitrust.org/img/news/mhfa2b_Large.jpg",
         },
         {
             id: "18",
             date: "21/9/2020",
             title: "A PLEA AND A PLAN TO PROTECT OUR CHILDREN",
             description: "It is deeply disturbing that violence against women and children continues unabated in Pakistan.",
-            img: "/assets/images/NewsEvents/newsStories18.jpg"
+            description1: `It is deeply disturbing that violence against women and children continues unabated in Pakistan. Many solutions have been offered to address the issue of child sexual abuse in particular, the most recent of which proposed the following interventions: (i) policing, specifically through registration of sex offenders and paedophiles, (ii) legislation to give child rapists exemplary punishments like public hanging or chemical castration and, (iii) controlling vulgarity in films and television in an attempt to reduce sex crimes and preserve the family system.
+
+As organisations committed to protecting and empowering children, we appreciate the Prime Minister taking an active interest in eradicating child sexual abuse. However, our experience from working directly with school children and through community programs shows that there are no quick or easy solutions to the endemic of child sexual abuse.
+
+Global and national research clearly shows that an overwhelming majority of abuse takes place in or close to the home and is perpetrated by relatives and trusted adults. In addition, social attitudes link rape to dishonor and shame. Together, this not only discourages survivors and their families from reporting child abuse but also thwarts attempts by the few who do seek justice through official channels by pushing them to forgive or 'settle' instead. To eliminate child sexual abuse, we need a coordinated, systemic, state response, taking into account the ground realities. Here are our recommendations for what Pakistan needs to do to protect our children:
+
+. The state must introduce Child Protection via Life Skills Based Education (LSBE) in all schools with Parent Education being a critical aspect. Children must be taught in school how to identify and protect themselves from abuse as well as how to respect others and prevent themselves from becoming abusers. Age appropriate, culturally sensitive and relevant LSBE content has been developed and field tested across Pakistan and is ready for the state to adopt into its textbooks, curricula and mass awareness programs. School LSBE programs must also engage and sensitise parents to identify signs of abuse and support their children in feeling safe and confident about reporting abuse.
+
+. The state must launch regular mass awareness campaigns through media for parents, law enforcement agencies and healthcare providers to listen to children and support them, an essential social pre-requisite for justice.
+
+. The state must establish Special Police Units at the district level with male and female officers trained to deal sensitively with cases of child sexual abuse. Additionally, all police stations need to be equipped with rape kits and forensic lab support within their province.
+
+. The state must activate and mobilise their Child Protection Units in every province, and within each province ensure their presence in every district. Child protection institutions (CPIs) practicing alternative family-based care must (a) rescue and protect children, specially survivors of child sexual abuse, when families are not safe and (b) also monitor any institutions interacting with children and hold them accountable as per law.
+
+. The state must establish specific child-friendly courts to ensure that child survivors get access to sensitive justice.
+
+. The state must invest in ensuring an increase the number of women in the police force, in the legal profession (as lawyers and prosecutors) and mandate an increase the number of female judges and female medico-legal officers.
+
+. The state must provide free legal aid to survivors of child sexual abuse.
+
+. The state must provide free counseling and therapy for survivors of child sexual abuse by therapists trained in the specialty.
+
+. The state must mandate hospitals, clinics and health units to provide awareness to and train and sensitize healthcare providers to provide appropriate care to survivors of child sexual abuse.
+
+. Finally, the state must establish strong linkages between relevant departments including education, child welfare, police and health, as well as the civil society voices, specially child rights organisations to build a coordinated approach to end violence against children.`,
+            img: "/assets/images/NewsEvents/newsStories18.jpg",
+            img1: "/assets/images/NewsEvents/newsStories18.jpg"
         },
         {
             id: "19",
             date: "6/9/2020",
             title: "PAKISTANI TEACHERS RESPONSE TO COVID-19",
-            description: "When COVID-19 first emerged in Pakistan, state institutions began deliberating",
-            img: "/assets/images/NewsEvents/newsStories19.jpg"
+            description: "When COVID-19 first emerged in Pakistan, state institutions began deliberating upon and enacting a series of emergency response measures, starting with school closures across the country in March 2020. For this report, our team at Zindagi Trust along with our friends at the Pak Alliance for Math and Science (PAMS) spoke to public school teachers to explore their views on the state's immediate response and their recommendations on measures to be implemented once schools reopen.",
+            description2: "The purpose behind compiling this report is to inform the debate around the desired state response to COVID-19 by adding opinions from teachers, who remain largely absent from the public discourse. The report is not intended to represent a academic study and does not claim to be backed by a robust quantitative and qualitative survey representative of teachers.",
+            img: "/assets/images/NewsEvents/newsStories19.jpg",
+            img2: "https://www.zindagitrust.org/img/news/PakistaniTeachersResponse-7.jpg",
+            img3: "https://www.zindagitrust.org/img/news/7184a95a-0779-41e5-9949-50f8156547f9.jpg"
         },
         {
             id: "20",
             date: "2/9/2020",
             title: "PROJECT OF THE MONTH CLUB UPDATE: SEPTEMBER 2020",
-            description: "We hope your September is off to a happy and healthy start! We are in awe of you",
-            img: "/assets/images/NewsEvents/newsStories20.jpg"
+            description: "Dear Project of the Month Club Member,",
+            description2: "We hope your September is off to a happy and healthy start! We are in awe of you and the 597 other club members that came together to give $26,717 last month to Whispering Seed and its project MyanmarYouth Sustainability Training Centre, which works to bridge the traditions of sustainability and holistic education through innovative programs while drawing on rich local wisdom and traditional cultures.",
+            description3: "This September, your generous contribution will support our nonprofit partner Zindagi Trust and its project Art for 3200 School girls in Pakistan.",
+            description4: "Zindagi Trust's mission is to reform Pakistan's state schools by helping the government implement a holistic curriculum that lets students thrive. Through Art for 3,200 Schoolgirls in Pakistan, Zindagi Trust leaders will implement a modern art program at two government schools in Pakistan's biggest city, Karachi, so young girls can express themselves creatively - a skill that is overlooked by the current education model. Through these integrated programs, students will naturally connect their studies to the outside world, whether it's on a trip to the local museum or a visit to a mural painted by a local artist. This method of connecting students to the world around them through art not only improves school attendance and learning outcomes, but it also encourages students to explore their interests and passions later in life.",
+            description5: "Despite the lockdown, Zindagi Trust has continued to support 2,300 students channel their creative spirits at home. Care packages bursting with activities that promote mindfulness, gratitude, reflection, and fun were distributed to the children to help them cope in isolation - a powerful reminder that art is more than just another extra-curricular.",
+            description6: "Head of Special Programs and Advocacy Sana Kazmi expresses her thanks to you and other Project of the Month Club members for supporting their mission:",
+            description7: "I am thrilled and deeply touched to hear this news! Funding for continuing learning and reopening schools is scarce given the competing priorities brought about by the pandemic. We were afraid we may have to scale down our art program despite knowing that it is needed now more than ever. After spending almost six months in isolation, our school children need to feel the joy and connection of creative pursuit as well as the emotional outlet and release that their art classes provide. Thank you so much for helping us find a way to make this possible!",
+            description8: "Sana went on share plans for how your generosity will power their efforts this year:",
+            description9: "Your contribution will enable us to create unique, local art experiences for 3,100 students. After a gap of more than six months, we will be able to continue our weekly art classes. Thanks to your generosity, we can buy enough art supplies so all children can create art safely without having to share supplies, as we return to on-campus classes with post-COVID-19 safety measures. We will now also be able to put out teaching resources, art lessons, and DIY tutorials for children beyond our schools, as your gift helps us support our faculty of seven art teachers across two large under-resourced government schools. Finally, our art teachers, who have been recently empowered through extensive training on Mental Health First Aid, will be helping our students make the transition back to school easier. They will be making check-in calls leading up to school re-opening and providing guided care as lay counselors at a time when the mental well-being of children is more important than ever for their success at school.",
+            description10: "Keep up with Zindagi Trust's work by checking out their most recent updates from the field.",
+            description11: "We are so grateful for your commitment to support community-led change. I can't wait to share where your generosity is headed in October!",
+            img: "/assets/images/NewsEvents/newsStories20.jpg",
+            img2: "https://www.zindagitrust.org/img/news/POMC_Large.jpg"
         },
         {
             id: "21",
             date: "14/2/2020",
             title: "ZINDAGI TRUST PETITION LEADS TO IHC BAN ON CORPORAL PUNISHMENT",
-            description: "Great win for Child Protection today as the Chief Justice of the Islamabad High Court, upon hearing our petition",
-            img: "/assets/images/NewsEvents/newsStories21.jpg"
+            description: "It is noted that corporal punishments are not in consonance with the constitutionally guaranteed right of inviolability of dignity not with standing section 89 of the Pakistan Penal Code 1860.",
+            description2: "When a child is born he is beaten by his parents, when he goes to school by his teachers, when he grows older, by the SHO... But research shows that the use of violence only leads to more violence.",
+            description3: "Corporal punishment has extremely adverse effects on children's mental and physical health. Last year, a child passed away because of the use of corporal punishment in a school in Lahore. We want that the use of corporal punishment is banned while the parliament goes about making laws on the matter.",
+            description4: "Zindagi Trust has been campaigning to bring an end to this practice since 2013, when our Founder Shehzad Roy's TV show ChalParha and subsequent advocacy led to the National Assembly passing a bill criminalising corporal punishment, which unfortunately lapsed in the Senate. In the years since, the responsibility has been devolved to the provinces and Sindh has passed legislation against corporal punishment but much remains to be done to protect children across Pakistan.",
+            description5: "This is a collective win for the Zindagi Trust family - we thank all our supporterswho enable us to sustain our work for a safer Pakistan for all our children.",
+            img: "/assets/images/NewsEvents/newsStories21.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image17-2.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image17-3.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image17-4.jpg"
         },
         {
             id: "22",
             date: "26/1/2020",
             title: "GOVERNMENT SCHOOL WINS SECOND PLACE AT INTER-CITY FOOTBALL CHAMPIONSHIP",
-            description: "Karachi, Jan 26: SMB Fatima Jinnah Government Girls School won second place in the Karachi United School Championship",
-            img: "/assets/images/NewsEvents/newsStories22.jpg"
+            description: "Karachi, Jan 26: SMB Fatima Jinnah Government Girls School won second place in the Karachi United School Championship 2020, losing to Aga Khan Higher Secondary School Karimabad in the final on penalties after the teams tied 1-1 at full-time Saturday afternoon.",
+            description2: "20 of Karachi's top private schools, including Cedar College, Karachi Grammar School, the Lyceum, CAS, Foundation Public School, Beaconhouse School System, Roots Millenium College and the Aga Khan schools fielded teams in the tournament.",
+            description3: "The final concluded what was almost a dream run for the SMB Fatima Jinnah Government School team, the only government school featuring in the competition and also the only team against which no other team was able to score a single goal until the final. Earlier on Sunday, they beat Beaconhouse School 2-0 in the semis at the Karachi United Football Federation ground. Previously, the SMB team beat St Michael's Convent School 2-0, Wales College 4-0, Social Bond School 3-0 and eventual tournament winners Aga Khan Higher Secondary Karimabad 2-0 in the.round matches.",
+            description4: "10th-grader Bareera Abdul Majeed from SMB bagged the Best Scorer award, finishing the tournament as the highest scorer with a total of 10 goals.",
+            description5: "This was Bareera's first year playing competitive football - she has surprised all of us and made us win several crucial games! said her coach.",
+            description6: "The team also won the Fair Play award for displaying sportsman's spirit and camaraderie throughout the tournament, accepting all the decisions made by the referees respectfully. A special mention is due for their coach Fatima Kiran in recognition of her impressive mentorship, passion and tireless efforts for the team. The school has won the championship twice, in 2017 and 2018.",
+            description7: "SMB Fatima Jinnah Government Girls School is managed by Zindagi Trust under their School Reform project. One of the project's core features is a strong sports program aimed at introducing students to a variety of sports to help find and hone their talents and interests and develop them into well-rounded citizens.",
+            img: "/assets/images/NewsEvents/newsStories22.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image16-1.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image16-3.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image16-2.jpg",
+            img5: "https://www.zindagitrust.org/img/news/image16-4.jpg",
+            img6: "https://www.zindagitrust.org/img/news/image16-5.jpg"
         },
         {
             id: "23",
             date: "21/10/2019",
             title: "OUR GOVERNMENT SCHOOL STUDENTS MEET THE ROYAL COUPLE WILLIAM AND KATE",
-            description: "Our government school students met and played cricket with the Duke and Duchess of Cambridge William and Kate",
-            img: "/assets/images/NewsEvents/newsStories23.jpg"
+            description: "Our government school students met and played cricket with the Duke and Duchess of Cambridge William and Kate at the National Cricket Academy in Lahore!",
+            description2: "Cricket stars Sana Mir, Hassan Ali, Urooj Mumtaz Khan, and Shaheen Shah Afridi joined the DOSTI student family on the occasion and five of our students from SMB Fatima Jinnah Government Girls School were delighted to interact with them.",
+            description3: "8th-grader Zainab Arshad was selected as one of 3 students who got a special chance to share their story with the Duke and Duchess of Cambridge. She shared her journey from being a quiet primary school student who struggled to make friends to a young girl who is comfortable with her identity and that of her peers. The Duchess listened intently as Zainab ended with a reflection on how her chess class at school taught her to value everyone, regardless of how powerful they may appear.",
+            description4: "A big thank you to the British Council Pakistan, DOSTI and the Pakistan Cricket Team for making this happen.",
+            img: "/assets/images/NewsEvents/newsStories23.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image15-3.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image15-7.jpg",
+            img5: "https://www.zindagitrust.org/img/news/image15-8.jpg",
+            img6: "https://www.zindagitrust.org/img/news/image15-2.jpg",
+            img7: "https://www.zindagitrust.org/img/news/image15-4.jpg",
+            img8: "https://www.zindagitrust.org/img/news/image15-1.jpg",
+            img9: "https://www.zindagitrust.org/img/news/image15-5.jpg"
         },
         {
             id: "24",
             date: "23/9/2019",
             title: "'HOARD OUT OF GREED BUT DIE OF NEED': KARACHIITES JOIN WORLDWIDE CLIMATE STRIKE",
-            description: "The drums beat relentlessly and chants of We demand clean",
-            img: "/assets/images/NewsEvents/newsStories24.jpg"
+            description: "The drums beat relentlessly and chants of 'We demand clean air' rang out as tightly-knit groups of Karachiites gathered at the metropolis' Frere Hall and amalgamated into a growing crowd of protesters for the first-ever Climate March, which coincided with rallies across the world in at least a dozen countries.",
+            "description1": "Kicked off by new media artist Yasir Hussain and Zehra Zaidi, the event welcomed its first guest, 15-year old Rimsha Ali, to the stage. A student of Zindagi Trust's SMB Fatima Jinnah Government Girls' School, the teen had prepared a chilling poem that had the audience in silence, contemplating the seriousness of climate emergency.",
+            description2: "Rimsha spoke of lower attendance at schools as children were hit by malnutrition, mental stress, and other sicknesses. 'If the heaps of garbage grow, what do they do? They just burn it,' said the student, referring to the indifference of corporations and municipal authorities towards trash.",
+            description3: "Karachi, which has fallen victim to global warming and climate change as is evident from the increasing frequency of heatwaves as well as episodes of torrential rainstorms, is one of the most crucial Pakistani cities that needs a proper climate policy to deal with its problems.",
+            description4: "We have grown up without clean air to breathe or safe water to drink,' Rimsha explained.",
+            description5: "Promise me that you'll use tiffins for lunch and not plastic bags, promise me that you won't waste water, promise me that you'll use public transport, and promise me not to throw seeds in the dustbin but in soil so there are plants,' she appealed.",
+            description6: "Today the citizens of Karachi have taken a stand by demanding that the people and Government of Pakistan take climate action now!' said Abid Omar, one of the citizen-volunteers organising the March. Karachi is expected to see a rise in suffering from drought, heat, desertification, air pollution, and higher sea levels, and intrusion that will harm our citizens unless we take measures to protect the city and its citizens.",
+            description7: "Initiated by 16-year old Swedish climate activist Greta Thunberg's #FridaysForFuture movement, more than 5,000 strikes were held in 156 countries, held ahead of ahead of the United Nation's climate emergency summit starting September 23. These climate marches are aimed to urge politicians, leaders, and those in power to take action before it is too late.",
+            description8: "Pakistan Fisherfolk Forum leader Fatima Majeed agreed, speaking of air pollution and how the world was moving on from coal power but Pakistan was still using it. 'China, especially, has halted the use of coal power but it has sent the rejections to us.",
+            description9: "There's a new coal power plant being set up in Ibrahim Hyderi; there's too much security around it, blocking roads and telling people to go elsewhere,' Majeed said, adding that the factory's construction has led to the unfortunate removal of mangrove forests on Sindh's coastal belt.",
+            description10: "Women Democratic Front (WDF) member Aabida Ali underscored further on the common person's livelihood, saying the impacts of climate change included significant climate-driven migration, dangerous working conditions from extreme heat, job loss - in rural areas - due to crop failure and due to extreme weather events in urban ones.",
+            description11: "To add to Karachiites' woes, the whole city is currently a huge garbage dump, noted KCR Mutasirin Action Committee's Sagheer Ansari. 'We need to make these decisions ourselves now.",
+            description12: "Ansari, who works for the challenges faced by those affected by the anti-poor demolition, said: 'Of the 4,653 households marked, at least 1,100 houses have already been demolished five months ago, leaving the impactees to live under open sky for almost half a year.",
+            description13: "They do not have washrooms. They have no access to water. And they are harassed if they try to put up roofs made of cloth,' he added.",
+            description14: "As the speeches concluded, the 5,000-strong rally moved from inside the Frere Hall to Abdullah Haroon Road outside, bringing rush-hour traffic to a standstill and leaving motorists curious as the protesters yelled slogans.",
+            description15: "As the crowd reached the historic Metropole Hotel intersection, the demonstrators staged a 'die-in' - showing people lying dead on the road as a simulation of what the environmental emergency could potentially unleash on the world - while pedestrians, shopkeepers, and drivers looking on, flabbergasted at having to stop despite the traffic signal working.",
+            img: "/assets/images/NewsEvents/newsStories24.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image14-1.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image14-2.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image14-3.jpg",
+            img5: "https://www.zindagitrust.org/img/news/image14-4.jpg"
         },
         {
             id: "25",
@@ -256,6 +526,7 @@ const newses = {
             img: "/assets/images/NewsEvents/newsStories36.jpg"
         }
     ]
+
 };
 
 // const baseUrl = process.env.REACT_APP_API_BASE_URL;
