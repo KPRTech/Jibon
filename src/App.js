@@ -68,7 +68,7 @@ const router = createBrowserRouter(
       <Route path="/a-review-of-2020" element={<AReviewOf2020Page />}></Route>
       <Route path="/a-review-of-2019" element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
-      <Route path="/news-details/:title" element={<NewsDetails />}></Route>
+      <Route path="/news-details/:title/:id" element={<NewsDetails />}></Route>
       <Route
         path="/our-covid-19-response"
         element={<OurCOVID19ResponsePage />}

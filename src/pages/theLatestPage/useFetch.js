@@ -7,6 +7,7 @@ const newses = {
             date: "7/9/2022",
             title: "ZINDAGI TRUST LAUNCHES 'CODING PROGRAM' IN COLLABORATION WITH KFC & TECHNOKNOWLEDGE",
             description: "In collaboration with KFC Mitao Bhook, Zindagi Trust is piloting a three-year Coding Program in their two adopted government schools- SMB Fatima Ji...",
+            desc1: "In collaboration with KFC Mitao Bhook, Zindagi Trust is piloting a three-year Coding Program in their two adopted government schools- SMB Fatima Jinnah and Khatoon-e-Pakistan to equip students from grades 3 to 8 with digital programming tools and modern technologies. Over 1800 female students will be involved in the program in its tenure.",
             img: "/assets/images/NewsEvents/newsStories1.png"
         },
         {
