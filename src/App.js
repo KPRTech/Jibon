@@ -31,6 +31,7 @@ import AReviewOf2019Page from "./pages/theLatestPage/AReviewOf2019Page";
 import AReviewOf2020Page from "./pages/theLatestPage/AReviewOf2020Page";
 import AReviewOf2021Page from "./pages/theLatestPage/AReviewOf2021Page";
 import NewsAndEventsPage from "./pages/theLatestPage/NewsAndEventsPage";
+import NewsDetails from "./pages/theLatestPage/NewsDetails";
 import OurCOVID19ResponsePage from "./pages/theLatestPage/OurCOVID19ResponsePage";
 import VolunteerProgramPage from "./pages/VolunteerPage/VolunteerProgramPage";
 import SuccessStory from "./pages/SuccessStory";
@@ -68,6 +69,7 @@ const router = createBrowserRouter(
       <Route path="/a-review-of-2020" element={<AReviewOf2020Page />}></Route>
       <Route path="/a-review-of-2019" element={<AReviewOf2019Page />}></Route>
       <Route path="/news-events" element={<NewsAndEventsPage />}></Route>
+      <Route path="/news-details/:title/:id" element={<NewsDetails />}></Route>
       <Route
         path="/our-covid-19-response"
         element={<OurCOVID19ResponsePage />}
