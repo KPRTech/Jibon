@@ -205,7 +205,7 @@ const newses = {
             title: "ENDING CORPORAL PUNISHMENT � NEXT STEPS",
             description: "With the historic passage of the Islamabad Capital Territory Prohibition of Corporal Punishment Bill this week, it is important to take stock of th...",
             description1: "With the historic passage of the Islamabad Capital Territory Prohibition of Corporal Punishment Bill this week, it is important to take stock of the work that remains to be done to effectively eradicate the inhumane practice of corporal punishment across Pakistan. Here’s what remains to be done:",
-            description2: "Legislation Having adequate legal backing to ban and criminalise corporal punishment is an important first step that still needs to be completed across Pakistan. The Islamabad Capital Territory Prohibition of Corporal Punishment Bill passed by the National Assembly this week has to be passed into law by the Senate. The provincial assemblies of Punjab and Balochistan need to pass laws explicitly banning corporal punishment. (Currently, corporal punishment is banned in Punjab through administrative and court orders but no legal backing exists for the same). <br/> The KP Child Protection Act needs to be amended to also disallow the practice of corporal punishment ‘as provided under Section 89’ so that children can no longer be hit even if deemed to be “in good faith” or “for their benefit.”",
+            description2: "Legislation Having adequate legal backing to ban and criminalise corporal punishment is an important first step that still needs to be completed across Pakistan. The Islamabad Capital Territory Prohibition of Corporal Punishment Bill passed by the National Assembly this week has to be passed into law by the Senate. The provincial assemblies of Punjab and Balochistan need to pass laws explicitly banning corporal punishment. (Currently, corporal punishment is banned in Punjab through administrative and court orders but no legal backing exists for the same). The KP Child Protection Act needs to be amended to also disallow the practice of corporal punishment ‘as provided under Section 89’ so that children can no longer be hit even if deemed to be “in good faith” or “for their benefit.”",
             description3: "Implementation and Monitoring Passing legislation is only the first step - ensuring implementation requires the following steps from an administrative perspective: In Sindh, the rules of implementation for the Prohibition of Corporal Punishment Act 2016 need to be notified so that there is clarity about the referral mechanism, reporting, penalties and monitoring of the law. The rules of business for the recent ICT bill must be formulated and communicated within six months once it is passed by Senate The implementation of existing and upcoming legislation needs to be enforced, scrutinized and kept up to date Teachers and Education Department officials need to officially be made aware of the law and trained on effective alternatives such as time- outs, detention, verbal warnings, demerit boxes, apology letters, behaviour contracts, withdrawal of privileges, community service, etc.as part of both their induction and regular in -service training.",
             description4: "Awareness and Sensitization Much of the challenge in addressing this issue revolves around changing mindsets.Over 70% of teachers believe that corporal punishment is a useful practice, which explains why it remains widespread. People need to know about the law and understand the purpose behind it before they can follow it. Regular, systematic awareness campaigns must be planned targeting children, parents, educators and caregivers in both rural and urban, as well as public and private settings to inform them about: (i) the existing laws banning corporal punishment(ii) the severe long- term impact of corporal punishment, and(iii) effective alternatives to the harmful practice Workshops need to be conducted at every level to sensitise law enforcement officials and judges so that they can understand the adverse effects of corporal punishment and empathise with children when they deal with reported cases",
             description5: "How you can help Post about this issue on your social media to create awareness Talk to children, parents and educators in your circle to make sure they know Write to your elected representatives – MNAs, MPAs, Senators - to keep up the pressure",
@@ -446,84 +446,374 @@ Global and national research clearly shows that an overwhelming majority of abus
             date: "6/9/2019",
             title: "UPCOMING WORK IN PUNJAB: MODEL SCHOOLS AND CHILD PROTECTION",
             description: "Our team recently completed a successful visit to Lahore focusing on sharing our government school reform model",
-            img: "/assets/images/NewsEvents/newsStories25.jpg"
+            description1: "Our team recently completed a successful visit to Lahore focusing on sharing our government school reform model as well as on the need to introduce Child Protection through Life Skills Based Education (LSBE) in Punjab's schools.",
+            description2: "MEETING WITH CM PUNJAB",
+            description3: "Zindagi Trust Founder Shehzad Roy called on Punjab Chief Minister UsmanBuzdar at his office on Monday and apprised him about the work of his organisation in the field of education. The CM was inspired to hear about the trust's work in reforming government schools. He shared his own goal of making district-level schools into centres of excellence along the lines of Zindagi Trust's model schools and asked for the cooperation of the trust in that regard.The Punjab Education Minister and Secretary Education were also present. We are excited about this upcoming endeavor to bring our model to schools in Punjab.",
+            description4: "MEETING WITH EDUCATION MINISTER",
+            description5: "Our team, led by founder Shehzad Roy along with Head of Special Programs & Advocacy, Sana Kazmi, later held a meeting withMuradRaas, the Provincial Minister of Education for the Punjab. They shared the trust's model for school reform, involving interventions in infrastructure, governance, academic innovation and strong extra-curricular and co-curricular programs. The minister was impressed with the innovation in the trust's model as he learned about their success in their pilot projects at model schools in Sindh as well as in policy change through advocacy. He expressed his interest in bringing ideas from the trust's model into Punjab's schools and committed to visiting the trust's Karachi schools with his team to get better acquainted with the model. We look forward to his visit in the upcoming weeks.",
+            description6: "MEETING OF COMMITTEE TO ADDRESS CHILD ABUSE THROUGH LIFE SKILLS BASED EDUCATION",
+            description7: "A committee to address the issue of rampant child abuse in Punjab was formed by the Secretary Education after a consultation with Zindagi Trust on the way forward for schools to play their role in eradicating child abuse. The committee's first meeting was held earlier this week in Lahore, chaired by the Secretary Education Muhammad Mahmood himself. Demonstrating his leadership, the Secretary set the tone for the meeting by expressing the School Education Department's commitment to protecting the children of the province from the menace of abuse by finding a way to use education as a tool for prevention and protection.",
+            description8: `Participants of the meeting included Punjab Curriculum & Textbook Board (PCTB) Chairman TahirMehmood, Director Monitoring of School Education Department Rana Abdul Qayyum, Advisors to the Minister SED RazaHamdani and RazaGardezi. It was also heartening to see representatives from civil society organisationscoming together to help Pakistan's biggest province move forward on this issue - Aisha Ijaz from Aahung, DrManizehBano from Sahil, and QaziEhsan from ITA were present along with singer and activist Shehzad Roy and Sana Kazmi from Zindagi Trust.The CSOs shared their positive experience of child abuse awareness sessions for students, teachers and parents.
+            
+            There was a healthy discussion on the roadmap to integrating LSBE into the curriculum as well as the practical roadblocks that may be encountered along the way. The civil society organisationswere drafted into a Technical Advisory Committee along with the Punjab Curriculum and Textbook Board as well as the School Education Department. This committee will study existing Punjab textbooks, existing LSBE content by CSOsas well the SLOs from the curriculum to find overlaps where relevant content can be integrated to introduce Child Protection into Punjab's textbooks and classroom instruction.`,
+            img: "/assets/images/NewsEvents/newsStories25.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image13-1.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image13-3.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image13-4.jpg"
         },
         {
             id: "26",
             date: "5/9/2019",
             title: "WE STAND WITH KASHMIR",
             description: "SMB Fatima Jinnah Government Girls' School adopted by Zindagi Trust observed solidarity with Kashmir to demand the restoration of human rights in t...",
-            img: "/assets/images/NewsEvents/newsStories26.jpg"
+            description1: "SMB Fatima Jinnah Government Girls' School adopted by Zindagi Trust observed solidarity with Kashmir to demand the restoration of human rights in the valley. Our students made a human chain spelling out #WeStandWithKashmir on the school ground to demonstrate solidarity with the people of Kashmir, specially with Kashmiri schoolgirls.",
+            img: "/assets/images/NewsEvents/newsStories26.jpg",
+            img1: "/assets/images/NewsEvents/newsStories26.jpg"
         },
         {
             id: "27",
             date: "4/9/2019",
             title: "A CELEBRATION OF URDU LITERATURE",
             description: "Students from our adopted government schools paid tribute to the work of renowned Urdu dramatist Imtiaz Ali Taj during our annual Urdu",
-            img: "/assets/images/NewsEvents/newsStories27.jpg"
+            description1: "Students from our adopted government schools paid tribute to the work of renowned Urdu dramatist Imtiaz Ali Taj during our annual Urdu Bazm-e-Adab Drama Mela held at Khatoon-e-Pakistan Government School. The two-day event showcased the theatrical skills of students from Grades 3-10 through plays, original skits and dances.",
+            description2: "The performance hall roared with laughter as students brought to life the writer's most amusing and memorable character, Chacha Chakhan. Some students staged a dramatic dialogue from his famous romantic tragedy Anarkali and another group from SMB Fatima Jinnah Government Girls School enacted a powerful scene from the same. Two original silent skits featuring comical, every-day situations which take place in a cinema and a hospital were also on display.",
+            description3: "The productions were judged by Atif Badar, a prominent Pakistani actor, director and storyteller. A huge shout-out to the teachers and management for instituting an annual celebration of Urdu literature.",
+            img: "/assets/images/NewsEvents/newsStories27.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image11-1.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image11-2.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image11-3.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image11-4.jpg",
+            img5: "https://www.zindagitrust.org/img/news/image11-5.jpg",
+            img6: "https://www.zindagitrust.org/img/news/image11-6.jpg",
         },
         {
             id: "28",
             date: "5/7/2019",
             title: "CHILD PROTECTION CAMPAIGN LAUNCHED BY MOHR",
             description: "Human Rights Minister Shireen Mazari on Thursday said Pakistan, unfortunately, was number one in child pornography.",
-            img: "/assets/images/NewsEvents/newsStories28.jpg"
+            description1: `ISLAMABAD: Human Rights Minister Shireen Mazari on Thursday said Pakistan, unfortunately, was number one in child pornography and emphasised the need for initiating a dialogue on the menace.`,
+            description2: `Speaking at the launch of Child Protection Campaign here, Mazari said the menace affected all strata of the society. "This matter is in every stratum of our society." The minister explained that incidents of child abuse were increasing and that Pakistan was No 1 in terms of child pornography, adding, in that light, it was shameful that "we call ourselves Muslims", Geo News reported. She suggested that a campaign should be launched at the school level to sensitize students to the menace.
+            She said the society must get out of its cocoon and hold a dialogue on child abuse. "In order to put an end to incidents of sexual abuse of children, we need to launch collective efforts," she added. The minister said in spite of rise in the number of child abuse incidents, no dialogue had been held at any level.
+
+            "We even don't talk to children about child abuse at any level or schools or households. Development is meaningless if children are not safe from abuse. We will analyse all complaints of child abuse to the ministry," she stressed.
+
+            Mazari said it was sad that Zainab Alert, Response and Recovery Act, 2019 was yet to be passed by the National Assembly's Standing Committee on Human Rights. "Its chairperson is Bilawal Bhutto Zardari," Mazari said, adding that there should be nopolitics on matters pertaining to children.
+
+            "Hope, the bill returns to the assembly soon. If there's law, punishments can be awarded in accordance with that. This message needs to be spread in order to eliminate child abuse," she added.
+
+            In addition, the Ministry of Human Rights secretary commented that a national action plan for the rights of children had been prepared. He said bills on child abuse were in Parliament and of those the noteworthy one was Zainab Alert, Response and Recovery Act, 2019.
+
+            Social activist and singer Shehzad Roy said there was a need to break the mental barriers for creating awareness about child abuse and sexual assault. "People don't even talk about it with parents and friends," he said.
+
+            Noting that the campaign launch was a major effort on part of the human rights ministry, he said, "Parents should talk to their children about sexual abuse and assault." Roy noted that one in every five persons in Pakistan was subjected to sexual assault and abuse but, unfortunately, no one talked about it. "Those who rape and murder should be awarded the strictest of punishments," he added.`,
+            img: "/assets/images/NewsEvents/newsStories28.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image10.jpg"
         },
         {
             id: "29",
             date: "23/5/2019",
             title: "ARTISTS, ATHLETES AND ACTIVISTS CALL FOR END TO STATE INACTION ON CHILD PROTECTION",
             description: "Just over a year ago, we united after the brutal rape and murder of six-year-old Zainab in Kasur and pledged.",
-            img: "/assets/images/NewsEvents/newsStories29.jpg"
+            description1: "Just over a year ago, we united after the brutal rape and murder of six-year-old Zainab in Kasur and pledged to do our utmost to ensure no other child suffers that fate again. The horrific rape and murder of 10-year-old Farishta in the nation's capital has once again brought agony and shame upon us. Between these two tragedies that have shaken the nation, more than 10 cases of child abuse were reported on average every day (Sahil, 2018). Zindagi Trust, a non-profit working to reform the government education system, brought together Pakistan's leading artists, athletes and activists to push for sustainable action to prevent child sexual abuse. Joining the trust's founder, musician and activist Shehzad Roy were actors Mahira Khan and ZebaBakhtiar, former Pakistan cricket team captain Younus Khan and activist Nazim Haji and Karamat Ali.",
+            description2: "In 2010 a Life Skills Based Education (LSBE) curriculum was developed for schools to ensure children could identify and protect themselves against child sexual abuse. This LSBE program covered concepts like 'Good Touch, Bad Touch,' child and gender rights in an age-appropriate, culturally sensitive manner and was approved by the ulema karam. Zindagi Trust, a non-profit working to reform the government school system, ran this program so successfully at its government schools since 2011 that it was declared a model implementation of LSBE by Aahung, the non-profit that developed the curriculum. The schools adopted by the trust were able to develop ownership of the program in the parents and teachers and saw significant gains in terms of student awareness, confidence and openness to report cases of harassment or abuse. The program has travelled to hundreds of schools since, thanks to Aahung.",
+            description3: "From then onwards, Zindagi Trust has been advocating with the support of Aahung to introduce Child Protection through LSBE in schools across Pakistan. After the Zainab tragedy in early 2018, the Sindh and Balochistan governments took notice and took the bold step of agreeing to integrate LSBE into the provincial curriculum. This was announced in joint press conferences by the political and administrative leadership and the two non-profits leading the initiative.",
+            description4: "As things stand, much work remains to be done with only some relevant chapters having been introduced so far in the Sindh textbooks and with the provinces of Khyber Pakhtunkhwa and Punjab still unmoved despite being urged to take action. The participants highlighted that in addition to the urgent need to teach LSBE in government schools, Child Protection Units need to be activated and made effective in every province; a special police unit trained to deal with cases of child sexual abuse; shelters created by the state for survivors of child sexual abuse which often happens inside the home; counseling and therapy to be provided to survivors of child abuse; and staff at hospitals and clinics to be sensitized to provide appropriate care to survivors of child sexual abuse.",
+            description5: `CONTEXT
+
+            We are gathered here again after a year and a half when the Zainab tragedy took place. We want to:
+
+            (1) Express our grief and anger at the horrific rape, acid torture and murder of 10-year-old Farishta and many other cases of child abuse that never make it to the media
+
+            (2) To push and plead the state to act now to prevent child abuse and protect survivors
+
+            Since the brutal rape and murder of six-year-old Zainab in January 2018, more than 10 cases of children being abused have been reported on average every day
+
+            Back then, we had pushed for Child Protection through Life Skills Based Education (LSBE) to be taught in all schools. We have made some headway but there is a long way to go.`,
+            description6: `LIFE SKILLS BASED EDUCATION (LSBE) IN SCHOOLS
+ 
+            LSBE teaches children to recognise and protect themselves against physical and sexual abuse, child and gender rights violations regarding disease, hygiene and nutrition.
+
+            Through Zindagi Trust's advocacy with Aahung, the governments of Sindh and Balochistan have committed to introducing the LSBE curriculum into their textbooks.
+
+            The curriculum is age-appropriate, culturally sensitive and approved by the ulema karaam.
+
+            Zindagi Trust ran this program so successfully at its government schools since 2011 that it was declared a model implementation of LSBE
+
+            Zindagi Trust's adopted government schools were able to:
+            develop ownership of the program in the parents and teachers
+            saw significant gains in terms of student awareness, confidence and openness to identify and report cases of harassment or abuse.
+
+ 
+            Parent Education is critical
+            To identify signs of abuse in their child
+            To listen to and support their child
+            To sensitize fathers (or other male relatives), a need identified by mothers trained at our schools
+            To spread awareness in the community, as mothers at our schools have done through informal centres
+
+            The program has travelled to hundreds of schools since, thanks to Aahung.
+
+            Currently, only some relevant chapters for LSBE have been introduced so far in the Sindh textbooks and both Sindh and Balochistan need to accelerate the pace at which Child Protection is being integrated
+
+            The provinces of Khyber Pakhtunkhwa and Punjab still unmoved despite being urged to take action and teach LSBE through schools
+
+            Private schools are also hesitant to introduce this. Child sexual abuse is a problem that affects everyone regardless of class, ethnicity or gender.`,
+            img: "/assets/images/NewsEvents/newsStories29.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image7-1.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image7-2.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image7-3.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image7-4.jpg",
+            img5: "https://www.zindagitrust.org/img/news/ourdemand.jpg"
         },
         {
             id: "30",
             date: "7/3/2019",
             title: "PUBLIC -PRIVATE PARTNERSHIP LAUNCHED FOR BETTER TEACHER TRAINING",
             description: "A major public-private initiative to improve quality of education in government schools in Sindh was launched on Wednesday.",
-            img: "/assets/images/NewsEvents/newsStories30.jpg"
+            description1: `KARACHI: A major public-private initiative to improve quality of education in government schools in Sindh was launched on Wednesday under which initially a government college in Hussainabad would be revamped to launch a four-year teachers’ training programme with assistance from a leading Finnish university.
+
+A ceremony in this respect was held in the Shamsher-ul-Haidri Auditorium of the National Museum where Chief Minister Syed Murad Ali Shah and representatives of Durbeen and Zindagi Trust (ZT), both non-profit organisations working to improve quality of education in the public sector, announced their partnership and expressed their commitment to reform education.
+
+“It’s something we all know; giving our children an education that could help them compete in a competitive world is the only way to progress,” the chief minister said, recalling how he got in touch with the ZT and agreed to have a collaboration for teachers’ training.
+
+Describing it as a flagship project, the chief minister underscored the need for working together and said that the health-education emergency announced by the government in 2016 wasn’t yet over and required more focused efforts.
+
+Referring to some challenges in the education sector, he said that the government initiative to introduce biometric system at educational institutions to record teachers’ attendance put it into financial trouble when thousands of teachers started taking premature retirement.
+
+Highlighting some other problems, Education Minister Sardar Ali Shah said that only nine per cent of the total government schoolteachers in Sindh had studied science subjects. He, however, negated the opinion that the public education system had been completely destroyed, arguing that most students who opted for civil services exams were from government educational institutions.
+
+“The major problem has been of ownership. Unless we have good people and those with influence in the system, there won’t be any change,” he remarked.
+
+Earlier, Salma Ahmed Alam, the chief executive officer of Durbeen, informed the audience that under the partnership the campus of Government Elementary College of Education, Hussainabad, would be revamped with state-of-the-art facilities where candidates would be enrolled for an undergraduate four-year teachers’ training programme.
+
+“This initiative is a series of firsts. We aim to deliver an outstanding quality of education in government schools across Sindh by staffing them with professional teacher graduates,” she said, adding that the ZT which had led the way in government school reform would act as a parent organisation of Durbeen.
+
+About the reform process, she said that the college management and teacher education curriculum would be improved apart from recruiting qualified faculty, enrolling talented students and upgrading existing facilities.
+
+To bring about this transformation, she pointed out, the NGO had signed an agreement with the University of Helsinki in Finland to enrich the college’s teacher education curriculum and build the capacity of the faculty.
+
+“Finland’s education system is one of the best around the world. Not only will this initiative be a leading Finnish university’s first education intervention in Pakistan, but also, never before has any government in Pakistan undertaken such a partnership in higher education,” Ms Alam said.
+
+President of ZT Shehzad Roy spoke about the challenges he and his team faced when they decided to transform two government-run schools into model schools as well as the positive response students gave through their remarkable achievements when they received quality education.
+
+He appreciated the government for introducing life-skills-based curriculum after the Zainab tragedy.
+
+“We can never really progress unless the poor, the marginalised sections of society received quality education,” he noted.
+
+Minna Saade representing the University of Helsinki expressed the hope that the collaboration would achieve its objectives and get strengthened in coming years, adding that work on the project had already begun.
+
+Chairman Tabba Foundation Ali Tabba also spoke.
+
+Under the partnership, Durbeen has been authorised to take over the management of the teachers’ training college in Hussainabad for 10 years where students would only pay fees for registration and exams.`,
+            img: "/assets/images/NewsEvents/newsStories30.jpg",
+            img1: "/assets/images/NewsEvents/newsStories30.jpg"
         },
         {
             id: "31",
             date: "19/2/2019",
             title: "GOVERNMENT SCHOOL STUDENTS WIN BIG FOR THEIR ART WORK ON WATER CONSERVATION",
             description: "Aiman Qadeer and Laiba Younas won the 2nd and 5th prize respectively in the national 5th Art for Change.",
-            img: "/assets/images/NewsEvents/newsStories31.jpg"
+            description1: "Aiman Qadeer and Laiba Younas won the 2nd and 5th prize respectively in the national 5th Art for Change - International Child Art Competition and Exhibition 2018, organized by Discovering New Artists. Art work drawn by these students centered on expressing their thoughts on how to conserve water and find solutions to combat climate change and save the earth.",
+            description2: "Describing her painting, Laibah said 'I drew a kissan who is crying because his crops are dying due to lack of water in his village'. Students from schools across Pakistan participated in the art competition, ranging from Beaconhouse School System Karachi Grammar School, Froebels International School to Hope Uplift Foundation School and Door of Awareness Grammar School.",
+            description3: "Aiman and Laibah are students of Zindagi Trust's adopted school, SMB Fatima Jinnah Government Girls School. Entries of these two students were selected amongst a total of 2300 entries from various schools across Pakistan, and were handpicked by a judge's panel consisting of senior artists. The judges included Ms. Rukhe Neelofar, Ms. Hurmat-ul-ain and Ms. Iram Wani.",
+            description4: "Artwork drawn by Mariyam Khalid, Hira M. Naeem, Dar-e-Noor, Narmeen Afzal, Umaima Shakil, Nayyab M. Nasir, and Irqra Irfan, from SMB Fatima Jinnah Government Girls School, and Fizza Fatima from Khatoon-e-Pakistan Government Girls School was also selected to be showcased in the exhibition.",
+            description5: "The exhibition was held across Pakistan, in Karachi, Lahore and Islamabad, and is expected to be held internationally soon.",
+            img: "/assets/images/NewsEvents/newsStories31.jpg",
+            img1: "https://www.zindagitrust.org/img/news/image3-3.jpg",
+            img2: "https://www.zindagitrust.org/img/news/image3-1.jpg",
+            img3: "https://www.zindagitrust.org/img/news/image3-2.jpg",
+            img4: "https://www.zindagitrust.org/img/news/image3-4.jpg",
+            img5: "https://www.zindagitrust.org/img/news/image3-5.jpg",
         },
         {
             id: "32",
             date: "3/2/2019",
             title: "GOVERNMENT SCHOOLS WOW THINKERS, CREATIVES AND CELEBRITIES WITH ART SHOW",
             description: "Students from government schools put up a colourful display of creativity at Karachi Khatoon-i-Pakistan Government School.",
-            img: "/assets/images/NewsEvents/newsStories32.jpg"
+            description1: `Students from government schools put up a colourful display of creativity at Karachi's Khatoon-i-Pakistan Government School this Saturday afternoon.
+
+On show was a set of student artworks as well as a Creatives’ Roundtable discussing “The Role of the Arts in Girls’ Education.”
+
+The roundtable had creative thinkers from a variety of fields who discussed how to capitalise on the power of art to transform lives.
+
+The exhibition featured a diverse set of student artworks from children enrolled in Classes 1 through 9, ranging from portraits, pointillism, marker art such as zentangle and optical illusion, experimental assignments in merging two animals into one, and much more.
+
+One of the artworks that really stood out were a series of split portraits that were incredibly close to reality – visitors from fine artists and make-up artists to robotics experts and writers alike were stunned that they were made by students of Class 7.
+
+Another artwork that caught the attention of the audience was an installation titled “Fly Free” – a lopsided arrangement of art room stools each painted with a beautiful story of its own.
+
+The installation was one of the creations of the host school’s Art Club, which meets once a week and gives students the freedom to paint what they want. The club session runs in addition to a weekly art class for all students, where they learn a set of basic and advanced techniques, mediums as well as art history and major art movements.
+
+The art programme was introduced to the schools by Zindagi Trust, which employs a subject lead to design a customised art curriculum as well as to train government teachers to teach art.
+
+Hameeda Batool, the curator of the show and art teacher at Khatoon-i-Pakistan School, said she was pleasantly surprised to see so many parents wanting to meet the art teacher as they could see their child showing keen interest in the subject and wanted to learn what they could to do support their children.
+
+" What else can a teacher ask for?" she exclaimed.`,
+            description2: `The Creatives’ Roundtable featured Tazeen Husain, head of communication design at Indus Valley School of Art and Architecture, advertising guru Faraz Maqsood Hamidi, make-up artist Natasha Khalid of Natasha Salon, and Anam Shakil Khan, a visual artist and curriculum designer who established the host school’s art programme and developed an art curriculum to be used by all government schools. The roundtable was moderated by architect and interior designer Zain Mustafa. It began with a presentation by Anam Shakil Khan on the remarkable journey of the school’s art programme from an empty room to where it stands today.
+
+The thinkers shared ideas on the value of an art education, making art and art education more accessible, gender biases about and within the arts and, most importantly, the purpose of an art education.
+
+The consensus, as make-up artist Natasha Khalid put it, was that "art teaches you from a very early age that nothing fits in a box." A recurring theme in the discussion as well as from some of the art educators visiting the show later was that art teaches children how to think in a new way and helps them learn how to solve problems creativel.
+
+On the question of gender in art, Summaiya Jillani shared that in her experience of trying to get students together to go paint a mural or start a community art project, it's always the girls that come forward because of a burning passion to express themselves.
+
+Anam Shakil added that in addition to the stereotype of art being just for girls, there were divisions within art about which field was more suited to them (e.g. textiles vs media).
+
+The roundtable ended on a heartwarming note as one of the presenting student artist’s father addressed the parents in the audience and urged them to let their daughters "fly" and pursue whatever it is that interests them.
+
+Other than parents, the show was well attended by college students, private school students, art enthusiasts, activists, and leaders in the government and industry and the larger`,
+            description3: `The art show was inaugurated by Corps Commander Karachi Lt. General Humayun Aziz. Karachi University Visual Studies department head Durriya Kazi, artist and educator Adeela Suleman, Education Secretary Qazi Shahid Pervez, Chief Secretary Mumtaz Ali Shah, British Deputy High Commissioner Ellin Burns, Actors Fahad Mustafa and Ahsan Khan, Sultan Allana Chairman HBL and Director AKFED, Ghias Khan of Engro and musician Bilal Maqsood were among some of the other notables who attended the event.
+
+Zindagi Trust manages the two participating government schools - Khatoon-e-Pakistan Government School and SMB Fatima Jinnah Government Girls School - and has transformed the infrastructure, enrolment, parental engagement and student development at the school.
+
+Singer and Zindagi Trust Founder Shehzad Roy was at the exhibition, showing guests from government and the entertainment industry around: “It is so humbling to see these young girls create such beautiful and creative art,” said Roy.
+
+“For me it reinforces the importance of art in schools - not only does it ignite creative thinking but also positively impacts one’s self esteem and teaches children how to express themselves.”
+
+According to the trust, one of the goals of the art show was to advocate for art to be taught in all government schools. To this end, an advocacy brief for art education was presented by the trust to the Education Secretary on his visit to the school.
+
+“This exhibition is a message from Zindagi Trust to policymakers and the larger public that shows what a government school can and should achieve. Our children’s talent talents are waiting to be found – they need the government’s support through making art an integral part of the curriculum,” said Zara Hasnain, Manager of Programs at the trust.`,
+            img: "/assets/images/NewsEvents/newsStories32.jpg",
+            img1: "http://zindagitrust.org/photos/PO2252-11414842217.jpg",
+            img2: "http://zindagitrust.org/photos/PO2250-41522264038.jpg",
+            img3: "http://zindagitrust.org/photos/PO2245-121742448492.jpg",
+            img4: "http://zindagitrust.org/photos/PO2255-bilal-art-show-1676358499.jpg",
+            img5: "http://zindagitrust.org/photos/PO2243-131692876848.jpg",
         },
         {
             id: "33",
             date: "1/2/2019",
             title: "AN UPHILL DRIVE",
             description: "THE road that takes you to the Khatoon-e-Pakistan School, Karachi, is a steep one. It has been an equally uphill drive for Shehzad Roy's Zindagi Tr...",
-            img: "/assets/images/NewsEvents/newsStories33.jpg"
+            description1: `THE road that takes you to the Khatoon-e-Pakistan School, Karachi, is a steep one. It has been an equally uphill drive for Shehzad Roy's Zindagi Trust to transform the institution it adopted in 2015.
+
+The school was in a shambles a few years ago like all peela schools I have visited. They have huge buildings and expansive playgrounds testifying to the vision of their founders from the early years of Pakistan. But lacking maintenance and good governance, they have fallen into decay.
+
+Some committed people like Anita Ghulam Ali, the late managing director of the Sindh Education Foundation, tried to rectify the malaise. She conceptualised the Adopt-a-School programme and won sponsors for many public-sector schools. But the scheme failed because of the corruption and non-cooperation of functionaries of the education department. Many adopters abandoned their projects in frustration.
+
+It is a feather in Shehzad Roy's cap that he has managed to take over Khatoon-e-Pakistan in the face of resistance and turn it around. It was his determination, a successful lawsuit and dexterous negotiations with the government on the transfer of management that helped him acquire and transform the school. He is a celebrity - a pop singer - and few in his position are interested in educating the poor man's child. Another achievement is that the education department continues to cooperate with him in this venture.
+
+The school was in a shambles a few years ago.
+
+What is Shehzad Roy's goal? He tells me he has learnt from his experience with the Fatima Jinnah School he adopted in 2006. He realised that if he had to make a policy impact he would have to create an enabling environment that would push the government to do its job. His strategy was to make the Zindagi Trust's presence felt in the school while the government worked on the brick-and-mortar stuff. The academic management has been entirely with the trust. The teachers, however, are on the government's payroll with the exception of a few. He hopes to make this a model of public-private partnership for others to follow.
+
+I agreed to visit his project and see how he has managed the reform process. The school is elegantly but not ostentatiously done up. The decor is creative with pictures, artwork and handicraft produced by the students from inexpensive material. With a library containing 4,251 books and a huge playground, the school has two essential accessories. In Khatoon-e-Pakistan, a qualified librarian and a physical education instructor put them to good use. They ensure that all children read books and play games, keeping them mentally and physically healthy.
+
+My focus was on the school management and the quality of education. Considering that the trust inherited a cluster of three schools with 870 students and 50 teachers in contentious relationships and with minimal discipline - some with special connections with the education department - one can imagine the challenge the new management faced.
+
+In three years a system has been devised. Eleven Zindagi Trust teachers and a project manager (the principal) have been hired. Government teachers not willing to cooperate were transferred and replaced. It goes to the credit of the head, Anam Palla, that she has managed the transition process skilfully. Her professional development manager, Sana Husain, with a team of seven, addresses not just the pedagogy aspect but also enhances teachers' subject knowledge on a one-to-one basis. To rectify shortcomings, new material has been prescribed for additional reading and the NGO Ahung's Life Skills Based Education books introduced.
+
+Anam describes her work in the first year as being "all about relationships". "At first the teachers did not relate to me, but now we get along well," she says.
+
+There has been a marked improvement in the students' performance as the matriculation results testify. The percentage of students who passed has shot up from 22 per cent in the general group a few years ago to 88pc in 2018. In the sciences it has jumped up from 45pc to 89pc.
+
+It was, however, disappointing to find the trust still trapped in the language dilemma. Roy agrees that a child learns best in her mother tongue. But he cites his "majboori" (compulsion) for the school's hybrid language policy which has a good dose of English as the medium of instruction.
+
+I wonder about the University of Helsinki's thoughts on this matter. The university has recently entered into an agreement to help revamp the teachers' training college which the trust's subsidiary Durbeen has adopted to improve pedagogy in government schools. Experts tell me that Finland ranks the highest in international assessment tests on education because nearly all Finnish children get their education in their mother tongue.
+
+Neither would the two teenagers from the trust's schools have addressed a crowd of thousands with such confidence and eloquence at the Aurat march last Friday, had they not opted to speak in Urdu to convey their message.`,
+            img: "/assets/images/NewsEvents/newsStories33.jpg",
+            img1: "/assets/images/NewsEvents/newsStories33.jpg",
         },
         {
             id: "34",
             date: "8/2/2018",
             title: "BALOCHISTAN GETS BOLD ABOUT CHILD PROTECTION",
             description: "Earlier this year, a Memorandum of Understanding was signed between Aahung and Balochistan Education Department.",
-            img: "/assets/images/NewsEvents/newsStories34.jpg"
+            description1: `QUETTA: The Government of Balochistan took a critical step for protecting its children through the introduction of Life Skills Based Education (LSBE) into the provincial school curriculum.
+
+The official launch held in Quetta on Sunday was led by the provincial government leadership including interim Chief Minister Allahuddin Mari, Secretary of Secondary Education Noor-ul-Haq Baloch, Focal Person PPIU Jahangeer Kakar, Founder and President of Zindagi Trust Shehzad Roy and Program Manager of the host NGO Aahung, Aisha Ijaz.
+
+All the key stakeholders from the Balochistan Education Department, who will be key players in the integration of the LSBE into the curriculum, expressed views on the initiative.
+
+They highlighted the urgency of integrating LSBE into the provincial curriculum in order to empower children and adolescents with the skills they need to manage their health and safety in everyday life.
+
+Both the Chief Minister and the Secretary Secondary Education thanked Mr Roy for taking the initiative to bring the LSBE to Balochistan after its successful implementation in the government schools in Sindh.
+
+They pledged their commitment to support Aahung and Zindagi Trust in this initiative and gave their full endorsement to ensuring the smooth integration of LSBE into the provincial curriculum of Balochistan.
+
+Roy shared his positive experience of implementing LSBE in the two government schools managed by the Zindagi Trust in Sindh, saying the impact it had made on the lives of the students and the school environment was transformative.
+
+He appreciated the Balochistan government's ownership and urged upon other provinces to show leadership to protect Pakistan's children.
+
+"When this year started, we all said we don't want another child like Zainab to suffer - Sindh and now Balochistan have shown leadership on this issue but what are the other provinces waiting for?" asked the singer-cum-activist.
+
+Earlier this year, a Memorandum of Understanding was signed between Aahung and Balochistan Education Department to integrate the LSBE into the provincial curriculum.
+
+A Project Coordination Committee (PCC) and Technical Advisory Committee (TAC) have been set up to ensure the ownership of the said initiative.
+
+The TAC will also be responsible for reviewing Aahung's LSBE modules and integrating relevant content into existing textbooks for classes six to nine.
+
+Simultaneously, a pilot LSBE intervention will be carried out in 10 schools of Quetta, to gather evidence and measure the impact of the LSBE.`,
+            img: "/assets/images/NewsEvents/newsStories34.jpg",
+            img1: "/assets/images/NewsEvents/newsStories34.jpg",
         },
         {
             id: "35",
             date: "16/1/2018",
             title: "PPP DECIDES TO EQUIP CHILDREN WITH LIFE SKILLS THROUGH EDUCATION",
             description: "Pakistan Peoples Party chairman Bilawal Bhutto-Zardari says the Sindh government has introduced child rights.",
-            img: "/assets/images/NewsEvents/newsStories35.jpg"
+            description1: `KARACHI: Pakistan Peoples Party chairman Bilawal Bhutto-Zardari says the Sindh government has introduced child rights and set up child protection units in all the 29 districts of the province.
+
+He was speaking to the media at the Bilawal House here on Monday.
+
+Chief Minister Murad Ali Shah, Senator Sherry Rehman, Education Minister Jam Mehtab Dahar, Information Minister Nasir Hussain Shah, Shahzad Roy, and representative of Ahang were also present on the occasion.
+
+Appealing to the other provinces to follow Sindh's initiative, he said the Sindh government had also decided to introduce life skills in school curriculum from the next academic year so that the children would know how to act in a difficult situation.
+
+The PPP chairman said life skills were first introduced informally in 200 schools in the province in 2009, including SMB Fatima Jinnah Government Girls School in Karachi, which is managed by singer Shehzad Roy.
+
+"We initially feared negative reaction from parents but it received positive response from them and teachers alike as it was meant to teach children how to protect themselves against any abuse.
+
+"Earlier, people did not discuss child abuse openly but after the Zainab incident they want to find out the solution to such problems," he added.
+
+Bilawal said promotion of education was must to avoid Kasur-like incidents.
+
+The PPP chairman added that the Sindh government would introduce it as a special subject from class sixth to create awareness among children.
+
+"We all have to strive for the rights and protection of children because creating awareness among them is not a bad idea."
+
+He said the Sindh government had taken ulema and NGOs on board and the chief minister had also constituted a committee to monitor it in which an ex-judge was also included.
+
+Bilawal further said it was difficult to implement the laws made by the assembly in the past but they were now trying to overcome the weakness.
+
+In reply to a question about policing, he said, "Our stand is very clear that police needs reforms, including accountability.
+
+"Police should not be politicised and the government is now working to reform the department and all political parties will be consulted in this regard."
+
+He said crimes could only be controlled when awareness was created among the masses along with convictions.
+
+Shehzad Roy, on the occasion, said the Sindh government deserved full praise for introducing life skills formally in the curriculum from the next academic year.
+
+Earlier, the chief minister constituted an 18-member committee under his chairmanship for effective implementation and enforcement of child protection rights.
+
+In this connection, Chief Secretary Rizwan Memon with the approval of the chief minister issued a notification.
+
+According to the notification, the chief minister would be the chairman of the committee while chief secretary, provincial ministers for education and law, adviser to CM on social welfare retired justice Nasir Aslam Zahid, special assistants to CM on human rights, secretary education, IG police, advocate Zia Awan, Sidqa Bari of Indus Resource Centre, Abdul Bari Khan of Indus Hospital, Aahung manager Aisha Aijaz and PeaceNiche chairman Khalid Mahmood among others will be the members.
+
+The committee will monitor introduction of changes in the curriculum; progress in teachers' training for life skills education; implementation of actions required to be taken under Child Protection Authority 2011 and other relevant laws; performance of the Child Protection Authority, child protection units and child protection officers.
+
+The committee will meet once a month wherein secretaries for school education and literacy, and social welfare departments will give presentation.`,
+            img: "/assets/images/NewsEvents/newsStories35.jpg",
+            img1: "/assets/images/NewsEvents/newsStories35.jpg",
         },
         {
             id: "36",
             date: "11/1/2018",
             title: "SHEHZAD ROY CALLS KASUR INCIDENT 'HEART-WRENCHING', DEMANDS JUSTICE",
             description: "Famous singer and social activist Shehzad Roy in a press conference on Thursday.",
-            img: "/assets/images/NewsEvents/newsStories36.jpg"
+            description1: `Famous singer and social activist Shehzad Roy in a press conference on Thursday demanded that the culprits behind the rape and murder of seven-year-old Zainab should be given strictest punishment.
+
+Roy, who presented Geo News' programme 'Chal Parha' depicting state of the government schools in Pakistan, called the incident in Kasur heart-wrenching.
+
+"To save the future Zainabs in Pakistan, better measures should be put in place," said the musician.
+
+"In Pakistan, out of every five children, one is subjected to sexual abuse," said Roy, adding that the subject is still a taboo in the society.
+
+"Most of the cases go unreported because there are laws for protection and we need to spread awareness about them" said the singer.
+
+Roy said that stopping children from going out will not be justifiable and people need to teach their children and save from mishaps.`,
+            img: "/assets/images/NewsEvents/newsStories36.jpg",
+            img1: "/assets/images/NewsEvents/newsStories36.jpg",
         }
     ]
 

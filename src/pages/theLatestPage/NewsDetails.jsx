@@ -39,74 +39,74 @@ const NewsDetails = () => {
                     </div>
                     <h1 className="font-mont text-xl text-black font-bold pb-4 mb-4">{title}</h1>
                     <div className='font-rale text-[17px] text-[#333] leading-[28px]'>
-                        <img src={news.img1} alt="" />
-                        <p>{news.description1}</p>
-                        <img src={news.img2} alt="" />
-                        <p>{news.description2}</p>
-                        <p>{news.description3}</p>
-                        <img src={news.img3} alt="" />
-                        <p>{news.description4}</p>
-                        <p>{news.description5}</p>
-                        <img src={news.img4} alt="" />
-                        <p>{news.description6}</p>
-                        <p>{news.description7}</p>
-                        <img src={news.img5} alt="" />
-                        <p>{news.description8}</p>
+                        <img className='px-[15px] my-3' src={news.img1} alt="" />
+                        <p className='my-3'>{news.description1}</p>
+                        <img className='px-[15px] my-3' src={news.img2} alt="" />
+                        <p className='my-3'>{news.description2}</p>
+                        <p className='my-3'>{news.description3}</p>
+                        <img className='px-[15px] my-3' src={news.img3} alt="" />
+                        <p className='my-3'>{news.description4}</p>
+                        <p className='my-3'>{news.description5}</p>
+                        <img className='px-[15px] my-3' src={news.img4} alt="" />
+                        <p className='my-3'>{news.description6}</p>
+                        <p className='my-3'>{news.description7}</p>
+                        <img className='px-[15px] my-3' src={news.img5} alt="" />
+                        <p className='my-3'>{news.description8}</p>
                         {news.quote1 ?
                             <div>
-                                <p>{news.quotetext1}</p>
+                                <p className='my-3'>{news.quotetext1}</p>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote1}</p></blockquote>
                                 </div>
                             </div> : <></>}
-                        <p>{news.description9}</p>
+                        <p className='my-3'>{news.description9}</p>
                         {news.quote2 ?
                             <div>
-                                <p>{news.quotetext2}</p>
+                                <p className='my-3'>{news.quotetext2}</p>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote2}</p></blockquote>
                                 </div>
                             </div> : <></>}
-                        <img src={news.img6} alt="" />
-                        <p>{news.description10}</p>
-                        <img src={news.img7} alt="" />
-                        <p>{news.description11}</p>
-                        <img src={news.img8} alt="" />
-                        <p>{news.description12}</p>
-                        <img src={news.img9} alt="" />
+                        <img className='px-[15px] my-3' src={news.img6} alt="" />
+                        <p className='my-3'>{news.description10}</p>
+                        <img className='px-[15px] my-3' src={news.img7} alt="" />
+                        <p className='my-3'>{news.description11}</p>
+                        <img className='px-[15px] my-3' src={news.img8} alt="" />
+                        <p className='my-3'>{news.description12}</p>
+                        <img className='px-[15px] my-3' src={news.img9} alt="" />
                         {news.quote3 ?
-                            <div>
+                            <div className='my-3'>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote3}</p></blockquote>
                                 </div>
                             </div> : <></>}
                         {news.quote4 ?
-                            <div>
+                            <div className='my-3'>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote4}</p></blockquote>
                                 </div>
                             </div> : <></>}
                         {news.quote5 ?
-                            <div>
+                            <div className='my-3'>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote5}</p></blockquote>
                                 </div>
                             </div> : <></>}
                         {news.quote6 ?
-                            <div>
+                            <div className='my-3'>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote6}</p></blockquote>
                                 </div>
                             </div> : <></>}
                         {news.quote7 ?
-                            <div>
+                            <div className='my-3'>
                                 <div className={`block bg-[#fff] py-[15px] pl-[45px] pr-[20px] mb-[5px] italic font-serif text-primary shadow-[2px_2px_15px_#ccc] border-solid border-l-[15px] border-r-[2px] border-[#ff6400]`}>
                                     <blockquote><p className='text-[#333]'>{news.quote7}</p></blockquote>
                                 </div>
                             </div> : <></>}
-                        <p>{news.description13}</p>
-                        <p>{news.description14}</p>
-                        <p>{news.description15}</p>
+                        <p className='my-3'>{news.description13}</p>
+                        <p className='my-3'>{news.description14}</p>
+                        <p className='my-3'>{news.description15}</p>
                     </div>
                 </div>
                 <VolunteerSidebar className={"max-w-xs mx-auto lg:mx-0 mt-6 lg:ml-36"} />
