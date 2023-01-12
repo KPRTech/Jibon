@@ -9,9 +9,17 @@ import AchievementHeader from "../../components/AchievementHeader";
 import "./donatePage.css";
 
 const DonatePage = () => {
-  let [indexNum, setIndexNum] = useState(0);
+  const [indexNum, setIndexNum] = useState(0);
 
-  let [donateOptionsArr, setDonateOptionsArr] = useState([
+  const [donateAmount, setDonateAmount] = useState(0);
+  const [otherAmount, setOtherAmount] = useState(0);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(donateAmount);
+  };
+
+  const [donateOptionsArr, setDonateOptionsArr] = useState([
     {
       title: "Sponsor a Child's Education",
       details: () => (
@@ -20,74 +28,81 @@ const DonatePage = () => {
             {" "}
             Help us educate a child
           </p>
-          <div>
-            <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
-              <input
-                name="amount"
-                id="edu1"
-                type={"radio"}
-                className={"hidden"}
-                value={15}
-                checked
-              />
-              <label
-                id="eduLabel1"
-                for={"edu1"}
-                className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
-              >
-                {" "}
-                $15 – One month of classes for a student at our reformed
-                government schools
-              </label>
-            </p>
-            <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
-              <input
-                name="amount"
-                id="edu2"
-                type={"radio"}
-                className={"hidden"}
-                value={500}
-              />
-              <label
-                id="eduLabel2"
-                for={"edu2"}
-                className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
-              >
-                {" "}
-                $500 – Textbooks, technology and other classroom aids for one
-                school
-              </label>
-            </p>
+          <form action="#" method="POST">
+            <div>
+              <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
+                <input
+                  name="amount"
+                  onChange={(e) => setDonateAmount(e.target.value)}
+                  id="edu1"
+                  type={"radio"}
+                  className={"hidden"}
+                  value={15}
+                />
+                <label
+                  id="eduLabel1"
+                  for={"edu1"}
+                  className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
+                >
+                  {" "}
+                  $15 – One month of classes for a student at our reformed
+                  government schools
+                </label>
+              </p>
+              <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
+                <input
+                  name="amount"
+                  onChange={(e) => setDonateAmount(e.target.value)}
+                  id="edu2"
+                  type={"radio"}
+                  className={"hidden"}
+                  value={500}
+                />
+                <label
+                  id="eduLabel2"
+                  for={"edu2"}
+                  className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
+                >
+                  {" "}
+                  $500 – Textbooks, technology and other classroom aids for one
+                  school
+                </label>
+              </p>
 
-            <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
+              <p className="mb-2 relative h-16 cursor-pointer text-sm text-white font-mont p-2 px-4 border-[1px] flex justify-between gap-x-2 items-center bg-primary/80 hover:bg-primary linear duration-300">
+                <input
+                  name="amount"
+                  onChange={(e) => setDonateAmount(e.target.value)}
+                  id="edu3"
+                  type={"radio"}
+                  className={"hidden"}
+                  value={0}
+                />
+                <label
+                  id="eduLabel3"
+                  for={"edu3"}
+                  className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
+                >
+                  {" "}
+                  Other Amount
+                </label>
+              </p>
               <input
-                name="amount"
-                id="edu3"
-                type={"radio"}
-                className={"hidden"}
-                value={0}
+                name="otherAmount"
+                className={`px-4 py-3.5 text-sm border-[1px] border-[#333333]/40 outline-0 focus:border-[#333333] linear duration-300`}
+                type={"number"}
+                placeholder={"Enter other amount ($)"}
+                onChange={(e) => setOtherAmount(e.target.value)}
               />
-              <label
-                id="eduLabel3"
-                for={"edu3"}
-                className="w-4/5 cursor-pointer after:h-6 after:w-6 after:bg-white/60 after:content-[''] after:absolute after:right-[22px] after:top-[20px] after:rounded-full after:border-[4px] after:border-[#fff] after:p-1 after:linear linear after:duration-300 duration-300"
-              >
-                {" "}
-                Other Amount
-              </label>
-            </p>
-            <input
-              name="otherAmount"
-              className="px-4 py-3.5 text-sm border-[1px] border-[#333333]/40 outline-0 focus:border-[#333333] linear duration-300"
-              type={"number"}
-              placeholder={"Enter other amount ($)"}
-            />
-          </div>
-          <button
-            className={`uppercase text-white bg-[#FF6400] text-sm font-mont font-semibold py-2 px-3 rounded hover:bg-orange-700 duration-300 flex items-center ml-auto mt-8`}
-          >
-            Next
-          </button>
+            </div>
+            <button
+              type="submit"
+              className={`uppercase text-white bg-[#FF6400] text-sm font-mont font-semibold py-2 px-3 rounded hover:bg-orange-700 duration-300 flex items-center ml-auto mt-8`}
+              onClick={handleSubmit}
+            >
+              Next
+            </button>
+          </form>
         </div>
       ),
       status: true,
@@ -108,7 +123,6 @@ const DonatePage = () => {
                 type={"radio"}
                 className={"hidden"}
                 value={10}
-                checked
               />
               <label
                 id="eduLabel1"
@@ -163,6 +177,7 @@ const DonatePage = () => {
           </div>
           <button
             className={`uppercase text-white bg-[#FF6400] text-sm font-mont font-semibold py-2 px-3 rounded hover:bg-orange-700 duration-300 flex items-center ml-auto mt-8`}
+            onClick={handleSubmit}
           >
             Next
           </button>
@@ -186,7 +201,6 @@ const DonatePage = () => {
                 type={"radio"}
                 className={"hidden"}
                 value={30}
-                checked
               />
               <label
                 id="eduLabel1"
@@ -240,6 +254,7 @@ const DonatePage = () => {
           </div>
           <button
             className={`uppercase text-white bg-[#FF6400] text-sm font-mont font-semibold py-2 px-3 rounded hover:bg-orange-700 duration-300 flex items-center ml-auto mt-8`}
+            onClick={handleSubmit}
           >
             Next
           </button>
@@ -249,7 +264,7 @@ const DonatePage = () => {
     },
   ]);
 
-  let [donateDespArr, setDonateDespArr] = useState([
+  const [donateDespArr, setDonateDespArr] = useState([
     {
       title: `SPONSOR A CHILD'S EDUCATION`,
       desp: `Every child has a dream and deserves a chance to make these dreams come true. A holistic education empowers a child with the key to realizing her dreams. Sponsor quality education for a child in our government schools for one month, one year or a time period of your choice.`,
@@ -304,25 +319,23 @@ const DonatePage = () => {
 
           <div className="mb-6">
             {donateOptionsArr.map((item, index) => (
-              <form>
-                <div className="font-time">
-                  <p
-                    className="cursor-pointer text-sm font-mont font-bold mt-2 p-4 border-[1px] flex justify-start gap-x-2 items-center hover:bg-secondary/20  active:bg-slate-300 linear duration-300"
-                    onClick={() => handleJobs(index)}
-                  >
-                    <TfiAngleRight
-                      className={
-                        item.status
-                          ? "text-primary w-[10%] text-lg rotate-90 linear duration-300"
-                          : "text-primary w-[10%] text-lg linear duration-300"
-                      }
-                    />
-                    <span className="w-[90%]">{item.title}</span>
-                  </p>
+              <div className="font-time">
+                <p
+                  className="cursor-pointer text-sm font-mont font-bold mt-2 p-4 border-[1px] flex justify-start gap-x-2 items-center hover:bg-secondary/20  active:bg-slate-300 linear duration-300"
+                  onClick={() => handleJobs(index)}
+                >
+                  <TfiAngleRight
+                    className={
+                      item.status
+                        ? "text-primary w-[10%] text-lg rotate-90 linear duration-300"
+                        : "text-primary w-[10%] text-lg linear duration-300"
+                    }
+                  />
+                  <span className="w-[90%]">{item.title}</span>
+                </p>
 
-                  {item.status && item.details()}
-                </div>
-              </form>
+                {item.status && item.details()}
+              </div>
             ))}
           </div>
         </div>
