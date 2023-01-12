@@ -33,7 +33,9 @@ const VolunteerProgramPage = () => {
             Join hands with Zindagi Trust. Become a Zindagi Trust volunteer
           </p>
 
-          <PrimaryButton children={"Sign Up"} />
+          <PrimaryButton path="/volunteer-sign-up"> 
+           Sign Up
+          </PrimaryButton>
         </div>
         <VolunteerSidebar className={"lg:w-[30%]"} />
       </div>

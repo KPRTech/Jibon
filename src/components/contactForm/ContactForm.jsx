@@ -3,9 +3,9 @@ import PrimaryButton from "../PrimaryButton";
 import reCAPTCHA from "react-google-recaptcha";
 
 const ContactForm = ({ className }) => {
-  const handleSubmitCaptcha = (token) => {
-    document.getElementById("contact-form").submit();
-  };
+  // const handleSubmitCaptcha = (token) => {
+  //   document.getElementById("contact-form").submit();
+  // };
 
   return (
     <div

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PrimarySlider = ({ img, title, sub, content, link }) => {
 
@@ -18,7 +19,7 @@ const PrimarySlider = ({ img, title, sub, content, link }) => {
                             <p>{content}</p>
                         </div>
                         <div className='p-1'>
-                            <a className='text-amber-500' href={link} target="_blank" rel="noopener noreferrer">Read her story {'>>'}</a>
+                            <Link className='text-amber-500 hover:underline hover:text-decoration-amber-500' to={`/success-stories/${link}`}>Read her story {'>>'}</Link>
                         </div>
                     </div>
                 </div>

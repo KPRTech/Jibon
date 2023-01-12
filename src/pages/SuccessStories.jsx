@@ -10,35 +10,35 @@ const SuccessStories = () => {
             img: '/COC-SEL.jpg',
             title: 'Ruqqaiya',
             content: 'A government teacher’s story of inspired innovation in trying time',
-            link: 'https://www.zindagitrust.org/success-stories/ruqqaiya-5'
+            link: 'ruqqaiya-5'
         },
         {
             img: '/muqdas.jpg',
             title: 'Muqdas Saeed',
             sub: 'Class 5C, Khatoon-e-Pakistan Government Girls School',
             content: 'Muqdas Saeed : A Social and Emotional Learner in the time of COVID 19',
-            link: 'https://www.zindagitrust.org/success-stories/muqdas-saeed-4'
+            link: 'muqdas-saeed-4'
         },
         {
             img: '/maliha.jpg',
             title: 'Maliha Ali',
             sub: 'Alumna - Class of 2019, SMB Fatima Jinnah Government Girls School',
             content: 'Finished 7th in National Open Chess Competition, Master Trainer for chess for TCF teachers',
-            link: 'https://www.zindagitrust.org/success-stories/maliha-ali-3'
+            link: 'maliha-ali-3'
         },
         {
             img: '/rabiya.jpg',
             title: 'Rabiya Abbasi',
             sub: 'Class 7, Khatoon-e-Pakistan Government Girls School',
             content: 'Joined as a Fast Track student, transitioned to regular classes within 3 years and is now on the Students Council',
-            link: 'https://www.zindagitrust.org/success-stories/rabiya-abbasi-2'
+            link: 'rabiya-abbasi-2'
         },
         {
             img: '/bushra.jpg',
             title: 'Bushra Maqsood',
             sub: 'Alumna - Class of 2018, SMB Fatima Jinnah Government Girls School',
             content: 'Represented Pakistan at the Seeds of Peace camp in Maine, USA, selected from over 300 applicants',
-            link: 'https://www.zindagitrust.org/success-stories/bushra-maqsood-1'
+            link: 'bushra-maqsood-1'
         },
     ]
 

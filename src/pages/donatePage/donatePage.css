@@ -1,0 +1,12 @@
+#edu1:checked + #eduLabel1:after {
+  background: #ff6400;
+}
+
+#edu2:checked + #eduLabel2:after {
+  background: #ff6400;
+}
+
+#edu3:checked + #eduLabel3:after {
+  background: #ff6400;
+}
+
