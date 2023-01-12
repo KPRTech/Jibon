@@ -35,6 +35,7 @@ import NewsDetails from "./pages/theLatestPage/NewsDetails";
 import OurCOVID19ResponsePage from "./pages/theLatestPage/OurCOVID19ResponsePage";
 import VolunteerProgramPage from "./pages/VolunteerPage/VolunteerProgramPage";
 import SuccessStory from "./pages/SuccessStory";
+import VolunteerSignUpPage from "./pages/VolunteerPage/VolunteerSignUpPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -77,6 +78,10 @@ const router = createBrowserRouter(
       <Route
         path="/volunteer-program"
         element={<VolunteerProgramPage />}
+      ></Route>
+      <Route
+        path="/volunteer-sign-up"
+        element={<VolunteerSignUpPage />}
       ></Route>
       <Route path="/membership" element={<MembershipPage />}></Route>
       <Route path="/career" element={<CareerPage />}></Route>

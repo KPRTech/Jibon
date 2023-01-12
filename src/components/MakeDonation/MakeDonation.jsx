@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./MakeDonation.css";
 
 const MakeDonation = () => {
@@ -43,11 +44,10 @@ const MakeDonation = () => {
               "$10 sponsors one month of classes for a student at our reformed government schools."
             )
           }
-          onClick={() => 
-            {
-              setSelected(1)
-              setInputValue(10)
-            }}
+          onClick={() => {
+            setSelected(1);
+            setInputValue(10);
+          }}
         >
           $10
         </button>
@@ -64,8 +64,8 @@ const MakeDonation = () => {
             )
           }
           onClick={() => {
-            setSelected(2)
-            setInputValue(50)
+            setSelected(2);
+            setInputValue(50);
           }}
         >
           $50
@@ -83,8 +83,8 @@ const MakeDonation = () => {
             )
           }
           onClick={() => {
-            setSelected(3)
-            setInputValue(100)
+            setSelected(3);
+            setInputValue(100);
           }}
         >
           $100
@@ -102,8 +102,8 @@ const MakeDonation = () => {
             )
           }
           onClick={() => {
-            setSelected(4)
-            setInputValue(500)
+            setSelected(4);
+            setInputValue(500);
           }}
         >
           $500
@@ -121,8 +121,8 @@ const MakeDonation = () => {
             )
           }
           onClick={() => {
-            setSelected(0)
-            setInputValue(0)
+            setSelected(0);
+            setInputValue(0);
           }}
         >
           Other
@@ -138,9 +138,11 @@ const MakeDonation = () => {
           />
 
           <span className="text-lg ml-3 mt-2"> USD</span>
-          <button className="linear duration-300 text-white bg-orange-500 px-5 py-3 rounded text-sm ml-5 hover:bg-orange-700 mt-2">
-            DONATE
-          </button>
+          <Link to={"/donate"}>
+            <button className="linear duration-300 text-white bg-orange-500 px-5 py-3 rounded text-sm ml-5 hover:bg-orange-700 mt-2">
+              DONATE
+            </button>
+          </Link>
         </div>
       </div>
     </div>

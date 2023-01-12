@@ -1,145 +1,148 @@
 .swiper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide-visible h1 {
-    animation: slideY ease 1s !important;
+  animation: slideY ease 1s !important;
+  -webkit-animation: slideY ease 1s !important;
 }
 
 .swiper-slide-visible p {
-    animation: slideY ease 1s !important;
+  animation: slideY ease 1s !important;
+  -webkit-animation: slideY ease 1s !important;
 }
 
 .swiper-slide-visible button {
-    animation: slideY ease 1s !important;
+  animation: slideY ease 1s !important;
+  -webkit-animation: slideY ease 1s !important;
 }
 
 .swiper-slide-visible h2 {
-    animation: fadeIn ease 1.5s !important;
+  animation: fadeIn ease 1.5s !important;
 }
 
 .swiper-slide-visible h3 {
-    animation: fadeIn ease 1.5s !important;
+  animation: fadeIn ease 1.5s !important;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    50% {
-        opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes slideY {
-    0% {
-        opacity: 0;
-        transform: translateY(1200%);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(1200%);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 
 .swiper-slide {
-    transition: opacity ease-in-out .4s !important;
-    transition-delay: .4s !important;
+  transition: opacity ease-in-out 0.4s !important;
+  transition-delay: 0.4s !important;
 }
 
 .swiper:hover .swiper-button-next {
-    opacity: 1;
-    transition: opacity ease-in-out .4s;
+  opacity: 1;
+  transition: opacity ease-in-out 0.4s;
 }
 
 .swiper:hover .swiper-button-prev {
-    opacity: 1;
-    transition: opacity ease-in-out .4s;
+  opacity: 1;
+  transition: opacity ease-in-out 0.4s;
 }
 
 .swiper-button-next {
-    color: #fff;
-    outline: none !important;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 30px;
-    cursor: pointer;
-    right: 20px;
-    opacity: 0;
+  color: #fff;
+  outline: none !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 30px;
+  cursor: pointer;
+  right: 20px;
+  opacity: 0;
 }
 
 .swiper-button-prev {
-    color: #fff;
-    outline: none !important;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 30px;
-    cursor: pointer;
-    left: 20px;
-    opacity: 0;
+  color: #fff;
+  outline: none !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 30px;
+  cursor: pointer;
+  left: 20px;
+  opacity: 0;
 }
 
 .swiper-button-prev:before {
-    left: 30%;
-    top: 0;
-    transform: skew(145deg, 0deg);
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #FFF;
+  left: 30%;
+  top: 0;
+  transform: skew(145deg, 0deg);
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
 }
 
 .swiper-button-prev::after {
-    left: 30%;
-    top: 50%;
-    transform: skew(-145deg, 0deg);
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #FFF;
+  left: 30%;
+  top: 50%;
+  transform: skew(-145deg, 0deg);
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
 }
 
 .swiper-button-next:before {
-    right: 30%;
-    top: 0;
-    transform: skew(35deg, 0deg);
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #FFF;
+  right: 30%;
+  top: 0;
+  transform: skew(35deg, 0deg);
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
 }
 
 .swiper-button-next::after {
-    right: 30%;
-    top: 50%;
-    transform: skew(-35deg, 0deg);
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #FFF;
+  right: 30%;
+  top: 50%;
+  transform: skew(-35deg, 0deg);
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
 }
