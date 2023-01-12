@@ -1,16 +1,18 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import NavBar from '../NavBar'
+import NavBar from "../NavBar";
 import Footer from "../Footer";
 import ScrollToTop from "../ui/ScrollToTop ";
 
 const RootLayout = () => {
   return (
     <>
-      <NavBar />
-      <Outlet />
-      <Footer />
-      <ScrollToTop />
+      <div className="scroll-smooth">
+        <NavBar />
+        <Outlet />
+        <Footer />
+        <ScrollToTop />
+      </div>
     </>
   );
 };
