@@ -11,13 +11,10 @@ const NewsDetails = () => {
         error,
         loading
     } = useFetch(`newses?title=${title}`);
-
     console.log({ newses, error, loading });
-
     const news = newses.find(
         (news) => `${news.id}` === id
     );
-
     return (
         <div>
             <HeroBanner
