@@ -5,6 +5,7 @@ import BreadCrumb from "../../components/ui/BreadCrumb";
 import { FaLock } from "react-icons/fa";
 import MembershipCard from "../../components/membershipCard/MembershipCard";
 import DonationBenefitsCard from "../../components/donationBenefitsCard/DonationBenefitsCard";
+import { Link } from "react-router-dom";
 
 const MembershipPage = () => {
   return (
@@ -71,11 +72,11 @@ const MembershipPage = () => {
                       Other Amount
                     </button>
                   </div>
-                  <button
+                  <Link to={'/donate'}
                     className={`uppercase flex justify-center w-full mt-3 text-white font-normal bg-primary text-base font-mont py-4 px-10 rounded hover:bg-hoverPrimary linear duration-300 flex items-center`}
                   >
                     Donate Monthly
-                  </button>
+                  </Link>
                 </div>
                 <p className="text-sm font-normal">
                   $10 sponsors one month of classes for a student at our
