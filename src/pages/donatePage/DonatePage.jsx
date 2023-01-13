@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import HeroBanner from "../../components/HeroBanner";
 import BreadCrumb from "../../components/ui/BreadCrumb";
 import { TfiAngleRight } from "react-icons/tfi";
-import PrimaryButton from "../../components/PrimaryButton";
 import OtherDonate from "../../components/otherDonate/OtherDonate";
 import FeatureDonation from "../../components/FeatureDonation";
 import AchievementHeader from "../../components/AchievementHeader";
@@ -18,10 +17,6 @@ const DonatePage = () => {
   const [errMsg, setErrMsg] = useState("");
 
   const [paymentMethod, setPaymentMethod] = useState("0");
-
-  useEffect(() => {
-    console.log(donateAmount);
-  }, [donateAmount]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
